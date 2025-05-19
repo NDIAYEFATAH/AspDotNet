@@ -22,6 +22,8 @@ namespace ApiAspNet.Helpers
             options.UseNpgsql(Configuration.GetConnectionString("WebApiDB"));
         }
 
-        public DbSet<User> Users { get; set; }
+        public DbSet<User> Users { get; set; }    
+        public DbSet<Flotte> Flottes { get; set; }
+        public DbSet<Voyage> Voyages { get; set; }
     }
 }

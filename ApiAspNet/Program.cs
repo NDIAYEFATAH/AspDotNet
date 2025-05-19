@@ -19,6 +19,10 @@ builder.Services.AddControllers().AddJsonOptions(x =>
 
     // configure DI for application services 
     builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IFlotteService, FlotteService>();
+builder.Services.AddScoped<IVoyageService, VoyageService>();
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

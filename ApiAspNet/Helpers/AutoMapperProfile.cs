@@ -1,5 +1,7 @@
 ﻿using ApiAspNet.Entities;
 using ApiAspNet.Models.Users;
+using ApiAspNet.Models.Flottes;
+using ApiAspNet.Models.Voyages;
 using AutoMapper;
 
 namespace ApiAspNet.Helpers
@@ -8,9 +10,20 @@ namespace ApiAspNet.Helpers
     {
         public AutoMapperProfile()
         {
+
+            // CreateRequest -> Flotte 
+            CreateMap<CreateRequest, Flotte>();
+            // CreateRequest -> Flotte 
+            CreateMap<UpdateRequest, Flotte>();
+
+            // CreateRequest -> Voyage 
+            CreateMap<CreateRequestV, Voyage>();
+            // CreateRequest -> Voyage 
+            CreateMap<UpdateRequestV, Voyage>();
+
             // CreateRequest -> User 
             CreateMap<CreateRequests, User>();
-
+            
             // UpdateRequest -> User 
             CreateMap<UpdateRequests, User>()
                 .ForAllMembers(x => x.Condition(
