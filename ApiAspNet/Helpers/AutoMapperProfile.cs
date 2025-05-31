@@ -3,6 +3,12 @@ using ApiAspNet.Models.Users;
 using ApiAspNet.Models.Flottes;
 using ApiAspNet.Models.Voyages;
 using AutoMapper;
+using ApiAspNet.Models.offre;
+using ApiAspNet.Models.client;
+using ApiAspNet.Models.chauffeur;
+using ApiAspNet.Models.Agence;
+using ApiAspNet.Models.Gestionnaire;
+using ApiAspNet.Models.Reservations;
 
 namespace ApiAspNet.Helpers
 {
@@ -10,6 +16,20 @@ namespace ApiAspNet.Helpers
     {
         public AutoMapperProfile()
         {
+            /*CreateMap<CreateOffreRequest, Offre>();
+            CreateMap<UpdateOffreRequest, Offre>();*/
+            CreateMap<CreateClientRequest, Client>();
+            CreateMap<UpdateClientRequest, Client>();
+            CreateMap<CreateChauffeurRequest, Chauffeur>();
+            CreateMap<UpdateChauffeurRequest, Chauffeur>();
+            CreateMap<CreateAgenceRequest, Agence>();
+            CreateMap<UpdateAgenceRequest, Agence>();
+
+            CreateMap<CreateRequestGes, Gestionnaire>();
+            CreateMap<UpdateRequests, Gestionnaire>();
+            CreateMap<CreateReservationRequest, Reservation>();
+            CreateMap<UpdateReservationRequest, Reservation>();
+
 
             // CreateRequest -> Flotte 
             CreateMap<CreateRequest, Flotte>();
@@ -17,15 +37,15 @@ namespace ApiAspNet.Helpers
             CreateMap<UpdateRequest, Flotte>();
 
             // CreateRequest -> Voyage 
-            CreateMap<CreateRequestV, Voyage>();
+            /*CreateMap<CreateRequestV, Voyage>();*/
             // CreateRequest -> Voyage 
-            CreateMap<UpdateRequestV, Voyage>();
+            /*CreateMap<UpdateRequestV, Voyage>();*/
 
             // CreateRequest -> User 
             CreateMap<CreateRequests, User>();
             
             // UpdateRequest -> User 
-            CreateMap<UpdateRequests, User>()
+            CreateMap<UpdateRequestUser, User>()
                 .ForAllMembers(x => x.Condition(
                     (src, dest, prop) =>
                     {

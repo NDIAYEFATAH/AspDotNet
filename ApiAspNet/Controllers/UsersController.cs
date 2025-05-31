@@ -43,7 +43,7 @@ namespace ApiAspNet.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Update(int id, UpdateRequests model)
+        public IActionResult Update(int id, UpdateRequestUser model)
         {
             _userService.Update(id, model);
             return Ok(new { message = "User updated" });

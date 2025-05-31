@@ -2,7 +2,7 @@
 using ApiAspNet.Helpers;
 using ApiAspNet.Models.Users;
 using AutoMapper;
-using BCrypt.Net;
+
 
 namespace ApiAspNet.Services
 {
@@ -11,7 +11,7 @@ namespace ApiAspNet.Services
         IEnumerable<User> GetAll();
         User GetById(int id);
         void Create(CreateRequests model);
-        void Update(int id, UpdateRequests model);
+        void Update(int id, UpdateRequestUser model);
         void Delete(int id);
     }
     public class UserService : IUserService
@@ -54,7 +54,7 @@ namespace ApiAspNet.Services
             _context.SaveChanges();
         }
 
-        public void Update(int id, UpdateRequests model)
+        public void Update(int id, UpdateRequestUser model)
         {
             var user = getUser(id);
 

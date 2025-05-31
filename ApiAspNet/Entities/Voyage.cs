@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ApiAspNet.Entities
 {
@@ -18,5 +19,8 @@ namespace ApiAspNet.Entities
 
         [Display(Name = "Prix"), Required(ErrorMessage = "*")]
         public float Prix { get; set; }
+        public int? OffreIdOffre { get; set; }
+        [ForeignKey("OffreIdOffre")]
+        public virtual Offre Offre { get; set; }
     }
 }

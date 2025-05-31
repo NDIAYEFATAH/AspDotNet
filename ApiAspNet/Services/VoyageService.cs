@@ -13,10 +13,10 @@ namespace ApiAspNet.Services
         void Update(int id, UpdateRequestV model);
         void Delete(int id);
     }
-    public class VoyageService : IVoyageService
+    public class VoyageService 
     {
 
-        private DataContext _context;
+        /*private DataContext _context;
         private readonly IMapper _mapper;
 
         public VoyageService(
@@ -72,6 +72,6 @@ namespace ApiAspNet.Services
             var voyage = _context.Voyages.Find(id);
             if (voyage == null) throw new KeyNotFoundException("Voyage not found");
             return voyage;
-        }
+        }*/
     }
 }

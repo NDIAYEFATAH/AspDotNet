@@ -273,3 +273,4 @@ C:\Users\LBC\AspDotNet\ApiAspNet\obj\Debug\net8.0\refint\ApiAspNet.dll
 C:\Users\LBC\AspDotNet\ApiAspNet\obj\Debug\net8.0\ApiAspNet.pdb
 C:\Users\LBC\AspDotNet\ApiAspNet\obj\Debug\net8.0\ApiAspNet.genruntimeconfig.cache
 C:\Users\LBC\AspDotNet\ApiAspNet\obj\Debug\net8.0\ref\ApiAspNet.dll
+C:\Users\Abdou Fatah Ndiaye\source\repos\ApiAspNet\ApiAspNet\obj\Debug\net8.0\ApiAspNet.sourcelink.json

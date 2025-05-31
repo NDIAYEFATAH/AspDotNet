@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ApiAspNet.Models.Users
 {
-    public class UpdateRequests
+    public class UpdateRequestUser
     {
         public string Title { get; set; }
         public string FirstName { get; set; }
