@@ -1,0 +1,146 @@
+2025-06-13 16:46:26.5792 DEBUG Démarrage de l'application 
+2025-06-13 16:46:27.3770 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-06-13 16:46:27.4405 DEBUG Hosting starting 
+2025-06-13 16:46:27.5375 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-06-13 16:46:27.5375 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-06-13 16:46:27.5375 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-06-13 16:46:27.5375 INFO Application started. Press Ctrl+C to shut down. 
+2025-06-13 16:46:27.5375 INFO Hosting environment: Development 
+2025-06-13 16:46:27.5375 INFO Content root path: C:\Users\LBC\AspDotNet\ApiAspNet 
+2025-06-13 16:46:27.5375 DEBUG Hosting started 
+2025-06-13 16:46:27.5530 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - - - 
+2025-06-13 16:46:27.6445 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-06-13 16:46:27.6445 TRACE All hosts are allowed. 
+2025-06-13 16:46:27.6616 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-06-13 16:46:27.6616 DEBUG Request did not match any endpoints 
+2025-06-13 16:46:27.7595 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-06-13 16:46:27.7868 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-06-13 16:46:27.7985 DEBUG Connection ID "18230571310386249743" disconnecting. 
+2025-06-13 16:46:27.7985 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-06-13 16:46:27.7985 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-06-13 16:46:27.8061 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 - text/html;charset=utf-8 259.6521ms 
+2025-06-13 16:46:27.8061 DEBUG Connection ID "18302628908719144965" disconnecting. 
+2025-06-13 16:46:27.8061 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript;+charset=utf-8 3.8662ms 
+2025-06-13 16:46:27.8432 DEBUG Connection ID "18230571310386249745" disconnecting. 
+2025-06-13 16:46:27.8432 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 47.0822ms 
+2025-06-13 16:46:27.8827 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - - - 
+2025-06-13 16:46:27.8827 TRACE All hosts are allowed. 
+2025-06-13 16:46:27.8839 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-06-13 16:46:27.8839 DEBUG Request did not match any endpoints 
+2025-06-13 16:46:28.0582 DEBUG Connection ID "18302628908719144967" disconnecting. 
+2025-06-13 16:46:28.0582 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 175.6048ms 
+2025-06-13 16:51:05.8649 DEBUG Démarrage de l'application 
+2025-06-13 16:51:06.7757 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-06-13 16:51:06.8500 DEBUG Hosting starting 
+2025-06-13 16:51:06.9614 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-06-13 16:51:06.9618 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-06-13 16:51:06.9618 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-06-13 16:51:06.9618 INFO Application started. Press Ctrl+C to shut down. 
+2025-06-13 16:51:06.9618 INFO Hosting environment: Development 
+2025-06-13 16:51:06.9618 INFO Content root path: C:\Users\LBC\AspDotNet\ApiAspNet 
+2025-06-13 16:51:06.9618 DEBUG Hosting started 
+2025-06-13 16:51:06.9843 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - - - 
+2025-06-13 16:51:07.1057 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-06-13 16:51:07.1057 TRACE All hosts are allowed. 
+2025-06-13 16:51:07.1273 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-06-13 16:51:07.1273 DEBUG Request did not match any endpoints 
+2025-06-13 16:51:07.2661 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-06-13 16:51:07.3078 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-06-13 16:51:07.3078 DEBUG Connection ID "18374686502757072976" disconnecting. 
+2025-06-13 16:51:07.3253 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 - text/html;charset=utf-8 349.8021ms 
+2025-06-13 16:51:07.3253 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-06-13 16:51:07.3392 DEBUG Connection ID "18302628917309079591" disconnecting. 
+2025-06-13 16:51:07.3392 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-06-13 16:51:07.3392 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript;+charset=utf-8 4.5701ms 
+2025-06-13 16:51:07.3921 DEBUG Connection ID "18230571297501347849" disconnecting. 
+2025-06-13 16:51:07.3921 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 49.4107ms 
+2025-06-13 16:51:07.4477 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - - - 
+2025-06-13 16:51:07.4477 TRACE All hosts are allowed. 
+2025-06-13 16:51:07.4477 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-06-13 16:51:07.4477 DEBUG Request did not match any endpoints 
+2025-06-13 16:51:07.6258 DEBUG Connection ID "18230571293206380557" disconnecting. 
+2025-06-13 16:51:07.6258 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 178.2272ms 
+2025-06-13 23:00:35.3444 DEBUG Démarrage de l'application 
+2025-06-13 23:00:38.2108 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-06-13 23:00:38.4038 DEBUG Hosting starting 
+2025-06-13 23:00:38.7518 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-06-13 23:00:38.7518 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-06-13 23:00:38.7518 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-06-13 23:00:38.7518 INFO Application started. Press Ctrl+C to shut down. 
+2025-06-13 23:00:38.7553 INFO Hosting environment: Development 
+2025-06-13 23:00:38.7553 INFO Content root path: C:\Users\LBC\AspDotNet\ApiAspNet 
+2025-06-13 23:00:38.7553 DEBUG Hosting started 
+2025-06-13 23:00:38.8140 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - - - 
+2025-06-13 23:00:39.6802 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-06-13 23:00:39.6802 TRACE All hosts are allowed. 
+2025-06-13 23:00:39.7358 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-06-13 23:00:39.7358 DEBUG Request did not match any endpoints 
+2025-06-13 23:00:40.1059 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-06-13 23:00:40.1744 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-06-13 23:00:40.1905 DEBUG Connection ID "18374686502757072980" disconnecting. 
+2025-06-13 23:00:40.1905 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-06-13 23:00:40.1905 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-06-13 23:00:40.1983 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 - text/html;charset=utf-8 1412.5484ms 
+2025-06-13 23:00:40.1983 DEBUG Connection ID "18230571297501347851" disconnecting. 
+2025-06-13 23:00:40.2082 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript;+charset=utf-8 7.0098ms 
+2025-06-13 23:00:41.1716 DEBUG Connection ID "18374686485577203753" disconnecting. 
+2025-06-13 23:00:41.1783 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 987.2635ms 
+2025-06-13 23:00:41.2262 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - - - 
+2025-06-13 23:00:41.2262 TRACE All hosts are allowed. 
+2025-06-13 23:00:41.2262 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-06-13 23:00:41.2262 DEBUG Request did not match any endpoints 
+2025-06-13 23:00:41.5040 DEBUG Connection ID "18014398536862400515" disconnecting. 
+2025-06-13 23:00:41.5040 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 278.0237ms 
+2025-06-13 23:01:42.5719 INFO Request starting HTTP/2 GET https://localhost:44384/api/Flotte/9 - - - 
+2025-06-13 23:01:42.5719 TRACE All hosts are allowed. 
+2025-06-13 23:01:42.5902 DEBUG 1 candidate(s) found for the request path '/api/Flotte/9' 
+2025-06-13 23:01:42.6000 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.GetById (ApiAspNet)' with route pattern 'api/Flotte/{id}' is valid for the request path '/api/Flotte/9' 
+2025-06-13 23:01:42.6000 DEBUG Request matched endpoint 'ApiAspNet.Controllers.FlotteController.GetById (ApiAspNet)' 
+2025-06-13 23:01:42.6000 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-13 23:01:42.6000 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-13 23:01:42.6165 INFO Executing endpoint 'ApiAspNet.Controllers.FlotteController.GetById (ApiAspNet)' 
+2025-06-13 23:01:42.6924 INFO Route matched with {action = "GetById", controller = "Flotte"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller ApiAspNet.Controllers.FlotteController (ApiAspNet). 
+2025-06-13 23:01:42.7005 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-13 23:01:42.7005 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-13 23:01:42.7005 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-13 23:01:42.7005 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-13 23:01:42.7005 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-13 23:01:42.7005 DEBUG Executing controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-13 23:01:43.2278 DEBUG Executed controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-13 23:01:43.2278 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' ... 
+2025-06-13 23:01:43.2393 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ... 
+2025-06-13 23:01:43.2393 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2025-06-13 23:01:43.2393 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2025-06-13 23:01:43.2393 DEBUG Attempting to validate the bound parameter 'id' of type 'System.Int32' ... 
+2025-06-13 23:01:43.2393 DEBUG Done attempting to validate the bound parameter 'id' of type 'System.Int32'. 
+2025-06-13 23:01:43.2393 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-13 23:01:43.2393 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-13 23:01:43.2393 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-13 23:01:43.2393 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-13 23:01:43.2694 INFO Executing action method ApiAspNet.Controllers.FlotteController.GetById (ApiAspNet) - Validation state: Valid 
+2025-06-13 23:01:43.2708 TRACE Executing action method ApiAspNet.Controllers.FlotteController.GetById (ApiAspNet) with arguments (9) 
+2025-06-13 23:01:47.1090 ERROR  Une erreur s'est produite lors de la récupération de la flotte avec l'identifiant 9. System.Collections.Generic.KeyNotFoundException: Flotte not found
+   at ApiAspNet.Services.FlotteService.getFlotte(Int32 id) in C:\Users\LBC\AspDotNet\ApiAspNet\Services\FlotteService.cs:line 72
+   at ApiAspNet.Services.FlotteService.GetById(Int32 id) in C:\Users\LBC\AspDotNet\ApiAspNet\Services\FlotteService.cs:line 36
+   at ApiAspNet.Controllers.FlotteController.GetById(Int32 id) in C:\Users\LBC\AspDotNet\ApiAspNet\Controllers\FlotteController.cs:line 46
+2025-06-13 23:01:47.2207 INFO Executed action method ApiAspNet.Controllers.FlotteController.GetById (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3929.0262ms. 
+2025-06-13 23:01:47.2207 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-13 23:01:47.2207 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-13 23:01:47.2207 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-13 23:01:47.2207 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-13 23:01:47.2207 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-13 23:01:47.2207 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-13 23:01:47.2207 TRACE Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-13 23:01:47.2251 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-13 23:01:47.2251 DEBUG No information found on request to perform content negotiation. 
+2025-06-13 23:01:47.2251 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-06-13 23:01:47.2251 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-06-13 23:01:47.2251 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-06-13 23:01:47.2251 INFO Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-06-13 23:01:47.2597 TRACE After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-13 23:01:47.2597 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-13 23:01:47.2597 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-13 23:01:47.2597 INFO Executed action ApiAspNet.Controllers.FlotteController.GetById (ApiAspNet) in 4558.577ms 
+2025-06-13 23:01:47.2597 INFO Executed endpoint 'ApiAspNet.Controllers.FlotteController.GetById (ApiAspNet)' 
+2025-06-13 23:01:47.2597 DEBUG Connection ID "18374686489872171011" disconnecting. 
+2025-06-13 23:01:47.2816 INFO Request finished HTTP/2 GET https://localhost:44384/api/Flotte/9 - 500 - application/json;+charset=utf-8 4709.8939ms 

@@ -274,3 +274,7 @@ C:\Users\LBC\AspDotNet\ApiAspNet\obj\Debug\net8.0\ApiAspNet.pdb
 C:\Users\LBC\AspDotNet\ApiAspNet\obj\Debug\net8.0\ApiAspNet.genruntimeconfig.cache
 C:\Users\LBC\AspDotNet\ApiAspNet\obj\Debug\net8.0\ref\ApiAspNet.dll
 C:\Users\Abdou Fatah Ndiaye\source\repos\ApiAspNet\ApiAspNet\obj\Debug\net8.0\ApiAspNet.sourcelink.json
+C:\Users\LBC\AspDotNet\ApiAspNet\bin\Debug\net8.0\NLog.dll
+C:\Users\LBC\AspDotNet\ApiAspNet\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+C:\Users\LBC\AspDotNet\ApiAspNet\bin\Debug\net8.0\NLog.Web.AspNetCore.dll
+C:\Users\LBC\AspDotNet\ApiAspNet\bin\Debug\net8.0\nlog.config

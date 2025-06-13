@@ -1,45 +1,66 @@
+using NLog;
+using NLog.Web;
+using System.Text.Json.Serialization;
 using ApiAspNet.Entities;
 using ApiAspNet.Helpers;
 using ApiAspNet.Services;
-using System.Text.Json.Serialization;
 
-var builder = WebApplication.CreateBuilder(args);
-var services = builder.Services;
-// Add services to the container.
-builder.Services.AddDbContext<DataContext>();
-builder.Services.AddControllers().AddJsonOptions(x =>
+var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
+try
 {
-    // serialize enums as strings in api responses (e.g. Role) 
-    x.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+    logger.Debug("Démarrage de l'application");
 
-    // ignore omitted parameters on models to enable optional params (e.g. User update)
-    x.JsonSerializerOptions.DefaultIgnoreCondition =JsonIgnoreCondition.WhenWritingNull; 
-});
-    builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+    var builder = WebApplication.CreateBuilder(args);
 
-    // configure DI for application services 
-    builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<IFlotteService, FlotteService>();
-/*builder.Services.AddScoped<IVoyageService, VoyageService>();*/
+    // Intégration de NLog
+    builder.Logging.ClearProviders();
+    builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
+    builder.Host.UseNLog(); // <- très important
 
+    var services = builder.Services;
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+    // Ajout du contexte DB
+    services.AddDbContext<DataContext>();
 
-var app = builder.Build();
+    // JSON options
+    services.AddControllers().AddJsonOptions(x =>
+    {
+        x.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+        x.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
+    });
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+    // Dépendances
+    services.AddScoped<IUserService, UserService>();
+    services.AddScoped<IFlotteService, FlotteService>();
+    // services.AddScoped<IVoyageService, VoyageService>();
+
+    // Swagger
+    services.AddEndpointsApiExplorer();
+    services.AddSwaggerGen();
+
+    var app = builder.Build();
+
+    // Pipeline HTTP
+    if (app.Environment.IsDevelopment())
+    {
+        app.UseSwagger();
+        app.UseSwaggerUI();
+    }
+
+    app.UseHttpsRedirection();
+    app.UseAuthorization();
+    app.MapControllers();
+
+    app.Run();
 }
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();
+catch (Exception ex)
+{
+    logger.Error(ex, "L'application a échoué au démarrage");
+    throw;
+}
+finally
+{
+    LogManager.Shutdown();
+}
