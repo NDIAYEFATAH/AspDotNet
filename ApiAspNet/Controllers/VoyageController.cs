@@ -39,7 +39,7 @@ namespace ApiAspNet.Controllers
         public IActionResult Create(CreateRequestV model)
         {
             _VoyageService.Create(model);
-            return Ok(new { message = "Voyage created" });
+            return Ok(new { message = "Voyage cree avec succes" });
         }
 
         [HttpPut("{id}")]
