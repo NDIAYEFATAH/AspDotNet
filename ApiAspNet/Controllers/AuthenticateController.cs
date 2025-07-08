@@ -63,8 +63,7 @@ int.TryParse(_configuration["JWT:RefreshTokenValidityInDays"], out
 int refreshTokenValidityInDays);
 
                 user.RefreshToken = refreshToken;
-                user.RefreshTokenExpiryTime =
-DateTime.Now.AddDays(refreshTokenValidityInDays);
+                user.RefreshTokenExpiryTime = DateTime.UtcNow.AddDays(refreshTokenValidityInDays);
 
                 await _userManager.UpdateAsync(user);
 

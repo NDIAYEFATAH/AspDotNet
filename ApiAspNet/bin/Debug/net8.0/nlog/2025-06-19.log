@@ -1,0 +1,163 @@
+2025-06-19 15:56:46.2508 DEBUG Démarrage de l'application 
+2025-06-19 15:56:50.1258 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-06-19 15:56:50.4619 DEBUG Hosting starting 
+2025-06-19 15:56:50.5320 INFO User profile is available. Using 'C:\Users\Abdou Fatah Ndiaye\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-06-19 15:56:50.6246 DEBUG Reading data from file 'C:\Users\Abdou Fatah Ndiaye\AppData\Local\ASP.NET\DataProtection-Keys\key-ad531c23-cdc4-4821-89ca-ef8e18138696.xml'. 
+2025-06-19 15:56:50.7104 DEBUG Found key {ad531c23-cdc4-4821-89ca-ef8e18138696}. 
+2025-06-19 15:56:50.7773 DEBUG Considering key {ad531c23-cdc4-4821-89ca-ef8e18138696} with expiration date 2025-09-12 16:59:55Z as default key. 
+2025-06-19 15:56:50.7882 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-19 15:56:50.7882 DEBUG Decrypting secret element using Windows DPAPI. 
+2025-06-19 15:56:50.7882 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-19 15:56:50.8046 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-06-19 15:56:50.8245 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-06-19 15:56:50.8245 DEBUG Using key {ad531c23-cdc4-4821-89ca-ef8e18138696} as the default key. 
+2025-06-19 15:56:50.8354 DEBUG Key ring with default key {ad531c23-cdc4-4821-89ca-ef8e18138696} was loaded during application startup. 
+2025-06-19 15:56:51.9096 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-06-19 15:56:51.9605 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-06-19 15:56:51.9605 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-06-19 15:56:51.9605 INFO Application started. Press Ctrl+C to shut down. 
+2025-06-19 15:56:51.9605 INFO Hosting environment: Development 
+2025-06-19 15:56:51.9605 INFO Content root path: C:\Users\Abdou Fatah Ndiaye\source\repos\ApiAspNet\ApiAspNet 
+2025-06-19 15:56:51.9605 DEBUG Hosting started 
+2025-06-19 15:56:52.0549 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - - - 
+2025-06-19 15:56:52.7371 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-06-19 15:56:52.7371 TRACE All hosts are allowed. 
+2025-06-19 15:56:52.8512 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-06-19 15:56:52.8512 DEBUG Request did not match any endpoints 
+2025-06-19 15:56:53.0324 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-19 15:56:53.6240 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2025-06-19 15:56:53.6240 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-06-19 15:56:53.7505 DEBUG Response markup was updated to include Browser Link script injection. 
+2025-06-19 15:56:53.7505 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-06-19 15:56:53.7941 DEBUG Connection ID "18014398531762126871" disconnecting. 
+2025-06-19 15:56:53.8181 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 - text/html;charset=utf-8 1780.6940ms 
+2025-06-19 15:56:54.0060 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-06-19 15:56:54.0060 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-06-19 15:56:54.0060 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript;+charset=utf-8 7.5898ms 
+2025-06-19 15:56:54.2014 DEBUG Connection ID "18374686510541701221" disconnecting. 
+2025-06-19 15:56:54.2014 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 195.0695ms 
+2025-06-19 15:56:55.6041 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - - - 
+2025-06-19 15:56:55.6041 TRACE All hosts are allowed. 
+2025-06-19 15:56:55.6193 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-06-19 15:56:55.6193 DEBUG Request did not match any endpoints 
+2025-06-19 15:56:55.6398 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-19 15:56:56.3344 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 730.5455ms 
+2025-06-19 15:57:17.8327 INFO Request starting HTTP/1.1 POST https://localhost:44384/api/users - application/json 189 
+2025-06-19 15:57:17.8336 TRACE All hosts are allowed. 
+2025-06-19 15:57:17.8336 DEBUG 1 candidate(s) found for the request path '/api/users' 
+2025-06-19 15:57:17.8521 DEBUG Endpoint 'ApiAspNet.Controllers.UsersController.Create (ApiAspNet)' with route pattern 'api/Users' is valid for the request path '/api/users' 
+2025-06-19 15:57:17.8521 DEBUG Request matched endpoint 'ApiAspNet.Controllers.UsersController.Create (ApiAspNet)' 
+2025-06-19 15:57:17.8521 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-19 15:57:17.8521 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-19 15:57:17.8521 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-19 15:57:17.8521 INFO Executing endpoint 'ApiAspNet.Controllers.UsersController.Create (ApiAspNet)' 
+2025-06-19 15:57:17.8934 INFO Route matched with {action = "Create", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(ApiAspNet.Models.Users.CreateRequests) on controller ApiAspNet.Controllers.UsersController (ApiAspNet). 
+2025-06-19 15:57:17.8934 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-19 15:57:17.8934 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-19 15:57:17.8934 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-19 15:57:17.8934 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-19 15:57:17.8934 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-19 15:57:17.8972 DEBUG Executing controller factory for controller ApiAspNet.Controllers.UsersController (ApiAspNet) 
+2025-06-19 15:57:18.1550 DEBUG Executed controller factory for controller ApiAspNet.Controllers.UsersController (ApiAspNet) 
+2025-06-19 15:57:18.1619 DEBUG Attempting to bind parameter 'model' of type 'ApiAspNet.Models.Users.CreateRequests' ... 
+2025-06-19 15:57:18.1619 DEBUG Attempting to bind parameter 'model' of type 'ApiAspNet.Models.Users.CreateRequests' using the name '' in request data ... 
+2025-06-19 15:57:18.1619 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2025-06-19 15:57:18.1851 DEBUG JSON input formatter succeeded, deserializing to type 'ApiAspNet.Models.Users.CreateRequests' 
+2025-06-19 15:57:18.1851 DEBUG Done attempting to bind parameter 'model' of type 'ApiAspNet.Models.Users.CreateRequests'. 
+2025-06-19 15:57:18.1851 DEBUG Done attempting to bind parameter 'model' of type 'ApiAspNet.Models.Users.CreateRequests'. 
+2025-06-19 15:57:18.1851 DEBUG Attempting to validate the bound parameter 'model' of type 'ApiAspNet.Models.Users.CreateRequests' ... 
+2025-06-19 15:57:18.1949 DEBUG Done attempting to validate the bound parameter 'model' of type 'ApiAspNet.Models.Users.CreateRequests'. 
+2025-06-19 15:57:18.1949 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-19 15:57:18.1949 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-19 15:57:18.1949 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-19 15:57:18.1949 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-19 15:57:18.1949 INFO Executing action method ApiAspNet.Controllers.UsersController.Create (ApiAspNet) - Validation state: Valid 
+2025-06-19 15:57:18.1949 TRACE Executing action method ApiAspNet.Controllers.UsersController.Create (ApiAspNet) with arguments (ApiAspNet.Models.Users.CreateRequests) 
+2025-06-19 15:59:02.5791 DEBUG Démarrage de l'application 
+2025-06-19 15:59:03.4641 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-06-19 15:59:03.5323 DEBUG Hosting starting 
+2025-06-19 15:59:03.5400 INFO User profile is available. Using 'C:\Users\Abdou Fatah Ndiaye\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-06-19 15:59:03.5400 DEBUG Reading data from file 'C:\Users\Abdou Fatah Ndiaye\AppData\Local\ASP.NET\DataProtection-Keys\key-ad531c23-cdc4-4821-89ca-ef8e18138696.xml'. 
+2025-06-19 15:59:03.5566 DEBUG Found key {ad531c23-cdc4-4821-89ca-ef8e18138696}. 
+2025-06-19 15:59:03.5566 DEBUG Considering key {ad531c23-cdc4-4821-89ca-ef8e18138696} with expiration date 2025-09-12 16:59:55Z as default key. 
+2025-06-19 15:59:03.5566 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-19 15:59:03.5706 DEBUG Decrypting secret element using Windows DPAPI. 
+2025-06-19 15:59:03.5706 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-19 15:59:03.5706 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-06-19 15:59:03.5706 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-06-19 15:59:03.5706 DEBUG Using key {ad531c23-cdc4-4821-89ca-ef8e18138696} as the default key. 
+2025-06-19 15:59:03.5706 DEBUG Key ring with default key {ad531c23-cdc4-4821-89ca-ef8e18138696} was loaded during application startup. 
+2025-06-19 15:59:03.7577 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-06-19 15:59:03.7577 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-06-19 15:59:03.7577 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-06-19 15:59:03.7577 INFO Application started. Press Ctrl+C to shut down. 
+2025-06-19 15:59:03.7577 INFO Hosting environment: Development 
+2025-06-19 15:59:03.7577 INFO Content root path: C:\Users\Abdou Fatah Ndiaye\source\repos\ApiAspNet\ApiAspNet 
+2025-06-19 15:59:03.7577 DEBUG Hosting started 
+2025-06-19 15:59:03.7926 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - - - 
+2025-06-19 15:59:03.9101 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-06-19 15:59:03.9101 TRACE All hosts are allowed. 
+2025-06-19 15:59:03.9285 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-06-19 15:59:03.9285 DEBUG Request did not match any endpoints 
+2025-06-19 15:59:03.9931 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-19 15:59:04.0950 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2025-06-19 15:59:04.0950 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-06-19 15:59:04.1260 DEBUG Response markup was updated to include Browser Link script injection. 
+2025-06-19 15:59:04.1260 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-06-19 15:59:04.1402 DEBUG Connection ID "18374686497656799269" disconnecting. 
+2025-06-19 15:59:04.1402 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 - text/html;charset=utf-8 365.8298ms 
+2025-06-19 15:59:04.2234 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-06-19 15:59:04.2276 DEBUG Connection ID "17942340937724198997" disconnecting. 
+2025-06-19 15:59:04.2276 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript;+charset=utf-8 4.4895ms 
+2025-06-19 15:59:04.2753 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-06-19 15:59:04.3304 DEBUG Connection ID "17942340937724198999" disconnecting. 
+2025-06-19 15:59:04.3380 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 62.7675ms 
+2025-06-19 15:59:04.4833 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - - - 
+2025-06-19 15:59:04.4833 TRACE All hosts are allowed. 
+2025-06-19 15:59:04.4833 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-06-19 15:59:04.4833 DEBUG Request did not match any endpoints 
+2025-06-19 15:59:04.4833 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-19 15:59:04.7790 DEBUG Connection ID "18302628912208805932" disconnecting. 
+2025-06-19 15:59:04.7790 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 295.8831ms 
+2025-06-19 16:00:52.6544 INFO Request starting HTTP/1.1 GET https://localhost:44384/api/users - - - 
+2025-06-19 16:00:52.6544 TRACE All hosts are allowed. 
+2025-06-19 16:00:52.6699 DEBUG 1 candidate(s) found for the request path '/api/users' 
+2025-06-19 16:00:52.6699 DEBUG Endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' with route pattern 'api/Users' is valid for the request path '/api/users' 
+2025-06-19 16:00:52.6699 DEBUG Request matched endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' 
+2025-06-19 16:00:52.6699 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-19 16:00:52.6699 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-19 16:00:52.6699 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-19 16:00:52.6699 INFO Executing endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' 
+2025-06-19 16:00:52.6937 INFO Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller ApiAspNet.Controllers.UsersController (ApiAspNet). 
+2025-06-19 16:00:52.6937 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-19 16:00:52.6937 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-19 16:00:52.6937 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-19 16:00:52.6937 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-19 16:00:52.6937 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-19 16:00:52.6937 DEBUG Executing controller factory for controller ApiAspNet.Controllers.UsersController (ApiAspNet) 
+2025-06-19 16:00:52.9018 DEBUG Executed controller factory for controller ApiAspNet.Controllers.UsersController (ApiAspNet) 
+2025-06-19 16:00:52.9018 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-19 16:00:52.9018 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-19 16:00:52.9018 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-19 16:00:52.9018 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-19 16:00:52.9018 INFO Executing action method ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet) - Validation state: Valid 
+2025-06-19 16:00:52.9178 INFO Executed action method ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.436ms. 
+2025-06-19 16:00:52.9178 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-19 16:00:52.9178 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-19 16:00:52.9178 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-19 16:00:52.9178 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-19 16:00:52.9178 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-19 16:00:52.9178 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-19 16:00:52.9178 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-19 16:00:52.9178 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-19 16:00:52.9178 DEBUG No information found on request to perform content negotiation. 
+2025-06-19 16:00:52.9178 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-06-19 16:00:52.9178 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-06-19 16:00:52.9178 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-06-19 16:00:52.9178 INFO Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[ApiAspNet.Entities.User, ApiAspNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-06-19 16:00:54.3060 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-19 16:00:54.3060 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-19 16:00:54.3060 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-19 16:00:54.3060 INFO Executed action ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet) in 1613.8284ms 
+2025-06-19 16:00:54.3060 INFO Executed endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' 
+2025-06-19 16:00:54.3060 INFO Request finished HTTP/1.1 GET https://localhost:44384/api/users - 200 - application/json;+charset=utf-8 1669.3652ms 

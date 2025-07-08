@@ -3,6 +3,7 @@ using ApiAspNet.Services;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 namespace ApiAspNet.Controllers
 {
@@ -22,6 +23,8 @@ namespace ApiAspNet.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
+            //Log.Information("🔥 Ceci est un test manuel de log pour ELK !");
+            //return Ok("Log envoyé !");
             var clients = _clientService.GetAll();
             return Ok(clients);
         }

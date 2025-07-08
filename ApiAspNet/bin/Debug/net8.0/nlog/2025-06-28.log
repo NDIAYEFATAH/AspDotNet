@@ -1,0 +1,1235 @@
+2025-06-28 15:52:43.8975 DEBUG Démarrage de l'application 
+2025-06-28 15:52:45.3517 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-06-28 15:52:45.4418 DEBUG Hosting starting 
+2025-06-28 15:52:45.4578 INFO User profile is available. Using 'C:\Users\Abdou Fatah Ndiaye\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-06-28 15:52:45.4770 DEBUG Reading data from file 'C:\Users\Abdou Fatah Ndiaye\AppData\Local\ASP.NET\DataProtection-Keys\key-ad531c23-cdc4-4821-89ca-ef8e18138696.xml'. 
+2025-06-28 15:52:45.5222 DEBUG Found key {ad531c23-cdc4-4821-89ca-ef8e18138696}. 
+2025-06-28 15:52:45.5477 DEBUG Considering key {ad531c23-cdc4-4821-89ca-ef8e18138696} with expiration date 2025-09-12 16:59:55Z as default key. 
+2025-06-28 15:52:45.5477 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-28 15:52:45.5526 DEBUG Decrypting secret element using Windows DPAPI. 
+2025-06-28 15:52:45.5526 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-28 15:52:45.5526 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-06-28 15:52:45.5526 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-06-28 15:52:45.5526 DEBUG Using key {ad531c23-cdc4-4821-89ca-ef8e18138696} as the default key. 
+2025-06-28 15:52:45.5526 DEBUG Key ring with default key {ad531c23-cdc4-4821-89ca-ef8e18138696} was loaded during application startup. 
+2025-06-28 15:52:45.7686 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-06-28 15:52:45.7686 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-06-28 15:52:45.7686 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-06-28 15:52:45.7748 INFO Application started. Press Ctrl+C to shut down. 
+2025-06-28 15:52:45.7748 INFO Hosting environment: Development 
+2025-06-28 15:52:45.7748 INFO Content root path: C:\Users\Abdou Fatah Ndiaye\source\repos\ApiAspNet\ApiAspNet 
+2025-06-28 15:52:45.7748 DEBUG Hosting started 
+2025-06-28 15:52:45.8028 INFO Request starting HTTP/2 GET https://localhost:44384/swagger - - - 
+2025-06-28 15:52:46.4931 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-06-28 15:52:46.4931 TRACE All hosts are allowed. 
+2025-06-28 15:52:46.5158 DEBUG No candidates found for the request path '/swagger' 
+2025-06-28 15:52:46.5158 DEBUG Request did not match any endpoints 
+2025-06-28 15:52:46.5874 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 15:52:46.6381 DEBUG Connection ID "18302628903618871297" disconnecting. 
+2025-06-28 15:52:46.6449 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - - - 
+2025-06-28 15:52:46.6449 TRACE All hosts are allowed. 
+2025-06-28 15:52:46.6449 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-06-28 15:52:46.6449 DEBUG Request did not match any endpoints 
+2025-06-28 15:52:46.6449 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 15:52:46.6823 INFO Request finished HTTP/2 GET https://localhost:44384/swagger - 301 - - 891.0838ms 
+2025-06-28 15:52:46.7986 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2025-06-28 15:52:46.7986 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-06-28 15:52:46.8307 DEBUG Response markup was updated to include Browser Link script injection. 
+2025-06-28 15:52:46.8307 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-06-28 15:52:46.8307 DEBUG Connection ID "18158513706953080833" disconnecting. 
+2025-06-28 15:52:46.8307 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 - text/html;charset=utf-8 186.8852ms 
+2025-06-28 15:52:46.9502 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/swagger-ui.css - - - 
+2025-06-28 15:52:46.9502 TRACE All hosts are allowed. 
+2025-06-28 15:52:46.9502 DEBUG No candidates found for the request path '/swagger/swagger-ui.css' 
+2025-06-28 15:52:46.9502 DEBUG Request did not match any endpoints 
+2025-06-28 15:52:46.9655 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/swagger-ui-standalone-preset.js - - - 
+2025-06-28 15:52:46.9748 TRACE All hosts are allowed. 
+2025-06-28 15:52:46.9748 DEBUG No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js' 
+2025-06-28 15:52:46.9748 DEBUG Request did not match any endpoints 
+2025-06-28 15:52:46.9748 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/swagger-ui-bundle.js - - - 
+2025-06-28 15:52:46.9748 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-06-28 15:52:46.9748 TRACE All hosts are allowed. 
+2025-06-28 15:52:46.9748 DEBUG No candidates found for the request path '/swagger/swagger-ui-bundle.js' 
+2025-06-28 15:52:46.9748 DEBUG Request did not match any endpoints 
+2025-06-28 15:52:46.9748 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 15:52:46.9748 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 15:52:46.9748 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 15:52:46.9748 DEBUG Connection ID "18014398536057094145" disconnecting. 
+2025-06-28 15:52:46.9927 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript;+charset=utf-8 5.1850ms 
+2025-06-28 15:52:46.9927 TRACE Range header's value is empty. 
+2025-06-28 15:52:46.9927 TRACE Range header's value is empty. 
+2025-06-28 15:52:46.9927 TRACE Range header's value is empty. 
+2025-06-28 15:52:47.0200 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-06-28 15:52:47.0222 DEBUG Connection ID "18302628903618871299" disconnecting. 
+2025-06-28 15:52:47.0222 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/swagger-ui.css - 200 143943 text/css 72.6362ms 
+2025-06-28 15:52:47.0222 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-06-28 15:52:47.0362 DEBUG Connection ID "18086456130095022081" disconnecting. 
+2025-06-28 15:52:47.0362 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 72.4203ms 
+2025-06-28 15:52:47.0541 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-06-28 15:52:47.0541 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-06-28 15:52:47.0541 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-06-28 15:52:47.0541 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/swagger-ui-standalone-preset.js - - - 
+2025-06-28 15:52:47.0541 TRACE All hosts are allowed. 
+2025-06-28 15:52:47.0541 DEBUG No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js' 
+2025-06-28 15:52:47.0541 DEBUG Request did not match any endpoints 
+2025-06-28 15:52:47.0541 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript;+charset=utf-8 1.3745ms 
+2025-06-28 15:52:47.0541 DEBUG Connection ID "18230571309580943361" disconnecting. 
+2025-06-28 15:52:47.0541 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 15:52:47.0541 TRACE Range header's value is empty. 
+2025-06-28 15:52:47.0790 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-06-28 15:52:47.0894 DEBUG Connection ID "18302628907913838595" disconnecting. 
+2025-06-28 15:52:47.0894 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 27.7813ms 
+2025-06-28 15:52:47.1047 DEBUG Connection ID "18158513724132950017" disconnecting. 
+2025-06-28 15:52:47.1047 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 123.3627ms 
+2025-06-28 15:52:47.1713 DEBUG Connection ID "18302628903618871301" disconnecting. 
+2025-06-28 15:52:47.1713 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 117.9656ms 
+2025-06-28 15:52:47.5436 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - - - 
+2025-06-28 15:52:47.5436 TRACE All hosts are allowed. 
+2025-06-28 15:52:47.5436 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-06-28 15:52:47.5436 DEBUG Request did not match any endpoints 
+2025-06-28 15:52:47.5436 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 15:52:47.5877 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/favicon-32x32.png - - - 
+2025-06-28 15:52:47.5877 TRACE All hosts are allowed. 
+2025-06-28 15:52:47.5877 DEBUG No candidates found for the request path '/swagger/favicon-32x32.png' 
+2025-06-28 15:52:47.5877 DEBUG Request did not match any endpoints 
+2025-06-28 15:52:47.5877 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 15:52:47.5877 TRACE Range header's value is empty. 
+2025-06-28 15:52:47.5877 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-06-28 15:52:47.5877 DEBUG Connection ID "18230571309580943363" disconnecting. 
+2025-06-28 15:52:47.5877 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/favicon-32x32.png - 200 628 image/png 2.6383ms 
+2025-06-28 15:52:47.7831 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 239.4791ms 
+2025-06-28 15:52:47.7831 DEBUG Connection ID "18302628903618871303" disconnecting. 
+2025-06-28 15:52:49.0294 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/swagger-ui-bundle.js - - - 
+2025-06-28 15:52:49.0294 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-06-28 15:52:49.0294 TRACE All hosts are allowed. 
+2025-06-28 15:52:49.0294 DEBUG No candidates found for the request path '/swagger/swagger-ui-bundle.js' 
+2025-06-28 15:52:49.0294 DEBUG Request did not match any endpoints 
+2025-06-28 15:52:49.0294 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 15:52:49.0294 TRACE Range header's value is empty. 
+2025-06-28 15:52:49.0394 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-06-28 15:52:49.0394 DEBUG Connection ID "18086456112915152897" disconnecting. 
+2025-06-28 15:52:49.0394 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 15.2598ms 
+2025-06-28 15:52:49.0679 DEBUG Connection ID "18374686484771897345" disconnecting. 
+2025-06-28 15:52:49.0679 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 38.8871ms 
+2025-06-28 15:54:20.6443 INFO Request starting HTTP/2 OPTIONS https://localhost:44384/api/authenticate/login - - - 
+2025-06-28 15:54:20.6443 TRACE All hosts are allowed. 
+2025-06-28 15:54:20.6530 DEBUG 1 candidate(s) found for the request path '/api/authenticate/login' 
+2025-06-28 15:54:20.6530 DEBUG Request matched endpoint '405 HTTP Method Not Supported' 
+2025-06-28 15:54:20.6530 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-28 15:54:20.6530 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 15:54:20.6530 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-28 15:54:20.6530 DEBUG The request has an origin header: 'http://localhost:5173'. 
+2025-06-28 15:54:20.6530 INFO CORS policy execution successful. 
+2025-06-28 15:54:20.6530 DEBUG The request is a preflight request. 
+2025-06-28 15:54:20.6530 INFO Request finished HTTP/2 OPTIONS https://localhost:44384/api/authenticate/login - 204 - - 15.4600ms 
+2025-06-28 15:54:20.6530 DEBUG Connection ID "18302628899323904003" disconnecting. 
+2025-06-28 15:54:20.6614 INFO Request starting HTTP/2 POST https://localhost:44384/api/authenticate/login - application/json 56 
+2025-06-28 15:54:20.6614 TRACE All hosts are allowed. 
+2025-06-28 15:54:20.6614 DEBUG 1 candidate(s) found for the request path '/api/authenticate/login' 
+2025-06-28 15:54:20.6614 DEBUG Endpoint 'ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet)' with route pattern 'api/Authenticate/login' is valid for the request path '/api/authenticate/login' 
+2025-06-28 15:54:20.6614 DEBUG Request matched endpoint 'ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet)' 
+2025-06-28 15:54:20.6614 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-28 15:54:20.6614 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 15:54:20.6614 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-28 15:54:20.6614 DEBUG The request has an origin header: 'http://localhost:5173'. 
+2025-06-28 15:54:20.6614 INFO CORS policy execution successful. 
+2025-06-28 15:54:20.6614 INFO Executing endpoint 'ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet)' 
+2025-06-28 15:54:20.7203 INFO Route matched with {action = "Login", controller = "Authenticate"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ApiAspNet.Models.Auth.LoginModel) on controller ApiAspNet.Controllers.AuthenticateController (ApiAspNet). 
+2025-06-28 15:54:20.7203 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-28 15:54:20.7203 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-28 15:54:20.7203 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-28 15:54:20.7203 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-28 15:54:20.7203 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-28 15:54:20.7203 DEBUG Executing controller factory for controller ApiAspNet.Controllers.AuthenticateController (ApiAspNet) 
+2025-06-28 15:54:21.3466 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework. 
+2025-06-28 15:54:21.3890 DEBUG Executed controller factory for controller ApiAspNet.Controllers.AuthenticateController (ApiAspNet) 
+2025-06-28 15:54:21.3890 DEBUG Attempting to bind parameter 'model' of type 'ApiAspNet.Models.Auth.LoginModel' ... 
+2025-06-28 15:54:21.3890 DEBUG Attempting to bind parameter 'model' of type 'ApiAspNet.Models.Auth.LoginModel' using the name '' in request data ... 
+2025-06-28 15:54:21.3981 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2025-06-28 15:54:21.4195 DEBUG JSON input formatter succeeded, deserializing to type 'ApiAspNet.Models.Auth.LoginModel' 
+2025-06-28 15:54:21.4195 DEBUG Done attempting to bind parameter 'model' of type 'ApiAspNet.Models.Auth.LoginModel'. 
+2025-06-28 15:54:21.4195 DEBUG Done attempting to bind parameter 'model' of type 'ApiAspNet.Models.Auth.LoginModel'. 
+2025-06-28 15:54:21.4195 DEBUG Attempting to validate the bound parameter 'model' of type 'ApiAspNet.Models.Auth.LoginModel' ... 
+2025-06-28 15:54:21.4195 DEBUG Done attempting to validate the bound parameter 'model' of type 'ApiAspNet.Models.Auth.LoginModel'. 
+2025-06-28 15:54:21.4315 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 15:54:21.4315 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 15:54:21.4315 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 15:54:21.4315 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 15:54:21.4315 INFO Executing action method ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet) - Validation state: Valid 
+2025-06-28 15:54:21.4315 TRACE Executing action method ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet) with arguments (ApiAspNet.Models.Auth.LoginModel) 
+2025-06-28 15:54:21.8926 DEBUG The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}. 
+2025-06-28 15:54:21.8926 DEBUG The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}. 
+2025-06-28 15:54:22.1372 DEBUG Entity Framework Core 9.0.5 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:9.0.4+fd2380957bee5cd86f336466af36b08c0163f1a5' with options: None 
+2025-06-28 15:54:22.1988 DEBUG Compiling query expression: 
+'DbSet<ApplicationUser>()
+    .FirstOrDefault(u => u.NormalizedUserName == __normalizedUserName_0)' 
+2025-06-28 15:54:22.4595 DEBUG Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<ApplicationUser>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<ApplicationUser>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ApplicationUser.Id (string) Required PK AfterSave:Throw, 0], [Property: ApplicationUser.AccessFailedCount (int) Required, 1], [Property: ApplicationUser.ConcurrencyStamp (string) Concurrency, 2], [Property: ApplicationUser.Email (string) MaxLength(256), 3], [Property: ApplicationUser.EmailConfirmed (bool) Required, 4], [Property: ApplicationUser.LockoutEnabled (bool) Required, 5], [Property: ApplicationUser.LockoutEnd (DateTimeOffset?), 6], [Property: ApplicationUser.NormalizedEmail (string) Index MaxLength(256), 7], [Property: ApplicationUser.NormalizedUserName (string) Index MaxLength(256), 8], [Property: ApplicationUser.PasswordHash (string), 9], [Property: ApplicationUser.PhoneNumber (string), 10], [Property: ApplicationUser.PhoneNumberConfirmed (bool) Required, 11], [Property: ApplicationUser.RefreshToken (string), 12], [Property: ApplicationUser.RefreshTokenExpiryTime (DateTime) Required, 13], [Property: ApplicationUser.SecurityStamp (string), 14], [Property: ApplicationUser.TwoFactorEnabled (bool) Required, 15], [Property: ApplicationUser.UserName (string) MaxLength(256), 16] }
+            SELECT TOP(1) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.RefreshToken, a.RefreshTokenExpiryTime, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.NormalizedUserName == @__normalizedUserName_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ApplicationUser.Id (string) Required PK AfterSave:Throw, 0], [Property: ApplicationUser.AccessFailedCount (int) Required, 1], [Property: ApplicationUser.ConcurrencyStamp (string) Concurrency, 2], [Property: ApplicationUser.Email (string) MaxLength(256), 3], [Property: ApplicationUser.EmailConfirmed (bool) Required, 4], [Property: ApplicationUser.LockoutEnabled (bool) Required, 5], [Property: ApplicationUser.LockoutEnd (DateTimeOffset?), 6], [Property: ApplicationUser.NormalizedEmail (string) Index MaxLength(256), 7], [Property: ApplicationUser.NormalizedUserName (string) Index MaxLength(256), 8], [Property: ApplicationUser.PasswordHash (string), 9], [Property: ApplicationUser.PhoneNumber (string), 10], [Property: ApplicationUser.PhoneNumberConfirmed (bool) Required, 11], [Property: ApplicationUser.RefreshToken (string), 12], [Property: ApplicationUser.RefreshTokenExpiryTime (DateTime) Required, 13], [Property: ApplicationUser.SecurityStamp (string), 14], [Property: ApplicationUser.TwoFactorEnabled (bool) Required, 15], [Property: ApplicationUser.UserName (string) MaxLength(256), 16] }
+            SELECT TOP(1) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.RefreshToken, a.RefreshTokenExpiryTime, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.NormalizedUserName == @__normalizedUserName_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            ApplicationUser entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                ApplicationUser instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(ApplicationUser);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: ApplicationUser.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("ApiAspNet.Models.Auth.ApplicationUser").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetString(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (ApplicationUser)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: ApplicationUser | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("ApiAspNet.Models.Auth.ApplicationUser")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: ApplicationUser | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("ApiAspNet.Models.Auth.ApplicationUser")]: 
+                            {
+                                return 
+                                {
+                                    ApplicationUser instance;
+                                    instance = new ApplicationUser();
+                                    instance.<Id>k__BackingField = dataReader.GetString(0);
+                                    instance.<AccessFailedCount>k__BackingField = dataReader.GetInt32(1);
+                                    instance.<ConcurrencyStamp>k__BackingField = dataReader.IsDBNull(2) ? default(string) : dataReader.GetString(2);
+                                    instance.<Email>k__BackingField = dataReader.IsDBNull(3) ? default(string) : dataReader.GetString(3);
+                                    instance.<EmailConfirmed>k__BackingField = dataReader.GetBoolean(4);
+                                    instance.<LockoutEnabled>k__BackingField = dataReader.GetBoolean(5);
+                                    instance.<LockoutEnd>k__BackingField = dataReader.IsDBNull(6) ? default(DateTimeOffset?) : (DateTimeOffset?)dataReader.GetFieldValue<DateTimeOffset>(6);
+                                    instance.<NormalizedEmail>k__BackingField = dataReader.IsDBNull(7) ? default(string) : dataReader.GetString(7);
+                                    instance.<NormalizedUserName>k__BackingField = dataReader.IsDBNull(8) ? default(string) : dataReader.GetString(8);
+                                    instance.<PasswordHash>k__BackingField = dataReader.IsDBNull(9) ? default(string) : dataReader.GetString(9);
+                                    instance.<PhoneNumber>k__BackingField = dataReader.IsDBNull(10) ? default(string) : dataReader.GetString(10);
+                                    instance.<PhoneNumberConfirmed>k__BackingField = dataReader.GetBoolean(11);
+                                    instance.<RefreshToken>k__BackingField = dataReader.IsDBNull(12) ? default(string) : dataReader.GetString(12);
+                                    instance.<RefreshTokenExpiryTime>k__BackingField = dataReader.GetDateTime(13);
+                                    instance.<SecurityStamp>k__BackingField = dataReader.IsDBNull(14) ? default(string) : dataReader.GetString(14);
+                                    instance.<TwoFactorEnabled>k__BackingField = dataReader.GetBoolean(15);
+                                    instance.<UserName>k__BackingField = dataReader.IsDBNull(16) ? default(string) : dataReader.GetString(16);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: ApplicationUser | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("ApiAspNet.Models.Auth.ApplicationUser")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(ApplicationUser)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: ApiAspNet.Models.Auth.ApplicationDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)' 
+2025-06-28 15:54:22.5051 DEBUG Creating DbConnection. 
+2025-06-28 15:54:22.5688 DEBUG Created DbConnection. (65ms). 
+2025-06-28 15:54:22.5688 DEBUG Opening connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:22.8531 DEBUG Opened connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:22.8531 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2025-06-28 15:54:22.8531 DEBUG Created DbCommand for 'ExecuteReader' (3ms). 
+2025-06-28 15:54:22.8664 DEBUG Initialized DbCommand for 'ExecuteReader' (11ms). 
+2025-06-28 15:54:22.8664 DEBUG Executing DbCommand [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2025-06-28 15:54:22.9307 INFO Executed DbCommand (59ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2025-06-28 15:54:22.9307 DEBUG Closing data reader to 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:22.9449 DEBUG A data reader for 'WebApiDB' on server 'tcp://localhost:5432' is being disposed after spending 10ms reading results. 
+2025-06-28 15:54:22.9449 DEBUG Closing connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:22.9449 DEBUG Closed connection to database 'WebApiDB' on server 'tcp://localhost:5432' (3ms). 
+2025-06-28 15:54:22.9449 INFO Executed action method ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.UnauthorizedResult in 1510.1582ms. 
+2025-06-28 15:54:22.9582 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 15:54:22.9582 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 15:54:22.9582 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 15:54:22.9582 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 15:54:22.9582 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 15:54:22.9582 TRACE Replacing Microsoft.AspNetCore.Mvc.UnauthorizedResult with status code 401 with Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-28 15:54:22.9582 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 15:54:22.9582 TRACE Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-28 15:54:22.9582 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-28 15:54:22.9582 DEBUG No information found on request to perform content negotiation. 
+2025-06-28 15:54:22.9582 DEBUG Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types 'application/problem+json, application/problem+xml, application/problem+json, application/problem+xml'. 
+2025-06-28 15:54:22.9582 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response. 
+2025-06-28 15:54:22.9582 INFO Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2025-06-28 15:54:22.9900 TRACE After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-28 15:54:22.9900 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 15:54:22.9900 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 15:54:22.9959 INFO Executed action ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet) in 2267.982ms 
+2025-06-28 15:54:22.9959 INFO Executed endpoint 'ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet)' 
+2025-06-28 15:54:22.9959 DEBUG Connection ID "18302628886439002113" disconnecting. 
+2025-06-28 15:54:22.9959 DEBUG 'ApplicationDbContext' disposed. 
+2025-06-28 15:54:22.9959 DEBUG Disposing connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:22.9959 DEBUG Disposed connection to database 'WebApiDB' on server 'tcp://localhost:5432' (1ms). 
+2025-06-28 15:54:23.0054 INFO Request finished HTTP/2 POST https://localhost:44384/api/authenticate/login - 401 - application/problem+json;+charset=utf-8 2344.0415ms 
+2025-06-28 15:54:47.6499 INFO Request starting HTTP/2 OPTIONS https://localhost:44384/api/authenticate/login - - - 
+2025-06-28 15:54:47.6499 TRACE All hosts are allowed. 
+2025-06-28 15:54:47.6499 DEBUG 1 candidate(s) found for the request path '/api/authenticate/login' 
+2025-06-28 15:54:47.6499 DEBUG Request matched endpoint '405 HTTP Method Not Supported' 
+2025-06-28 15:54:47.6499 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-28 15:54:47.6499 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 15:54:47.6499 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-28 15:54:47.6499 DEBUG The request has an origin header: 'http://localhost:5173'. 
+2025-06-28 15:54:47.6499 INFO CORS policy execution successful. 
+2025-06-28 15:54:47.6499 DEBUG The request is a preflight request. 
+2025-06-28 15:54:47.6499 INFO Request finished HTTP/2 OPTIONS https://localhost:44384/api/authenticate/login - 204 - - 2.8824ms 
+2025-06-28 15:54:47.6499 INFO Request starting HTTP/2 POST https://localhost:44384/api/authenticate/login - application/json 44 
+2025-06-28 15:54:47.6499 TRACE All hosts are allowed. 
+2025-06-28 15:54:47.6499 DEBUG 1 candidate(s) found for the request path '/api/authenticate/login' 
+2025-06-28 15:54:47.6499 DEBUG Endpoint 'ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet)' with route pattern 'api/Authenticate/login' is valid for the request path '/api/authenticate/login' 
+2025-06-28 15:54:47.6499 DEBUG Request matched endpoint 'ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet)' 
+2025-06-28 15:54:47.6499 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-28 15:54:47.6499 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 15:54:47.6499 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-28 15:54:47.6499 DEBUG The request has an origin header: 'http://localhost:5173'. 
+2025-06-28 15:54:47.6499 INFO CORS policy execution successful. 
+2025-06-28 15:54:47.6499 INFO Executing endpoint 'ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet)' 
+2025-06-28 15:54:47.6499 INFO Route matched with {action = "Login", controller = "Authenticate"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ApiAspNet.Models.Auth.LoginModel) on controller ApiAspNet.Controllers.AuthenticateController (ApiAspNet). 
+2025-06-28 15:54:47.6499 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-28 15:54:47.6499 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-28 15:54:47.6499 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-28 15:54:47.6499 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-28 15:54:47.6499 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-28 15:54:47.6499 DEBUG Executing controller factory for controller ApiAspNet.Controllers.AuthenticateController (ApiAspNet) 
+2025-06-28 15:54:47.6620 DEBUG Executed controller factory for controller ApiAspNet.Controllers.AuthenticateController (ApiAspNet) 
+2025-06-28 15:54:47.6620 DEBUG Attempting to bind parameter 'model' of type 'ApiAspNet.Models.Auth.LoginModel' ... 
+2025-06-28 15:54:47.6620 DEBUG Attempting to bind parameter 'model' of type 'ApiAspNet.Models.Auth.LoginModel' using the name '' in request data ... 
+2025-06-28 15:54:47.6620 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2025-06-28 15:54:47.6620 DEBUG JSON input formatter succeeded, deserializing to type 'ApiAspNet.Models.Auth.LoginModel' 
+2025-06-28 15:54:47.6620 DEBUG Done attempting to bind parameter 'model' of type 'ApiAspNet.Models.Auth.LoginModel'. 
+2025-06-28 15:54:47.6620 DEBUG Done attempting to bind parameter 'model' of type 'ApiAspNet.Models.Auth.LoginModel'. 
+2025-06-28 15:54:47.6620 DEBUG Attempting to validate the bound parameter 'model' of type 'ApiAspNet.Models.Auth.LoginModel' ... 
+2025-06-28 15:54:47.6620 DEBUG Done attempting to validate the bound parameter 'model' of type 'ApiAspNet.Models.Auth.LoginModel'. 
+2025-06-28 15:54:47.6620 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 15:54:47.6620 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 15:54:47.6620 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 15:54:47.6620 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 15:54:47.6620 INFO Executing action method ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet) - Validation state: Valid 
+2025-06-28 15:54:47.6620 TRACE Executing action method ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet) with arguments (ApiAspNet.Models.Auth.LoginModel) 
+2025-06-28 15:54:47.7133 DEBUG Entity Framework Core 9.0.5 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:9.0.4+fd2380957bee5cd86f336466af36b08c0163f1a5' with options: None 
+2025-06-28 15:54:47.7133 DEBUG Creating DbConnection. 
+2025-06-28 15:54:47.7133 DEBUG Created DbConnection. (0ms). 
+2025-06-28 15:54:47.7133 DEBUG Opening connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:47.7133 DEBUG Opened connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:47.7133 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2025-06-28 15:54:47.7133 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2025-06-28 15:54:47.7133 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-06-28 15:54:47.7133 DEBUG Executing DbCommand [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2025-06-28 15:54:47.7133 INFO Executed DbCommand (6ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2025-06-28 15:54:47.7798 DEBUG Context 'ApplicationDbContext' started tracking 'ApplicationUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-06-28 15:54:47.8213 DEBUG Closing data reader to 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:47.8213 DEBUG A data reader for 'WebApiDB' on server 'tcp://localhost:5432' is being disposed after spending 97ms reading results. 
+2025-06-28 15:54:47.8213 DEBUG Closing connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:47.8213 DEBUG Closed connection to database 'WebApiDB' on server 'tcp://localhost:5432' (0ms). 
+2025-06-28 15:54:47.9191 DEBUG Compiling query expression: 
+'DbSet<IdentityUserRole<string>>()
+    .Join(
+        inner: DbSet<IdentityRole>(), 
+        outerKeySelector: userRole => userRole.RoleId, 
+        innerKeySelector: role => role.Id, 
+        resultSelector: (userRole, role) => new { 
+            userRole = userRole, 
+            role = role
+         })
+    .Where(<>h__TransparentIdentifier0 => <>h__TransparentIdentifier0.userRole.UserId.Equals(__userId_0))
+    .Select(<>h__TransparentIdentifier0 => <>h__TransparentIdentifier0.role.Name)' 
+2025-06-28 15:54:47.9902 DEBUG Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<string>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT a0.Name
+        FROM AspNetUserRoles AS a
+        INNER JOIN AspNetRoles AS a0 ON a.RoleId == a0.Id
+        WHERE a.UserId == @__userId_0) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT a0.Name
+        FROM AspNetUserRoles AS a
+        INNER JOIN AspNetRoles AS a0 ON a.RoleId == a0.Id
+        WHERE a.UserId == @__userId_0, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        string value1;
+        value1 = dataReader.IsDBNull(0) ? default(string) : dataReader.GetString(0);
+        return value1;
+    }, 
+    contextType: ApiAspNet.Models.Auth.ApplicationDbContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)' 
+2025-06-28 15:54:47.9941 DEBUG Opening connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:47.9941 DEBUG Opened connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:47.9941 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2025-06-28 15:54:47.9941 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2025-06-28 15:54:47.9941 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-06-28 15:54:47.9941 DEBUG Executing DbCommand [Parameters=[@__userId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2025-06-28 15:54:47.9941 INFO Executed DbCommand (9ms) [Parameters=[@__userId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2025-06-28 15:54:47.9941 DEBUG Closing data reader to 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:47.9941 DEBUG A data reader for 'WebApiDB' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results. 
+2025-06-28 15:54:47.9941 DEBUG Closing connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:47.9941 DEBUG Closed connection to database 'WebApiDB' on server 'tcp://localhost:5432' (0ms). 
+2025-06-28 15:54:48.0250 DEBUG Opening connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:48.0250 DEBUG Opened connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:48.0250 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2025-06-28 15:54:48.0250 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2025-06-28 15:54:48.0250 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-06-28 15:54:48.0250 DEBUG Executing DbCommand [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2025-06-28 15:54:48.0250 INFO Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2025-06-28 15:54:48.0250 DEBUG Closing data reader to 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:48.0250 DEBUG A data reader for 'WebApiDB' on server 'tcp://localhost:5432' is being disposed after spending 1ms reading results. 
+2025-06-28 15:54:48.0250 DEBUG Closing connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:48.0250 DEBUG Closed connection to database 'WebApiDB' on server 'tcp://localhost:5432' (0ms). 
+2025-06-28 15:54:48.0532 DEBUG An entity of type 'ApplicationUser' tracked by 'ApplicationDbContext' changed state from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-06-28 15:54:48.0532 DEBUG SaveChanges starting for 'ApplicationDbContext'. 
+2025-06-28 15:54:48.0532 DEBUG DetectChanges starting for 'ApplicationDbContext'. 
+2025-06-28 15:54:48.0532 DEBUG DetectChanges completed for 'ApplicationDbContext'. 
+2025-06-28 15:54:48.1455 DEBUG Opening connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:48.1455 DEBUG Opened connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:48.1455 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2025-06-28 15:54:48.1455 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2025-06-28 15:54:48.1455 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-06-28 15:54:48.1455 DEBUG Executing DbCommand [Parameters=[@p16='?', @p0='?' (DbType = Int32), @p1='?', @p17='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?' (DbType = Boolean), @p11='?', @p12='?' (DbType = DateTime), @p13='?', @p14='?' (DbType = Boolean), @p15='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NormalizedEmail" = @p6, "NormalizedUserName" = @p7, "PasswordHash" = @p8, "PhoneNumber" = @p9, "PhoneNumberConfirmed" = @p10, "RefreshToken" = @p11, "RefreshTokenExpiryTime" = @p12, "SecurityStamp" = @p13, "TwoFactorEnabled" = @p14, "UserName" = @p15
+WHERE "Id" = @p16 AND "ConcurrencyStamp" = @p17; 
+2025-06-28 15:54:48.1648 INFO Executed DbCommand (17ms) [Parameters=[@p16='?', @p0='?' (DbType = Int32), @p1='?', @p17='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?' (DbType = Boolean), @p11='?', @p12='?' (DbType = DateTime), @p13='?', @p14='?' (DbType = Boolean), @p15='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NormalizedEmail" = @p6, "NormalizedUserName" = @p7, "PasswordHash" = @p8, "PhoneNumber" = @p9, "PhoneNumberConfirmed" = @p10, "RefreshToken" = @p11, "RefreshTokenExpiryTime" = @p12, "SecurityStamp" = @p13, "TwoFactorEnabled" = @p14, "UserName" = @p15
+WHERE "Id" = @p16 AND "ConcurrencyStamp" = @p17; 
+2025-06-28 15:54:48.1648 DEBUG Closing data reader to 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:48.1648 DEBUG A data reader for 'WebApiDB' on server 'tcp://localhost:5432' is being disposed after spending 2ms reading results. 
+2025-06-28 15:54:48.1648 DEBUG Closing connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:48.1648 DEBUG Closed connection to database 'WebApiDB' on server 'tcp://localhost:5432' (0ms). 
+2025-06-28 15:54:48.1648 DEBUG An entity of type 'ApplicationUser' tracked by 'ApplicationDbContext' changed state from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-06-28 15:54:48.1648 DEBUG SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database. 
+2025-06-28 15:54:48.2091 INFO Executed action method ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 540.2046ms. 
+2025-06-28 15:54:48.2091 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 15:54:48.2091 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 15:54:48.2091 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 15:54:48.2091 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 15:54:48.2091 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 15:54:48.2091 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 15:54:48.2091 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-28 15:54:48.2091 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-28 15:54:48.2091 DEBUG No information found on request to perform content negotiation. 
+2025-06-28 15:54:48.2091 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-06-28 15:54:48.2091 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-06-28 15:54:48.2091 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-06-28 15:54:48.2091 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-06-28 15:54:48.2276 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-28 15:54:48.2276 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 15:54:48.2276 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 15:54:48.2276 INFO Executed action ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet) in 569.3504ms 
+2025-06-28 15:54:48.2276 INFO Executed endpoint 'ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet)' 
+2025-06-28 15:54:48.2276 DEBUG 'ApplicationDbContext' disposed. 
+2025-06-28 15:54:48.2276 DEBUG Connection ID "18302628903618871305" disconnecting. 
+2025-06-28 15:54:48.2276 DEBUG Disposing connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 15:54:48.2276 DEBUG Disposed connection to database 'WebApiDB' on server 'tcp://localhost:5432' (0ms). 
+2025-06-28 15:54:48.2276 INFO Request finished HTTP/2 POST https://localhost:44384/api/authenticate/login - 200 - application/json;+charset=utf-8 572.9160ms 
+2025-06-28 15:54:49.2619 INFO Request starting HTTP/2 OPTIONS https://localhost:44384/api/users - - - 
+2025-06-28 15:54:49.2619 TRACE All hosts are allowed. 
+2025-06-28 15:54:49.2619 DEBUG 1 candidate(s) found for the request path '/api/users' 
+2025-06-28 15:54:49.2619 DEBUG Request matched endpoint '405 HTTP Method Not Supported' 
+2025-06-28 15:54:49.2619 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-28 15:54:49.2619 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 15:54:49.2619 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-28 15:54:49.2619 DEBUG The request has an origin header: 'http://localhost:5173'. 
+2025-06-28 15:54:49.2619 INFO CORS policy execution successful. 
+2025-06-28 15:54:49.2619 DEBUG The request is a preflight request. 
+2025-06-28 15:54:49.2619 INFO Request finished HTTP/2 OPTIONS https://localhost:44384/api/users - 204 - - 4.8047ms 
+2025-06-28 15:54:49.2619 DEBUG Connection ID "18158513719837982721" disconnecting. 
+2025-06-28 15:54:49.2619 INFO Request starting HTTP/2 GET https://localhost:44384/api/users - - - 
+2025-06-28 15:54:49.2619 TRACE All hosts are allowed. 
+2025-06-28 15:54:49.2619 DEBUG 1 candidate(s) found for the request path '/api/users' 
+2025-06-28 15:54:49.2619 DEBUG Endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' with route pattern 'api/Users' is valid for the request path '/api/users' 
+2025-06-28 15:54:49.2619 DEBUG Request matched endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' 
+2025-06-28 15:54:49.2619 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-28 15:54:49.3619 DEBUG Successfully validated the token. 
+2025-06-28 15:54:49.3619 DEBUG AuthenticationScheme: Bearer was successfully authenticated. 
+2025-06-28 15:54:49.3619 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-28 15:54:49.3619 DEBUG The request has an origin header: 'http://localhost:5173'. 
+2025-06-28 15:54:49.3619 INFO CORS policy execution successful. 
+2025-06-28 15:54:49.3619 INFO Executing endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' 
+2025-06-28 15:54:49.3619 INFO Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller ApiAspNet.Controllers.UsersController (ApiAspNet). 
+2025-06-28 15:54:49.3619 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-28 15:54:49.3619 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-28 15:54:49.3619 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-28 15:54:49.3619 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-28 15:54:49.3619 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-28 15:54:49.3619 DEBUG Executing controller factory for controller ApiAspNet.Controllers.UsersController (ApiAspNet) 
+2025-06-28 15:54:49.5431 DEBUG Executed controller factory for controller ApiAspNet.Controllers.UsersController (ApiAspNet) 
+2025-06-28 15:54:49.5431 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 15:54:49.5431 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 15:54:49.5431 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 15:54:49.5431 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 15:54:49.5431 INFO Executing action method ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet) - Validation state: Valid 
+2025-06-28 15:54:49.5431 INFO Executed action method ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.3125ms. 
+2025-06-28 15:54:49.5431 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 15:54:49.5431 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 15:54:49.5431 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 15:54:49.5431 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 15:54:49.5431 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 15:54:49.5431 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 15:54:49.5431 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-28 15:54:49.5431 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-28 15:54:49.5431 DEBUG No information found on request to perform content negotiation. 
+2025-06-28 15:54:49.5431 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-06-28 15:54:49.5431 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-06-28 15:54:49.5431 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-06-28 15:54:49.5431 INFO Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[ApiAspNet.Entities.User, ApiAspNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-06-28 15:54:49.8134 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-28 15:54:49.8134 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 15:54:49.8134 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 15:54:49.8134 INFO Executed action ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet) in 445.4114ms 
+2025-06-28 15:54:49.8134 INFO Executed endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' 
+2025-06-28 15:54:49.8134 DEBUG Connection ID "18158513706953080837" disconnecting. 
+2025-06-28 15:54:49.8134 INFO Request finished HTTP/2 GET https://localhost:44384/api/users - 200 - application/json;+charset=utf-8 542.6200ms 
+2025-06-28 16:23:26.9325 DEBUG Démarrage de l'application 
+2025-06-28 16:23:27.7067 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-06-28 16:23:27.7638 DEBUG Hosting starting 
+2025-06-28 16:23:27.7711 INFO User profile is available. Using 'C:\Users\Abdou Fatah Ndiaye\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-06-28 16:23:27.7711 DEBUG Reading data from file 'C:\Users\Abdou Fatah Ndiaye\AppData\Local\ASP.NET\DataProtection-Keys\key-ad531c23-cdc4-4821-89ca-ef8e18138696.xml'. 
+2025-06-28 16:23:27.7928 DEBUG Found key {ad531c23-cdc4-4821-89ca-ef8e18138696}. 
+2025-06-28 16:23:27.8025 DEBUG Considering key {ad531c23-cdc4-4821-89ca-ef8e18138696} with expiration date 2025-09-12 16:59:55Z as default key. 
+2025-06-28 16:23:27.8025 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-28 16:23:27.8025 DEBUG Decrypting secret element using Windows DPAPI. 
+2025-06-28 16:23:27.8025 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-28 16:23:27.8025 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-06-28 16:23:27.8025 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-06-28 16:23:27.8025 DEBUG Using key {ad531c23-cdc4-4821-89ca-ef8e18138696} as the default key. 
+2025-06-28 16:23:27.8025 DEBUG Key ring with default key {ad531c23-cdc4-4821-89ca-ef8e18138696} was loaded during application startup. 
+2025-06-28 16:23:27.9409 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-06-28 16:23:27.9479 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-06-28 16:23:27.9479 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-06-28 16:23:27.9479 INFO Application started. Press Ctrl+C to shut down. 
+2025-06-28 16:23:27.9479 INFO Hosting environment: Development 
+2025-06-28 16:23:27.9479 INFO Content root path: C:\Users\Abdou Fatah Ndiaye\source\repos\ApiAspNet\ApiAspNet 
+2025-06-28 16:23:27.9479 DEBUG Hosting started 
+2025-06-28 16:23:27.9668 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - - - 
+2025-06-28 16:23:28.0889 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-06-28 16:23:28.0889 TRACE All hosts are allowed. 
+2025-06-28 16:23:28.1065 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-06-28 16:23:28.1065 DEBUG Request did not match any endpoints 
+2025-06-28 16:23:28.1612 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 16:23:28.2624 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2025-06-28 16:23:28.2624 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-06-28 16:23:28.3055 DEBUG Response markup was updated to include Browser Link script injection. 
+2025-06-28 16:23:28.3055 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-06-28 16:23:28.3055 DEBUG Connection ID "18374686510541701129" disconnecting. 
+2025-06-28 16:23:28.3229 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 - text/html;charset=utf-8 362.5983ms 
+2025-06-28 16:23:28.4107 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-06-28 16:23:28.4366 DEBUG Connection ID "18374686510541701131" disconnecting. 
+2025-06-28 16:23:28.4366 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript;+charset=utf-8 16.8758ms 
+2025-06-28 16:23:28.4504 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-06-28 16:23:28.5060 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-06-28 16:23:28.5060 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript;+charset=utf-8 1.7604ms 
+2025-06-28 16:23:28.5060 DEBUG Connection ID "18302628903618871307" disconnecting. 
+2025-06-28 16:23:28.5466 DEBUG Connection ID "18374686497656799236" disconnecting. 
+2025-06-28 16:23:28.5466 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 97.7361ms 
+2025-06-28 16:23:28.7546 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - - - 
+2025-06-28 16:23:28.7546 TRACE All hosts are allowed. 
+2025-06-28 16:23:28.7557 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-06-28 16:23:28.7557 DEBUG Request did not match any endpoints 
+2025-06-28 16:23:28.7557 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 16:23:28.9017 DEBUG Connection ID "18374686484771897349" disconnecting. 
+2025-06-28 16:23:28.9017 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 147.1689ms 
+2025-06-28 16:23:31.0941 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-06-28 16:23:31.1131 DEBUG Connection ID "18302628890733969409" disconnecting. 
+2025-06-28 16:23:31.1131 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 19.9206ms 
+2025-06-28 16:23:37.7150 INFO Request starting HTTP/2 OPTIONS https://localhost:44384/api/users - - - 
+2025-06-28 16:23:37.7150 TRACE All hosts are allowed. 
+2025-06-28 16:23:37.7213 DEBUG 1 candidate(s) found for the request path '/api/users' 
+2025-06-28 16:23:37.7213 DEBUG Request matched endpoint '405 HTTP Method Not Supported' 
+2025-06-28 16:23:37.7213 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-28 16:23:37.7265 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 16:23:37.7265 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-28 16:23:37.7265 DEBUG The request has an origin header: 'http://localhost:5173'. 
+2025-06-28 16:23:37.7265 INFO CORS policy execution successful. 
+2025-06-28 16:23:37.7265 DEBUG The request is a preflight request. 
+2025-06-28 16:23:37.7265 INFO Request finished HTTP/2 OPTIONS https://localhost:44384/api/users - 204 - - 17.6266ms 
+2025-06-28 16:23:37.7410 DEBUG Connection ID "18086456112915152900" disconnecting. 
+2025-06-28 16:23:37.7410 INFO Request starting HTTP/2 GET https://localhost:44384/api/users - - - 
+2025-06-28 16:23:37.7410 TRACE All hosts are allowed. 
+2025-06-28 16:23:37.7410 DEBUG 1 candidate(s) found for the request path '/api/users' 
+2025-06-28 16:23:37.7410 DEBUG Endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' with route pattern 'api/Users' is valid for the request path '/api/users' 
+2025-06-28 16:23:37.7410 DEBUG Request matched endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' 
+2025-06-28 16:23:37.7410 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-28 16:23:37.8258 INFO Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/06/2025 15:55:48', Current time (UTC): '28/06/2025 16:23:37'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-28 16:23:37.8801 INFO Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/06/2025 15:55:48', Current time (UTC): '28/06/2025 16:23:37'. 
+2025-06-28 16:23:37.8801 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-28 16:23:37.8801 DEBUG The request has an origin header: 'http://localhost:5173'. 
+2025-06-28 16:23:37.8801 INFO CORS policy execution successful. 
+2025-06-28 16:23:37.8801 INFO Executing endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' 
+2025-06-28 16:23:37.8801 INFO Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller ApiAspNet.Controllers.UsersController (ApiAspNet). 
+2025-06-28 16:23:37.8801 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-28 16:23:37.8801 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-28 16:23:37.8801 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-28 16:23:37.8801 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-28 16:23:37.8801 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-28 16:23:37.8801 DEBUG Executing controller factory for controller ApiAspNet.Controllers.UsersController (ApiAspNet) 
+2025-06-28 16:23:38.1023 DEBUG Executed controller factory for controller ApiAspNet.Controllers.UsersController (ApiAspNet) 
+2025-06-28 16:23:38.1023 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:23:38.1023 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:23:38.1023 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:23:38.1023 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:23:38.1023 INFO Executing action method ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet) - Validation state: Valid 
+2025-06-28 16:23:38.1023 INFO Executed action method ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.3335ms. 
+2025-06-28 16:23:38.1023 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:23:38.1023 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:23:38.1023 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:23:38.1023 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:23:38.1023 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:23:38.1023 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:23:38.1023 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-28 16:23:38.1023 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-28 16:23:38.1023 DEBUG No information found on request to perform content negotiation. 
+2025-06-28 16:23:38.1023 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-06-28 16:23:38.1023 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-06-28 16:23:38.1023 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-06-28 16:23:38.1023 INFO Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[ApiAspNet.Entities.User, ApiAspNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-06-28 16:23:39.5476 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-28 16:23:39.5476 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:23:39.5476 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:23:39.5550 INFO Executed action ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet) in 1652.223ms 
+2025-06-28 16:23:39.5550 INFO Executed endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' 
+2025-06-28 16:23:39.5550 DEBUG Connection ID "18158513719837982723" disconnecting. 
+2025-06-28 16:23:39.5550 INFO Request finished HTTP/2 GET https://localhost:44384/api/users - 200 - application/json;+charset=utf-8 1821.9262ms 
+2025-06-28 16:23:51.3551 INFO Request starting HTTP/2 OPTIONS https://localhost:44384/api/users - - - 
+2025-06-28 16:23:51.3551 TRACE All hosts are allowed. 
+2025-06-28 16:23:51.3551 DEBUG 1 candidate(s) found for the request path '/api/users' 
+2025-06-28 16:23:51.3551 DEBUG Request matched endpoint '405 HTTP Method Not Supported' 
+2025-06-28 16:23:51.3551 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-28 16:23:51.3551 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 16:23:51.3551 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-28 16:23:51.3551 DEBUG The request has an origin header: 'http://localhost:5173'. 
+2025-06-28 16:23:51.3551 INFO CORS policy execution successful. 
+2025-06-28 16:23:51.3551 DEBUG The request is a preflight request. 
+2025-06-28 16:23:51.3551 DEBUG Connection ID "18158513719837982725" disconnecting. 
+2025-06-28 16:23:51.3551 INFO Request finished HTTP/2 OPTIONS https://localhost:44384/api/users - 204 - - 1.6583ms 
+2025-06-28 16:23:51.3551 INFO Request starting HTTP/2 GET https://localhost:44384/api/users - - - 
+2025-06-28 16:23:51.3551 TRACE All hosts are allowed. 
+2025-06-28 16:23:51.3551 DEBUG 1 candidate(s) found for the request path '/api/users' 
+2025-06-28 16:23:51.3551 DEBUG Endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' with route pattern 'api/Users' is valid for the request path '/api/users' 
+2025-06-28 16:23:51.3551 DEBUG Request matched endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' 
+2025-06-28 16:23:51.3551 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-28 16:23:51.3551 INFO Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-06-28 16:23:51.3551 INFO Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'. 
+2025-06-28 16:23:51.3551 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-28 16:23:51.3551 DEBUG The request has an origin header: 'http://localhost:5173'. 
+2025-06-28 16:23:51.3551 INFO CORS policy execution successful. 
+2025-06-28 16:23:51.3551 INFO Executing endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' 
+2025-06-28 16:23:51.3551 INFO Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller ApiAspNet.Controllers.UsersController (ApiAspNet). 
+2025-06-28 16:23:51.3551 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-28 16:23:51.3551 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-28 16:23:51.3551 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-28 16:23:51.3551 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-28 16:23:51.3551 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-28 16:23:51.3551 DEBUG Executing controller factory for controller ApiAspNet.Controllers.UsersController (ApiAspNet) 
+2025-06-28 16:23:51.3551 DEBUG Executed controller factory for controller ApiAspNet.Controllers.UsersController (ApiAspNet) 
+2025-06-28 16:23:51.3551 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:23:51.3551 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:23:51.3551 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:23:51.3551 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:23:51.3551 INFO Executing action method ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet) - Validation state: Valid 
+2025-06-28 16:23:51.3551 INFO Executed action method ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0284ms. 
+2025-06-28 16:23:51.3551 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:23:51.3551 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:23:51.3551 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:23:51.3551 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:23:51.3551 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:23:51.3551 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:23:51.3551 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-28 16:23:51.3551 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-28 16:23:51.3551 DEBUG No information found on request to perform content negotiation. 
+2025-06-28 16:23:51.3551 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-06-28 16:23:51.3551 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-06-28 16:23:51.3551 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-06-28 16:23:51.3551 INFO Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[ApiAspNet.Entities.User, ApiAspNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-06-28 16:23:51.3970 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-28 16:23:51.3970 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:23:51.3970 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:23:51.3970 INFO Executed action ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet) in 34.6845ms 
+2025-06-28 16:23:51.3970 INFO Executed endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' 
+2025-06-28 16:23:51.3970 DEBUG Connection ID "18230571309580943365" disconnecting. 
+2025-06-28 16:23:51.3970 INFO Request finished HTTP/2 GET https://localhost:44384/api/users - 200 - application/json;+charset=utf-8 38.2578ms 
+2025-06-28 16:40:51.8885 INFO Request starting HTTP/2 OPTIONS https://localhost:44384/api/authenticate/login - - - 
+2025-06-28 16:40:51.8885 TRACE All hosts are allowed. 
+2025-06-28 16:40:51.9254 DEBUG 1 candidate(s) found for the request path '/api/authenticate/login' 
+2025-06-28 16:40:51.9254 DEBUG Request matched endpoint '405 HTTP Method Not Supported' 
+2025-06-28 16:40:51.9254 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-28 16:40:51.9254 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 16:40:51.9254 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-28 16:40:51.9254 DEBUG The request has an origin header: 'http://localhost:5173'. 
+2025-06-28 16:40:51.9268 INFO CORS policy execution successful. 
+2025-06-28 16:40:51.9268 DEBUG The request is a preflight request. 
+2025-06-28 16:40:51.9268 INFO Request finished HTTP/2 OPTIONS https://localhost:44384/api/authenticate/login - 204 - - 38.7252ms 
+2025-06-28 16:40:51.9268 INFO Request starting HTTP/2 POST https://localhost:44384/api/authenticate/login - application/json 44 
+2025-06-28 16:40:51.9268 TRACE All hosts are allowed. 
+2025-06-28 16:40:51.9268 DEBUG 1 candidate(s) found for the request path '/api/authenticate/login' 
+2025-06-28 16:40:51.9268 DEBUG Endpoint 'ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet)' with route pattern 'api/Authenticate/login' is valid for the request path '/api/authenticate/login' 
+2025-06-28 16:40:51.9268 DEBUG Request matched endpoint 'ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet)' 
+2025-06-28 16:40:51.9268 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-28 16:40:51.9268 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 16:40:51.9268 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-28 16:40:51.9268 DEBUG The request has an origin header: 'http://localhost:5173'. 
+2025-06-28 16:40:51.9268 INFO CORS policy execution successful. 
+2025-06-28 16:40:51.9268 INFO Executing endpoint 'ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet)' 
+2025-06-28 16:40:51.9268 INFO Route matched with {action = "Login", controller = "Authenticate"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ApiAspNet.Models.Auth.LoginModel) on controller ApiAspNet.Controllers.AuthenticateController (ApiAspNet). 
+2025-06-28 16:40:51.9268 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-28 16:40:51.9268 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-28 16:40:51.9268 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-28 16:40:51.9268 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-28 16:40:51.9268 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-28 16:40:51.9268 DEBUG Executing controller factory for controller ApiAspNet.Controllers.AuthenticateController (ApiAspNet) 
+2025-06-28 16:40:51.9531 DEBUG An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: . 
+2025-06-28 16:40:51.9627 DEBUG Executed controller factory for controller ApiAspNet.Controllers.AuthenticateController (ApiAspNet) 
+2025-06-28 16:40:51.9627 DEBUG Attempting to bind parameter 'model' of type 'ApiAspNet.Models.Auth.LoginModel' ... 
+2025-06-28 16:40:51.9627 DEBUG Attempting to bind parameter 'model' of type 'ApiAspNet.Models.Auth.LoginModel' using the name '' in request data ... 
+2025-06-28 16:40:51.9627 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2025-06-28 16:40:51.9820 DEBUG JSON input formatter succeeded, deserializing to type 'ApiAspNet.Models.Auth.LoginModel' 
+2025-06-28 16:40:51.9820 DEBUG Done attempting to bind parameter 'model' of type 'ApiAspNet.Models.Auth.LoginModel'. 
+2025-06-28 16:40:51.9820 DEBUG Done attempting to bind parameter 'model' of type 'ApiAspNet.Models.Auth.LoginModel'. 
+2025-06-28 16:40:51.9820 DEBUG Attempting to validate the bound parameter 'model' of type 'ApiAspNet.Models.Auth.LoginModel' ... 
+2025-06-28 16:40:51.9895 DEBUG Done attempting to validate the bound parameter 'model' of type 'ApiAspNet.Models.Auth.LoginModel'. 
+2025-06-28 16:40:51.9895 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:40:51.9895 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:40:51.9895 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:40:51.9895 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:40:51.9895 INFO Executing action method ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet) - Validation state: Valid 
+2025-06-28 16:40:51.9895 TRACE Executing action method ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet) with arguments (ApiAspNet.Models.Auth.LoginModel) 
+2025-06-28 16:40:52.0438 DEBUG The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}. 
+2025-06-28 16:40:52.0438 DEBUG The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}. 
+2025-06-28 16:40:52.0695 DEBUG Entity Framework Core 9.0.5 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:9.0.4+fd2380957bee5cd86f336466af36b08c0163f1a5' with options: None 
+2025-06-28 16:40:52.0871 DEBUG Compiling query expression: 
+'DbSet<ApplicationUser>()
+    .FirstOrDefault(u => u.NormalizedUserName == __normalizedUserName_0)' 
+2025-06-28 16:40:52.1593 DEBUG Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<ApplicationUser>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<ApplicationUser>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ApplicationUser.Id (string) Required PK AfterSave:Throw, 0], [Property: ApplicationUser.AccessFailedCount (int) Required, 1], [Property: ApplicationUser.ConcurrencyStamp (string) Concurrency, 2], [Property: ApplicationUser.Email (string) MaxLength(256), 3], [Property: ApplicationUser.EmailConfirmed (bool) Required, 4], [Property: ApplicationUser.LockoutEnabled (bool) Required, 5], [Property: ApplicationUser.LockoutEnd (DateTimeOffset?), 6], [Property: ApplicationUser.NormalizedEmail (string) Index MaxLength(256), 7], [Property: ApplicationUser.NormalizedUserName (string) Index MaxLength(256), 8], [Property: ApplicationUser.PasswordHash (string), 9], [Property: ApplicationUser.PhoneNumber (string), 10], [Property: ApplicationUser.PhoneNumberConfirmed (bool) Required, 11], [Property: ApplicationUser.RefreshToken (string), 12], [Property: ApplicationUser.RefreshTokenExpiryTime (DateTime) Required, 13], [Property: ApplicationUser.SecurityStamp (string), 14], [Property: ApplicationUser.TwoFactorEnabled (bool) Required, 15], [Property: ApplicationUser.UserName (string) MaxLength(256), 16] }
+            SELECT TOP(1) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.RefreshToken, a.RefreshTokenExpiryTime, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.NormalizedUserName == @__normalizedUserName_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ApplicationUser.Id (string) Required PK AfterSave:Throw, 0], [Property: ApplicationUser.AccessFailedCount (int) Required, 1], [Property: ApplicationUser.ConcurrencyStamp (string) Concurrency, 2], [Property: ApplicationUser.Email (string) MaxLength(256), 3], [Property: ApplicationUser.EmailConfirmed (bool) Required, 4], [Property: ApplicationUser.LockoutEnabled (bool) Required, 5], [Property: ApplicationUser.LockoutEnd (DateTimeOffset?), 6], [Property: ApplicationUser.NormalizedEmail (string) Index MaxLength(256), 7], [Property: ApplicationUser.NormalizedUserName (string) Index MaxLength(256), 8], [Property: ApplicationUser.PasswordHash (string), 9], [Property: ApplicationUser.PhoneNumber (string), 10], [Property: ApplicationUser.PhoneNumberConfirmed (bool) Required, 11], [Property: ApplicationUser.RefreshToken (string), 12], [Property: ApplicationUser.RefreshTokenExpiryTime (DateTime) Required, 13], [Property: ApplicationUser.SecurityStamp (string), 14], [Property: ApplicationUser.TwoFactorEnabled (bool) Required, 15], [Property: ApplicationUser.UserName (string) MaxLength(256), 16] }
+            SELECT TOP(1) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.RefreshToken, a.RefreshTokenExpiryTime, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.NormalizedUserName == @__normalizedUserName_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            ApplicationUser entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                ApplicationUser instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(ApplicationUser);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: ApplicationUser.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("ApiAspNet.Models.Auth.ApplicationUser").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetString(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (ApplicationUser)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: ApplicationUser | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("ApiAspNet.Models.Auth.ApplicationUser")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: ApplicationUser | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("ApiAspNet.Models.Auth.ApplicationUser")]: 
+                            {
+                                return 
+                                {
+                                    ApplicationUser instance;
+                                    instance = new ApplicationUser();
+                                    instance.<Id>k__BackingField = dataReader.GetString(0);
+                                    instance.<AccessFailedCount>k__BackingField = dataReader.GetInt32(1);
+                                    instance.<ConcurrencyStamp>k__BackingField = dataReader.IsDBNull(2) ? default(string) : dataReader.GetString(2);
+                                    instance.<Email>k__BackingField = dataReader.IsDBNull(3) ? default(string) : dataReader.GetString(3);
+                                    instance.<EmailConfirmed>k__BackingField = dataReader.GetBoolean(4);
+                                    instance.<LockoutEnabled>k__BackingField = dataReader.GetBoolean(5);
+                                    instance.<LockoutEnd>k__BackingField = dataReader.IsDBNull(6) ? default(DateTimeOffset?) : (DateTimeOffset?)dataReader.GetFieldValue<DateTimeOffset>(6);
+                                    instance.<NormalizedEmail>k__BackingField = dataReader.IsDBNull(7) ? default(string) : dataReader.GetString(7);
+                                    instance.<NormalizedUserName>k__BackingField = dataReader.IsDBNull(8) ? default(string) : dataReader.GetString(8);
+                                    instance.<PasswordHash>k__BackingField = dataReader.IsDBNull(9) ? default(string) : dataReader.GetString(9);
+                                    instance.<PhoneNumber>k__BackingField = dataReader.IsDBNull(10) ? default(string) : dataReader.GetString(10);
+                                    instance.<PhoneNumberConfirmed>k__BackingField = dataReader.GetBoolean(11);
+                                    instance.<RefreshToken>k__BackingField = dataReader.IsDBNull(12) ? default(string) : dataReader.GetString(12);
+                                    instance.<RefreshTokenExpiryTime>k__BackingField = dataReader.GetDateTime(13);
+                                    instance.<SecurityStamp>k__BackingField = dataReader.IsDBNull(14) ? default(string) : dataReader.GetString(14);
+                                    instance.<TwoFactorEnabled>k__BackingField = dataReader.GetBoolean(15);
+                                    instance.<UserName>k__BackingField = dataReader.IsDBNull(16) ? default(string) : dataReader.GetString(16);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: ApplicationUser | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("ApiAspNet.Models.Auth.ApplicationUser")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(ApplicationUser)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: ApiAspNet.Models.Auth.ApplicationDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)' 
+2025-06-28 16:40:52.1743 DEBUG Creating DbConnection. 
+2025-06-28 16:40:52.1768 DEBUG Created DbConnection. (0ms). 
+2025-06-28 16:40:52.1768 DEBUG Opening connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 16:40:52.2314 DEBUG Opened connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 16:40:52.2314 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2025-06-28 16:40:52.2314 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2025-06-28 16:40:52.2314 DEBUG Initialized DbCommand for 'ExecuteReader' (6ms). 
+2025-06-28 16:40:52.2418 DEBUG Executing DbCommand [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2025-06-28 16:40:52.2621 INFO Executed DbCommand (20ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2025-06-28 16:40:52.2850 DEBUG Context 'ApplicationDbContext' started tracking 'ApplicationUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-06-28 16:40:52.3102 DEBUG Closing data reader to 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 16:40:52.3102 DEBUG A data reader for 'WebApiDB' on server 'tcp://localhost:5432' is being disposed after spending 48ms reading results. 
+2025-06-28 16:40:52.3102 DEBUG Closing connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 16:40:52.3102 DEBUG Closed connection to database 'WebApiDB' on server 'tcp://localhost:5432' (0ms). 
+2025-06-28 16:40:52.3964 DEBUG Compiling query expression: 
+'DbSet<IdentityUserRole<string>>()
+    .Join(
+        inner: DbSet<IdentityRole>(), 
+        outerKeySelector: userRole => userRole.RoleId, 
+        innerKeySelector: role => role.Id, 
+        resultSelector: (userRole, role) => new { 
+            userRole = userRole, 
+            role = role
+         })
+    .Where(<>h__TransparentIdentifier0 => <>h__TransparentIdentifier0.userRole.UserId.Equals(__userId_0))
+    .Select(<>h__TransparentIdentifier0 => <>h__TransparentIdentifier0.role.Name)' 
+2025-06-28 16:40:52.4321 DEBUG Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<string>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT a0.Name
+        FROM AspNetUserRoles AS a
+        INNER JOIN AspNetRoles AS a0 ON a.RoleId == a0.Id
+        WHERE a.UserId == @__userId_0) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT a0.Name
+        FROM AspNetUserRoles AS a
+        INNER JOIN AspNetRoles AS a0 ON a.RoleId == a0.Id
+        WHERE a.UserId == @__userId_0, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        string value1;
+        value1 = dataReader.IsDBNull(0) ? default(string) : dataReader.GetString(0);
+        return value1;
+    }, 
+    contextType: ApiAspNet.Models.Auth.ApplicationDbContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)' 
+2025-06-28 16:40:52.4321 DEBUG Opening connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 16:40:52.4321 DEBUG Opened connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 16:40:52.4321 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2025-06-28 16:40:52.4321 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2025-06-28 16:40:52.4321 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-06-28 16:40:52.4321 DEBUG Executing DbCommand [Parameters=[@__userId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2025-06-28 16:40:52.4321 INFO Executed DbCommand (8ms) [Parameters=[@__userId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0 
+2025-06-28 16:40:52.4425 DEBUG Closing data reader to 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 16:40:52.4425 DEBUG A data reader for 'WebApiDB' on server 'tcp://localhost:5432' is being disposed after spending 0ms reading results. 
+2025-06-28 16:40:52.4425 DEBUG Closing connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 16:40:52.4425 DEBUG Closed connection to database 'WebApiDB' on server 'tcp://localhost:5432' (0ms). 
+2025-06-28 16:40:52.4425 DEBUG Opening connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 16:40:52.4425 DEBUG Opened connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 16:40:52.4425 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2025-06-28 16:40:52.4425 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2025-06-28 16:40:52.4425 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-06-28 16:40:52.4425 DEBUG Executing DbCommand [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2025-06-28 16:40:52.4425 INFO Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2025-06-28 16:40:52.4592 DEBUG Closing data reader to 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 16:40:52.4592 DEBUG A data reader for 'WebApiDB' on server 'tcp://localhost:5432' is being disposed after spending 1ms reading results. 
+2025-06-28 16:40:52.4592 DEBUG Closing connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 16:40:52.4592 DEBUG Closed connection to database 'WebApiDB' on server 'tcp://localhost:5432' (0ms). 
+2025-06-28 16:40:52.4750 DEBUG An entity of type 'ApplicationUser' tracked by 'ApplicationDbContext' changed state from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-06-28 16:40:52.4750 DEBUG SaveChanges starting for 'ApplicationDbContext'. 
+2025-06-28 16:40:52.4750 DEBUG DetectChanges starting for 'ApplicationDbContext'. 
+2025-06-28 16:40:52.4919 DEBUG DetectChanges completed for 'ApplicationDbContext'. 
+2025-06-28 16:40:52.5499 DEBUG Opening connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 16:40:52.5499 DEBUG Opened connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 16:40:52.5499 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2025-06-28 16:40:52.5499 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2025-06-28 16:40:52.5499 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-06-28 16:40:52.5499 DEBUG Executing DbCommand [Parameters=[@p16='?', @p0='?' (DbType = Int32), @p1='?', @p17='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?' (DbType = Boolean), @p11='?', @p12='?' (DbType = DateTime), @p13='?', @p14='?' (DbType = Boolean), @p15='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NormalizedEmail" = @p6, "NormalizedUserName" = @p7, "PasswordHash" = @p8, "PhoneNumber" = @p9, "PhoneNumberConfirmed" = @p10, "RefreshToken" = @p11, "RefreshTokenExpiryTime" = @p12, "SecurityStamp" = @p13, "TwoFactorEnabled" = @p14, "UserName" = @p15
+WHERE "Id" = @p16 AND "ConcurrencyStamp" = @p17; 
+2025-06-28 16:40:52.5696 INFO Executed DbCommand (18ms) [Parameters=[@p16='?', @p0='?' (DbType = Int32), @p1='?', @p17='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?' (DbType = Boolean), @p11='?', @p12='?' (DbType = DateTime), @p13='?', @p14='?' (DbType = Boolean), @p15='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NormalizedEmail" = @p6, "NormalizedUserName" = @p7, "PasswordHash" = @p8, "PhoneNumber" = @p9, "PhoneNumberConfirmed" = @p10, "RefreshToken" = @p11, "RefreshTokenExpiryTime" = @p12, "SecurityStamp" = @p13, "TwoFactorEnabled" = @p14, "UserName" = @p15
+WHERE "Id" = @p16 AND "ConcurrencyStamp" = @p17; 
+2025-06-28 16:40:52.5696 DEBUG Closing data reader to 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 16:40:52.5696 DEBUG A data reader for 'WebApiDB' on server 'tcp://localhost:5432' is being disposed after spending 2ms reading results. 
+2025-06-28 16:40:52.5696 DEBUG Closing connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 16:40:52.5696 DEBUG Closed connection to database 'WebApiDB' on server 'tcp://localhost:5432' (0ms). 
+2025-06-28 16:40:52.5696 DEBUG An entity of type 'ApplicationUser' tracked by 'ApplicationDbContext' changed state from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-06-28 16:40:52.5696 DEBUG SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database. 
+2025-06-28 16:40:52.5696 INFO Executed action method ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 591.5321ms. 
+2025-06-28 16:40:52.5696 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:40:52.5696 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:40:52.5696 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:40:52.5696 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:40:52.5696 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:40:52.5696 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:40:52.5696 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-28 16:40:52.5696 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-28 16:40:52.5696 DEBUG No information found on request to perform content negotiation. 
+2025-06-28 16:40:52.5696 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-06-28 16:40:52.5696 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-06-28 16:40:52.5696 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-06-28 16:40:52.5696 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-06-28 16:40:52.5959 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-28 16:40:52.5959 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:40:52.5959 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:40:52.5959 INFO Executed action ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet) in 653.9617ms 
+2025-06-28 16:40:52.5959 INFO Executed endpoint 'ApiAspNet.Controllers.AuthenticateController.Login (ApiAspNet)' 
+2025-06-28 16:40:52.5959 DEBUG Connection ID "18374686510541701133" disconnecting. 
+2025-06-28 16:40:52.5959 DEBUG 'ApplicationDbContext' disposed. 
+2025-06-28 16:40:52.5959 DEBUG Disposing connection to database 'WebApiDB' on server 'tcp://localhost:5432'. 
+2025-06-28 16:40:52.5959 DEBUG Disposed connection to database 'WebApiDB' on server 'tcp://localhost:5432' (0ms). 
+2025-06-28 16:40:52.5959 INFO Request finished HTTP/2 POST https://localhost:44384/api/authenticate/login - 200 - application/json;+charset=utf-8 666.2852ms 
+2025-06-28 16:40:53.6201 INFO Request starting HTTP/2 OPTIONS https://localhost:44384/api/users - - - 
+2025-06-28 16:40:53.6201 TRACE All hosts are allowed. 
+2025-06-28 16:40:53.6201 DEBUG 1 candidate(s) found for the request path '/api/users' 
+2025-06-28 16:40:53.6201 DEBUG Request matched endpoint '405 HTTP Method Not Supported' 
+2025-06-28 16:40:53.6201 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-28 16:40:53.6201 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 16:40:53.6201 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-28 16:40:53.6201 DEBUG The request has an origin header: 'http://localhost:5173'. 
+2025-06-28 16:40:53.6201 INFO CORS policy execution successful. 
+2025-06-28 16:40:53.6201 DEBUG The request is a preflight request. 
+2025-06-28 16:40:53.6201 INFO Request finished HTTP/2 OPTIONS https://localhost:44384/api/users - 204 - - 1.4285ms 
+2025-06-28 16:40:53.6201 INFO Request starting HTTP/2 GET https://localhost:44384/api/users - - - 
+2025-06-28 16:40:53.6201 TRACE All hosts are allowed. 
+2025-06-28 16:40:53.6201 DEBUG 1 candidate(s) found for the request path '/api/users' 
+2025-06-28 16:40:53.6201 DEBUG Endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' with route pattern 'api/Users' is valid for the request path '/api/users' 
+2025-06-28 16:40:53.6201 DEBUG Request matched endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' 
+2025-06-28 16:40:53.6201 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-28 16:40:53.6377 DEBUG Successfully validated the token. 
+2025-06-28 16:40:53.6377 DEBUG AuthenticationScheme: Bearer was successfully authenticated. 
+2025-06-28 16:40:53.6377 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-28 16:40:53.6377 DEBUG The request has an origin header: 'http://localhost:5173'. 
+2025-06-28 16:40:53.6377 INFO CORS policy execution successful. 
+2025-06-28 16:40:53.6377 INFO Executing endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' 
+2025-06-28 16:40:53.6377 INFO Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller ApiAspNet.Controllers.UsersController (ApiAspNet). 
+2025-06-28 16:40:53.6377 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-28 16:40:53.6377 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-28 16:40:53.6377 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-28 16:40:53.6377 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-28 16:40:53.6377 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-28 16:40:53.6377 DEBUG Executing controller factory for controller ApiAspNet.Controllers.UsersController (ApiAspNet) 
+2025-06-28 16:40:53.6377 DEBUG Executed controller factory for controller ApiAspNet.Controllers.UsersController (ApiAspNet) 
+2025-06-28 16:40:53.6377 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:40:53.6377 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:40:53.6377 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:40:53.6377 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:40:53.6377 INFO Executing action method ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet) - Validation state: Valid 
+2025-06-28 16:40:53.6377 INFO Executed action method ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0056ms. 
+2025-06-28 16:40:53.6377 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:40:53.6377 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:40:53.6377 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:40:53.6377 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:40:53.6377 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:40:53.6377 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:40:53.6377 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-28 16:40:53.6377 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-28 16:40:53.6377 DEBUG No information found on request to perform content negotiation. 
+2025-06-28 16:40:53.6377 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-06-28 16:40:53.6377 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-06-28 16:40:53.6377 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-06-28 16:40:53.6377 INFO Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[ApiAspNet.Entities.User, ApiAspNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-06-28 16:40:53.7025 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-28 16:40:53.7025 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:40:53.7025 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:40:53.7025 INFO Executed action ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet) in 62.4245ms 
+2025-06-28 16:40:53.7025 INFO Executed endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' 
+2025-06-28 16:40:53.7025 INFO Request finished HTTP/2 GET https://localhost:44384/api/users - 200 - application/json;+charset=utf-8 74.4612ms 
+2025-06-28 16:40:53.7025 DEBUG Connection ID "18374686497656799239" disconnecting. 
+2025-06-28 16:42:49.3977 INFO Request starting HTTP/2 OPTIONS https://localhost:44384/api/users - - - 
+2025-06-28 16:42:49.3977 TRACE All hosts are allowed. 
+2025-06-28 16:42:49.3977 DEBUG 1 candidate(s) found for the request path '/api/users' 
+2025-06-28 16:42:49.3977 DEBUG Request matched endpoint '405 HTTP Method Not Supported' 
+2025-06-28 16:42:49.3977 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-28 16:42:49.3977 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-28 16:42:49.3977 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-28 16:42:49.3977 DEBUG The request has an origin header: 'http://localhost:5173'. 
+2025-06-28 16:42:49.3977 INFO CORS policy execution successful. 
+2025-06-28 16:42:49.3977 DEBUG The request is a preflight request. 
+2025-06-28 16:42:49.3977 INFO Request finished HTTP/2 OPTIONS https://localhost:44384/api/users - 204 - - 12.9432ms 
+2025-06-28 16:42:49.3977 DEBUG Connection ID "18086456112915152904" disconnecting. 
+2025-06-28 16:42:49.4148 INFO Request starting HTTP/2 POST https://localhost:44384/api/users - application/json 151 
+2025-06-28 16:42:49.4148 TRACE All hosts are allowed. 
+2025-06-28 16:42:49.4148 DEBUG 1 candidate(s) found for the request path '/api/users' 
+2025-06-28 16:42:49.4148 DEBUG Endpoint 'ApiAspNet.Controllers.UsersController.Create (ApiAspNet)' with route pattern 'api/Users' is valid for the request path '/api/users' 
+2025-06-28 16:42:49.4148 DEBUG Request matched endpoint 'ApiAspNet.Controllers.UsersController.Create (ApiAspNet)' 
+2025-06-28 16:42:49.4148 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-28 16:42:49.4148 INFO Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/06/2025 16:41:52', Current time (UTC): '28/06/2025 16:42:49'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-28 16:42:49.4148 INFO Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/06/2025 16:41:52', Current time (UTC): '28/06/2025 16:42:49'. 
+2025-06-28 16:42:49.4148 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-28 16:42:49.4148 DEBUG The request has an origin header: 'http://localhost:5173'. 
+2025-06-28 16:42:49.4148 INFO CORS policy execution successful. 
+2025-06-28 16:42:49.4148 INFO Executing endpoint 'ApiAspNet.Controllers.UsersController.Create (ApiAspNet)' 
+2025-06-28 16:42:49.4148 INFO Route matched with {action = "Create", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(ApiAspNet.Models.Users.CreateRequests) on controller ApiAspNet.Controllers.UsersController (ApiAspNet). 
+2025-06-28 16:42:49.4148 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-28 16:42:49.4148 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-28 16:42:49.4148 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-28 16:42:49.4148 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-28 16:42:49.4148 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-28 16:42:49.4148 DEBUG Executing controller factory for controller ApiAspNet.Controllers.UsersController (ApiAspNet) 
+2025-06-28 16:42:49.4148 DEBUG Executed controller factory for controller ApiAspNet.Controllers.UsersController (ApiAspNet) 
+2025-06-28 16:42:49.4148 DEBUG Attempting to bind parameter 'model' of type 'ApiAspNet.Models.Users.CreateRequests' ... 
+2025-06-28 16:42:49.4148 DEBUG Attempting to bind parameter 'model' of type 'ApiAspNet.Models.Users.CreateRequests' using the name '' in request data ... 
+2025-06-28 16:42:49.4148 DEBUG Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2025-06-28 16:42:49.4148 DEBUG JSON input formatter succeeded, deserializing to type 'ApiAspNet.Models.Users.CreateRequests' 
+2025-06-28 16:42:49.4148 DEBUG Done attempting to bind parameter 'model' of type 'ApiAspNet.Models.Users.CreateRequests'. 
+2025-06-28 16:42:49.4148 DEBUG Done attempting to bind parameter 'model' of type 'ApiAspNet.Models.Users.CreateRequests'. 
+2025-06-28 16:42:49.4148 DEBUG Attempting to validate the bound parameter 'model' of type 'ApiAspNet.Models.Users.CreateRequests' ... 
+2025-06-28 16:42:49.4304 DEBUG Done attempting to validate the bound parameter 'model' of type 'ApiAspNet.Models.Users.CreateRequests'. 
+2025-06-28 16:42:49.4304 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:42:49.4304 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:42:49.4304 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:42:49.4304 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:42:49.4304 INFO Executing action method ApiAspNet.Controllers.UsersController.Create (ApiAspNet) - Validation state: Valid 
+2025-06-28 16:42:49.4304 TRACE Executing action method ApiAspNet.Controllers.UsersController.Create (ApiAspNet) with arguments (ApiAspNet.Models.Users.CreateRequests) 
+2025-06-28 16:42:49.7862 INFO Executed action method ApiAspNet.Controllers.UsersController.Create (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 355.1901ms. 
+2025-06-28 16:42:49.7863 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:42:49.7863 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:42:49.7863 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:42:49.7863 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:42:49.7863 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:42:49.7863 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:42:49.7863 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-28 16:42:49.7863 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-28 16:42:49.7863 DEBUG No information found on request to perform content negotiation. 
+2025-06-28 16:42:49.7863 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-06-28 16:42:49.7863 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-06-28 16:42:49.7863 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-06-28 16:42:49.7863 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-06-28 16:42:49.7863 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-28 16:42:49.7863 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:42:49.7863 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:42:49.7863 INFO Executed action ApiAspNet.Controllers.UsersController.Create (ApiAspNet) in 370.6118ms 
+2025-06-28 16:42:49.7863 INFO Executed endpoint 'ApiAspNet.Controllers.UsersController.Create (ApiAspNet)' 
+2025-06-28 16:42:49.7863 DEBUG Connection ID "18374686510541701135" disconnecting. 
+2025-06-28 16:42:49.7863 INFO Request finished HTTP/2 POST https://localhost:44384/api/users - 200 - application/json;+charset=utf-8 373.7537ms 
+2025-06-28 16:42:50.8061 INFO Request starting HTTP/2 GET https://localhost:44384/api/users - - - 
+2025-06-28 16:42:50.8061 TRACE All hosts are allowed. 
+2025-06-28 16:42:50.8061 DEBUG 1 candidate(s) found for the request path '/api/users' 
+2025-06-28 16:42:50.8061 DEBUG Endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' with route pattern 'api/Users' is valid for the request path '/api/users' 
+2025-06-28 16:42:50.8061 DEBUG Request matched endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' 
+2025-06-28 16:42:50.8061 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-28 16:42:50.8061 INFO Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/06/2025 16:41:52', Current time (UTC): '28/06/2025 16:42:50'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-06-28 16:42:50.8061 INFO Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/06/2025 16:41:52', Current time (UTC): '28/06/2025 16:42:50'. 
+2025-06-28 16:42:50.8061 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-28 16:42:50.8061 DEBUG The request has an origin header: 'http://localhost:5173'. 
+2025-06-28 16:42:50.8061 INFO CORS policy execution successful. 
+2025-06-28 16:42:50.8061 INFO Executing endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' 
+2025-06-28 16:42:50.8170 INFO Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller ApiAspNet.Controllers.UsersController (ApiAspNet). 
+2025-06-28 16:42:50.8170 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-28 16:42:50.8170 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-28 16:42:50.8170 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-28 16:42:50.8170 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-28 16:42:50.8170 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-28 16:42:50.8170 DEBUG Executing controller factory for controller ApiAspNet.Controllers.UsersController (ApiAspNet) 
+2025-06-28 16:42:50.8170 DEBUG Executed controller factory for controller ApiAspNet.Controllers.UsersController (ApiAspNet) 
+2025-06-28 16:42:50.8170 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:42:50.8170 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:42:50.8170 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:42:50.8170 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:42:50.8170 INFO Executing action method ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet) - Validation state: Valid 
+2025-06-28 16:42:50.8170 INFO Executed action method ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0048ms. 
+2025-06-28 16:42:50.8170 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:42:50.8170 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-28 16:42:50.8170 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:42:50.8170 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-28 16:42:50.8170 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:42:50.8170 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:42:50.8170 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-28 16:42:50.8170 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-28 16:42:50.8170 DEBUG No information found on request to perform content negotiation. 
+2025-06-28 16:42:50.8170 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-06-28 16:42:50.8170 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-06-28 16:42:50.8170 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-06-28 16:42:50.8170 INFO Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[ApiAspNet.Entities.User, ApiAspNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-06-28 16:42:50.8170 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-28 16:42:50.8170 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:42:50.8170 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-28 16:42:50.8170 INFO Executed action ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet) in 5.5011ms 
+2025-06-28 16:42:50.8170 INFO Executed endpoint 'ApiAspNet.Controllers.UsersController.GetAll (ApiAspNet)' 
+2025-06-28 16:42:50.8170 INFO Request finished HTTP/2 GET https://localhost:44384/api/users - 200 - application/json;+charset=utf-8 16.7693ms 
+2025-06-28 16:42:50.8170 DEBUG Connection ID "18086456112915152906" disconnecting. 
