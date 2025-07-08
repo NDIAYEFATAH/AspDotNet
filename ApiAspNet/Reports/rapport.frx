@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Description="" ReportInfo.Created="2025-06-29">
+	<Dictionary>
+		<TableDataSource Name="Flottes" ReferenceName="Flottes" Enabled="true" TableName="Flottes">
+			<Column Name="TypeFlotte" DataType="System.String" />
+			<Column Name="MatriculeFlotte" DataType="System.String" />
+		</TableDataSource>
+	</Dictionary>
+	<ReportPage Name="Page1">
+		<ReportTitleBand Name="ReportTitle1" Height="50">
+			<TextObject Name="TitleText" Left="0" Top="0" Width="500" Height="30"
+			  Text="Liste des Flottes" HorzAlign="Center" VertAlign="Center"
+			  Font="Arial, 14pt, style=Bold" />
+		</ReportTitleBand>
+		<DataBand Name="DataBand1" DataSource="Flottes" Height="20">
+			<TextObject Name="TypeFlotteText" Left="0" Top="0" Width="250" Height="20"
+			  Text="[Flottes.TypeFlotte]" />
+			<TextObject Name="MatriculeFlotteText" Left="250" Top="0" Width="250" Height="20"
+			  Text="[Flottes.MatriculeFlotte]" />
+		</DataBand>
+	</ReportPage>
+</Report>

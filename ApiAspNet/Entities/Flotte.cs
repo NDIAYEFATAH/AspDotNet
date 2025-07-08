@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using FastReport.Data;
+
 
 namespace ApiAspNet.Entities
 {

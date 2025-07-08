@@ -1,0 +1,854 @@
+2025-06-29 15:45:03.8369 DEBUG Démarrage de l'application 
+2025-06-29 15:45:06.7612 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-06-29 15:45:06.9279 DEBUG Hosting starting 
+2025-06-29 15:45:06.9536 INFO User profile is available. Using 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-06-29 15:45:06.9905 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-a01ae15c-9914-4b94-80f3-f1588e7da62f.xml'. 
+2025-06-29 15:45:07.0074 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-dbd75201-92be-4afd-a4f4-1c1b16768dd5.xml'. 
+2025-06-29 15:45:07.0303 DEBUG Found key {a01ae15c-9914-4b94-80f3-f1588e7da62f}. 
+2025-06-29 15:45:07.0390 DEBUG Found key {dbd75201-92be-4afd-a4f4-1c1b16768dd5}. 
+2025-06-29 15:45:07.0691 DEBUG Considering key {a01ae15c-9914-4b94-80f3-f1588e7da62f} with expiration date 2025-09-24 13:26:51Z as default key. 
+2025-06-29 15:45:07.0691 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-29 15:45:07.0691 DEBUG Decrypting secret element using Windows DPAPI. 
+2025-06-29 15:45:07.0691 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-29 15:45:07.0904 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-06-29 15:45:07.0904 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-06-29 15:45:07.0904 DEBUG Using key {a01ae15c-9914-4b94-80f3-f1588e7da62f} as the default key. 
+2025-06-29 15:45:07.0904 DEBUG Key ring with default key {a01ae15c-9914-4b94-80f3-f1588e7da62f} was loaded during application startup. 
+2025-06-29 15:45:07.4101 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-06-29 15:45:07.4101 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-06-29 15:45:07.4101 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-06-29 15:45:07.4219 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-06-29 15:45:07.4824 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - - - 
+2025-06-29 15:45:07.7482 INFO Application started. Press Ctrl+C to shut down. 
+2025-06-29 15:45:07.7482 INFO Hosting environment: Development 
+2025-06-29 15:45:07.7482 INFO Content root path: C:\Users\elitebook\Source\Repos\AspDotNet1\ApiAspNet 
+2025-06-29 15:45:07.7482 DEBUG Hosting started 
+2025-06-29 15:45:08.3916 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-06-29 15:45:08.3916 TRACE All hosts are allowed. 
+2025-06-29 15:45:08.4593 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-06-29 15:45:08.4593 DEBUG Request did not match any endpoints 
+2025-06-29 15:45:08.5416 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2025-06-29 15:45:08.5416 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-06-29 15:45:08.5994 DEBUG Response markup was updated to include Browser Link script injection. 
+2025-06-29 15:45:08.5994 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-06-29 15:45:08.6166 DEBUG Connection ID "18374686506246733827" disconnecting. 
+2025-06-29 15:45:08.6166 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-06-29 15:45:08.6166 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-06-29 15:45:08.6430 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 - text/html;charset=utf-8 1175.6345ms 
+2025-06-29 15:45:08.6430 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 6.5743ms 
+2025-06-29 15:45:08.6523 DEBUG Connection ID "18086456112915152944" disconnecting. 
+2025-06-29 15:45:08.7290 DEBUG Connection ID "18374686506246733829" disconnecting. 
+2025-06-29 15:45:08.7290 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 108.1595ms 
+2025-06-29 15:45:08.7894 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - - - 
+2025-06-29 15:45:08.7894 TRACE All hosts are allowed. 
+2025-06-29 15:45:08.7894 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-06-29 15:45:08.7894 DEBUG Request did not match any endpoints 
+2025-06-29 15:45:08.8182 DEBUG Connection ID "18374686480476930109" disconnecting. 
+2025-06-29 15:45:08.8182 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 28.8264ms 
+2025-06-29 15:45:23.7212 INFO Request starting HTTP/2 GET https://localhost:44384/api/Flotte/report - - - 
+2025-06-29 15:45:23.7212 TRACE All hosts are allowed. 
+2025-06-29 15:45:23.7287 DEBUG 2 candidate(s) found for the request path '/api/Flotte/report' 
+2025-06-29 15:45:23.7287 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' with route pattern 'api/Flotte/report' is valid for the request path '/api/Flotte/report' 
+2025-06-29 15:45:23.7287 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.GetById (ApiAspNet)' with route pattern 'api/Flotte/{id}' is valid for the request path '/api/Flotte/report' 
+2025-06-29 15:45:23.7287 DEBUG Request matched endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 15:45:23.7287 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-29 15:45:23.7287 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-29 15:45:23.8271 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-29 15:45:23.8341 INFO Executing endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 15:45:23.8819 INFO Route matched with {action = "ExportReport", controller = "Flotte"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ExportReport() on controller ApiAspNet.Controllers.FlotteController (ApiAspNet). 
+2025-06-29 15:45:23.8853 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-29 15:45:23.8853 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-29 15:45:23.8853 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-29 15:45:23.8853 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-29 15:45:23.8853 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-29 15:45:23.8853 DEBUG Executing controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 15:45:24.4304 DEBUG Executed controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 15:45:24.4304 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 15:45:24.4325 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 15:45:24.4325 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 15:45:24.4325 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 15:45:24.4325 INFO Executing action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) - Validation state: Valid 
+2025-06-29 15:45:24.4908 INFO Génération du rapport de flottes... 
+2025-06-29 15:45:25.1115 ERROR Erreur lors de la génération du rapport. System.IO.FileNotFoundException: Could not find file 'C:\Users\elitebook\Source\Repos\AspDotNet1\ApiAspNet\Reports\rapport_flottes.frx'.
+File name: 'C:\Users\elitebook\Source\Repos\AspDotNet1\ApiAspNet\Reports\rapport_flottes.frx'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at FastReport.Report.Load(String fileName)
+   at ApiAspNet.Controllers.FlotteController.ExportReport() in C:\Users\elitebook\Source\Repos\AspDotNet1\ApiAspNet\Controllers\FlotteController.cs:line 125
+2025-06-29 15:45:25.1929 INFO Executed action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 727.648ms. 
+2025-06-29 15:45:25.1929 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 15:45:25.1929 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 15:45:25.1929 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 15:45:25.1929 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 15:45:25.1929 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 15:45:25.1929 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 15:45:25.1929 TRACE Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-29 15:45:25.1989 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-29 15:45:25.1989 DEBUG No information found on request to perform content negotiation. 
+2025-06-29 15:45:25.1989 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-06-29 15:45:25.1989 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-06-29 15:45:25.1989 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-06-29 15:45:25.1989 INFO Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-06-29 15:45:25.2248 TRACE After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-29 15:45:25.2252 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 15:45:25.2252 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 15:45:25.2252 INFO Executed action ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) in 1339.5553ms 
+2025-06-29 15:45:25.2252 INFO Executed endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 15:45:25.2252 DEBUG Connection ID "18230571305285976182" disconnecting. 
+2025-06-29 15:45:25.2432 INFO Request finished HTTP/2 GET https://localhost:44384/api/Flotte/report - 500 - application/json;+charset=utf-8 1521.9223ms 
+2025-06-29 15:45:51.7070 INFO Request starting HTTP/2 GET https://localhost:44384/api/Flotte - - - 
+2025-06-29 15:45:51.7070 TRACE All hosts are allowed. 
+2025-06-29 15:45:51.7126 DEBUG 1 candidate(s) found for the request path '/api/Flotte' 
+2025-06-29 15:45:51.7126 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.GetAll (ApiAspNet)' with route pattern 'api/Flotte' is valid for the request path '/api/Flotte' 
+2025-06-29 15:45:51.7284 DEBUG Request matched endpoint 'ApiAspNet.Controllers.FlotteController.GetAll (ApiAspNet)' 
+2025-06-29 15:45:51.7284 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-29 15:45:51.7284 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-29 15:45:51.7284 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-29 15:45:51.7284 INFO Executing endpoint 'ApiAspNet.Controllers.FlotteController.GetAll (ApiAspNet)' 
+2025-06-29 15:45:51.7573 INFO Route matched with {action = "GetAll", controller = "Flotte"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller ApiAspNet.Controllers.FlotteController (ApiAspNet). 
+2025-06-29 15:45:51.7573 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-29 15:45:51.7573 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-29 15:45:51.7573 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-29 15:45:51.7573 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-29 15:45:51.7573 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-29 15:45:51.7573 DEBUG Executing controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 15:45:51.7655 DEBUG Executed controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 15:45:51.7655 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 15:45:51.7655 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 15:45:51.7655 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 15:45:51.7655 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 15:45:51.7655 INFO Executing action method ApiAspNet.Controllers.FlotteController.GetAll (ApiAspNet) - Validation state: Valid 
+2025-06-29 15:45:51.7655 INFO Récupération de toutes les flottes en cours... 
+2025-06-29 15:45:51.7655 INFO Executed action method ApiAspNet.Controllers.FlotteController.GetAll (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.9601ms. 
+2025-06-29 15:45:51.7655 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 15:45:51.7655 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 15:45:51.7655 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 15:45:51.7655 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 15:45:51.7655 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 15:45:51.7655 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 15:45:51.7655 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-29 15:45:51.7655 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-29 15:45:51.7655 DEBUG No information found on request to perform content negotiation. 
+2025-06-29 15:45:51.7655 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-06-29 15:45:51.7655 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-06-29 15:45:51.7655 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-06-29 15:45:51.7655 INFO Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[ApiAspNet.Entities.Flotte, ApiAspNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-06-29 15:45:55.5310 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-06-29 15:45:55.5310 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 15:45:55.5310 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 15:45:55.5310 INFO Executed action ApiAspNet.Controllers.FlotteController.GetAll (ApiAspNet) in 3777.4468ms 
+2025-06-29 15:45:55.5310 INFO Executed endpoint 'ApiAspNet.Controllers.FlotteController.GetAll (ApiAspNet)' 
+2025-06-29 15:45:55.5392 DEBUG Connection ID "18374686489066864685" disconnecting. 
+2025-06-29 15:45:55.5392 INFO Request finished HTTP/2 GET https://localhost:44384/api/Flotte - 200 - application/json;+charset=utf-8 3843.0374ms 
+2025-06-29 15:49:06.6432 DEBUG Démarrage de l'application 
+2025-06-29 15:49:09.5127 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-06-29 15:49:09.7995 DEBUG Hosting starting 
+2025-06-29 15:49:09.8240 INFO User profile is available. Using 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-06-29 15:49:09.8673 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-a01ae15c-9914-4b94-80f3-f1588e7da62f.xml'. 
+2025-06-29 15:49:09.8673 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-dbd75201-92be-4afd-a4f4-1c1b16768dd5.xml'. 
+2025-06-29 15:49:09.8955 DEBUG Found key {a01ae15c-9914-4b94-80f3-f1588e7da62f}. 
+2025-06-29 15:49:09.9030 DEBUG Found key {dbd75201-92be-4afd-a4f4-1c1b16768dd5}. 
+2025-06-29 15:49:09.9396 DEBUG Considering key {a01ae15c-9914-4b94-80f3-f1588e7da62f} with expiration date 2025-09-24 13:26:51Z as default key. 
+2025-06-29 15:49:09.9500 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-29 15:49:09.9500 DEBUG Decrypting secret element using Windows DPAPI. 
+2025-06-29 15:49:09.9500 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-29 15:49:09.9685 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-06-29 15:49:09.9685 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-06-29 15:49:09.9685 DEBUG Using key {a01ae15c-9914-4b94-80f3-f1588e7da62f} as the default key. 
+2025-06-29 15:49:09.9685 DEBUG Key ring with default key {a01ae15c-9914-4b94-80f3-f1588e7da62f} was loaded during application startup. 
+2025-06-29 15:49:10.2708 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-06-29 15:49:10.2708 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-06-29 15:49:10.2708 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-06-29 15:49:10.2708 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-06-29 15:49:10.3406 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - - - 
+2025-06-29 15:49:10.7104 INFO Application started. Press Ctrl+C to shut down. 
+2025-06-29 15:49:10.7104 INFO Hosting environment: Development 
+2025-06-29 15:49:10.7104 INFO Content root path: C:\Users\elitebook\Source\Repos\AspDotNet1\ApiAspNet 
+2025-06-29 15:49:10.7104 DEBUG Hosting started 
+2025-06-29 15:49:10.7465 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-06-29 15:49:10.7465 TRACE All hosts are allowed. 
+2025-06-29 15:49:10.8212 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-06-29 15:49:10.8212 DEBUG Request did not match any endpoints 
+2025-06-29 15:49:11.0239 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2025-06-29 15:49:11.0239 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-06-29 15:49:11.1285 DEBUG Response markup was updated to include Browser Link script injection. 
+2025-06-29 15:49:11.1315 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-06-29 15:49:11.2143 DEBUG Connection ID "18302628890733969451" disconnecting. 
+2025-06-29 15:49:11.2552 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-06-29 15:49:11.2552 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-06-29 15:49:11.2609 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 - text/html;charset=utf-8 913.5943ms 
+2025-06-29 15:49:11.2609 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 12.1043ms 
+2025-06-29 15:49:11.2945 DEBUG Connection ID "18014398536057094147" disconnecting. 
+2025-06-29 15:49:11.4297 DEBUG Connection ID "18374686510541701285" disconnecting. 
+2025-06-29 15:49:11.4297 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 177.3848ms 
+2025-06-29 15:49:11.5555 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - - - 
+2025-06-29 15:49:11.5555 TRACE All hosts are allowed. 
+2025-06-29 15:49:11.5555 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-06-29 15:49:11.5555 DEBUG Request did not match any endpoints 
+2025-06-29 15:49:11.6574 DEBUG Connection ID "18302628895028936843" disconnecting. 
+2025-06-29 15:49:11.6574 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 102.3114ms 
+2025-06-29 15:49:32.7271 INFO Request starting HTTP/2 GET https://localhost:44384/api/Flotte/report - - - 
+2025-06-29 15:49:32.7271 TRACE All hosts are allowed. 
+2025-06-29 15:49:32.7465 DEBUG 2 candidate(s) found for the request path '/api/Flotte/report' 
+2025-06-29 15:49:32.7465 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' with route pattern 'api/Flotte/report' is valid for the request path '/api/Flotte/report' 
+2025-06-29 15:49:32.7465 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.GetById (ApiAspNet)' with route pattern 'api/Flotte/{id}' is valid for the request path '/api/Flotte/report' 
+2025-06-29 15:49:32.7465 DEBUG Request matched endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 15:49:32.7465 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-29 15:49:32.7465 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-29 15:49:32.8583 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-29 15:49:32.8583 INFO Executing endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 15:49:32.8993 INFO Route matched with {action = "ExportReport", controller = "Flotte"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ExportReport() on controller ApiAspNet.Controllers.FlotteController (ApiAspNet). 
+2025-06-29 15:49:32.8993 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-29 15:49:32.8993 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-29 15:49:32.8993 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-29 15:49:32.8993 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-29 15:49:32.8993 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-29 15:49:32.8993 DEBUG Executing controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 15:49:33.3198 DEBUG Executed controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 15:49:33.3214 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 15:49:33.3214 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 15:49:33.3214 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 15:49:33.3214 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 15:49:33.3450 INFO Executing action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) - Validation state: Valid 
+2025-06-29 15:49:33.3863 INFO Génération du rapport de flottes... 
+2025-06-29 15:49:34.0171 ERROR Erreur lors de la génération du rapport. System.NotSupportedException: Data binding directly to a store query is not supported. Instead populate a DbSet with data, for example by calling 'Load' on the DbSet, and then bind to local data to avoid sending a query to the database each time the databound control iterates the data. For WPF, bind to 'DbSet.Local.ToObservableCollection'. For WinForms, bind to 'DbSet.Local.ToBindingList'. For ASP.NET WebForms, bind to 'DbSet.ToList' or use Model Binding.
+   at Microsoft.EntityFrameworkCore.DbSet`1.System.ComponentModel.IListSource.GetList()
+   at System.Windows.Forms.ListBindingHelper.GetList(Object list)
+   at System.Windows.Forms.ListBindingHelper.GetList(Object dataSource, String dataMember)
+   at System.Windows.Forms.BindingSource.ResetList()
+   at System.Windows.Forms.BindingSource.set_DataSource(Object value)
+   at FastReport.Data.BusinessObjectConverter.GetProperties(Column column)
+   at FastReport.Data.BusinessObjectConverter.CreateInitialObjects(Column column)
+   at FastReport.Data.BusinessObjectConverter.CreateInitialObjects(Column column, Int32 maxNestingLevel)
+   at FastReport.Data.Dictionary.RegisterBusinessObject(IEnumerable data, String referenceName, Int32 maxNestingLevel, Boolean enabled)
+   at FastReport.Report.RegisterData(IEnumerable data, String name)
+   at ApiAspNet.Controllers.FlotteController.ExportReport() in C:\Users\elitebook\Source\Repos\AspDotNet1\ApiAspNet\Controllers\FlotteController.cs:line 127
+2025-06-29 15:49:34.1585 INFO Executed action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 780.3302ms. 
+2025-06-29 15:49:34.1585 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 15:49:34.1585 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 15:49:34.1585 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 15:49:34.1585 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 15:49:34.1585 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 15:49:34.1585 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 15:49:34.1585 TRACE Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-29 15:49:34.1585 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-29 15:49:34.1679 DEBUG No information found on request to perform content negotiation. 
+2025-06-29 15:49:34.1679 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-06-29 15:49:34.1679 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-06-29 15:49:34.1679 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-06-29 15:49:34.1679 INFO Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-06-29 15:49:34.1844 TRACE After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-29 15:49:34.1844 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 15:49:34.1844 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 15:49:34.1958 INFO Executed action ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) in 1282.4364ms 
+2025-06-29 15:49:34.1958 INFO Executed endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 15:49:34.1958 DEBUG Connection ID "18374686497656799515" disconnecting. 
+2025-06-29 15:49:34.1958 INFO Request finished HTTP/2 GET https://localhost:44384/api/Flotte/report - 500 - application/json;+charset=utf-8 1474.3397ms 
+2025-06-29 15:52:12.7374 DEBUG Démarrage de l'application 
+2025-06-29 15:52:15.1716 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-06-29 15:52:15.3489 DEBUG Hosting starting 
+2025-06-29 15:52:15.3658 INFO User profile is available. Using 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-06-29 15:52:15.3942 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-a01ae15c-9914-4b94-80f3-f1588e7da62f.xml'. 
+2025-06-29 15:52:15.3942 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-dbd75201-92be-4afd-a4f4-1c1b16768dd5.xml'. 
+2025-06-29 15:52:15.4106 DEBUG Found key {a01ae15c-9914-4b94-80f3-f1588e7da62f}. 
+2025-06-29 15:52:15.4136 DEBUG Found key {dbd75201-92be-4afd-a4f4-1c1b16768dd5}. 
+2025-06-29 15:52:15.4349 DEBUG Considering key {a01ae15c-9914-4b94-80f3-f1588e7da62f} with expiration date 2025-09-24 13:26:51Z as default key. 
+2025-06-29 15:52:15.4349 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-29 15:52:15.4457 DEBUG Decrypting secret element using Windows DPAPI. 
+2025-06-29 15:52:15.4457 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-29 15:52:15.4457 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-06-29 15:52:15.4457 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-06-29 15:52:15.4457 DEBUG Using key {a01ae15c-9914-4b94-80f3-f1588e7da62f} as the default key. 
+2025-06-29 15:52:15.4457 DEBUG Key ring with default key {a01ae15c-9914-4b94-80f3-f1588e7da62f} was loaded during application startup. 
+2025-06-29 15:52:15.6833 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-06-29 15:52:15.6833 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-06-29 15:52:15.6833 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-06-29 15:52:15.6833 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-06-29 15:52:15.7369 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - - - 
+2025-06-29 15:52:15.9867 INFO Application started. Press Ctrl+C to shut down. 
+2025-06-29 15:52:15.9867 INFO Hosting environment: Development 
+2025-06-29 15:52:15.9867 INFO Content root path: C:\Users\elitebook\Source\Repos\AspDotNet1\ApiAspNet 
+2025-06-29 15:52:15.9867 DEBUG Hosting started 
+2025-06-29 15:52:16.0308 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-06-29 15:52:16.0308 TRACE All hosts are allowed. 
+2025-06-29 15:52:16.0890 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-06-29 15:52:16.0890 DEBUG Request did not match any endpoints 
+2025-06-29 15:52:16.2264 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2025-06-29 15:52:16.2264 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-06-29 15:52:16.2905 DEBUG Response markup was updated to include Browser Link script injection. 
+2025-06-29 15:52:16.2905 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-06-29 15:52:16.3085 DEBUG Connection ID "18014398536057094151" disconnecting. 
+2025-06-29 15:52:16.3085 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-06-29 15:52:16.3194 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 - text/html;charset=utf-8 607.0967ms 
+2025-06-29 15:52:16.3194 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 8.3170ms 
+2025-06-29 15:52:16.3194 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-06-29 15:52:16.3934 DEBUG Connection ID "18302628907913838667" disconnecting. 
+2025-06-29 15:52:16.3934 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 65.0988ms 
+2025-06-29 15:52:16.4332 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - - - 
+2025-06-29 15:52:16.4332 TRACE All hosts are allowed. 
+2025-06-29 15:52:16.4332 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-06-29 15:52:16.4332 DEBUG Request did not match any endpoints 
+2025-06-29 15:52:16.4560 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 22.8003ms 
+2025-06-29 15:52:16.4639 DEBUG Connection ID "18230571309580943452" disconnecting. 
+2025-06-29 15:52:26.0218 INFO Request starting HTTP/2 GET https://localhost:44384/api/Flotte/report - - - 
+2025-06-29 15:52:26.0218 TRACE All hosts are allowed. 
+2025-06-29 15:52:26.0218 DEBUG 2 candidate(s) found for the request path '/api/Flotte/report' 
+2025-06-29 15:52:26.0395 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' with route pattern 'api/Flotte/report' is valid for the request path '/api/Flotte/report' 
+2025-06-29 15:52:26.0395 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.GetById (ApiAspNet)' with route pattern 'api/Flotte/{id}' is valid for the request path '/api/Flotte/report' 
+2025-06-29 15:52:26.0395 DEBUG Request matched endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 15:52:26.0395 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-29 15:52:26.0395 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-29 15:52:26.1592 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-29 15:52:26.1592 INFO Executing endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 15:52:26.2004 INFO Route matched with {action = "ExportReport", controller = "Flotte"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ExportReport() on controller ApiAspNet.Controllers.FlotteController (ApiAspNet). 
+2025-06-29 15:52:26.2004 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-29 15:52:26.2004 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-29 15:52:26.2004 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-29 15:52:26.2004 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-29 15:52:26.2004 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-29 15:52:26.2004 DEBUG Executing controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 15:52:26.7031 DEBUG Executed controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 15:52:26.7031 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 15:52:26.7031 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 15:52:26.7031 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 15:52:26.7031 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 15:52:26.7217 INFO Executing action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) - Validation state: Valid 
+2025-06-29 15:52:26.7666 INFO Génération du rapport de flottes... 
+2025-06-29 15:52:27.3517 ERROR Erreur lors de la génération du rapport. System.NotSupportedException: Data binding directly to a store query is not supported. Instead populate a DbSet with data, for example by calling 'Load' on the DbSet, and then bind to local data to avoid sending a query to the database each time the databound control iterates the data. For WPF, bind to 'DbSet.Local.ToObservableCollection'. For WinForms, bind to 'DbSet.Local.ToBindingList'. For ASP.NET WebForms, bind to 'DbSet.ToList' or use Model Binding.
+   at Microsoft.EntityFrameworkCore.DbSet`1.System.ComponentModel.IListSource.GetList()
+   at System.Windows.Forms.ListBindingHelper.GetList(Object list)
+   at System.Windows.Forms.ListBindingHelper.GetList(Object dataSource, String dataMember)
+   at System.Windows.Forms.BindingSource.ResetList()
+   at System.Windows.Forms.BindingSource.set_DataSource(Object value)
+   at FastReport.Data.BusinessObjectConverter.GetProperties(Column column)
+   at FastReport.Data.BusinessObjectConverter.CreateInitialObjects(Column column)
+   at FastReport.Data.BusinessObjectConverter.CreateInitialObjects(Column column, Int32 maxNestingLevel)
+   at FastReport.Data.Dictionary.RegisterBusinessObject(IEnumerable data, String referenceName, Int32 maxNestingLevel, Boolean enabled)
+   at FastReport.Report.RegisterData(IEnumerable data, String name)
+   at ApiAspNet.Controllers.FlotteController.ExportReport() in C:\Users\elitebook\Source\Repos\AspDotNet1\ApiAspNet\Controllers\FlotteController.cs:line 127
+2025-06-29 15:52:27.4301 INFO Executed action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 691.8554ms. 
+2025-06-29 15:52:27.4301 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 15:52:27.4301 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 15:52:27.4301 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 15:52:27.4301 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 15:52:27.4301 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 15:52:27.4301 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 15:52:27.4301 TRACE Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-29 15:52:27.4361 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-29 15:52:27.4361 DEBUG No information found on request to perform content negotiation. 
+2025-06-29 15:52:27.4361 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-06-29 15:52:27.4361 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-06-29 15:52:27.4361 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-06-29 15:52:27.4361 INFO Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-06-29 15:52:27.4545 TRACE After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-29 15:52:27.4545 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 15:52:27.4545 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 15:52:27.4545 INFO Executed action ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) in 1251.3248ms 
+2025-06-29 15:52:27.4545 INFO Executed endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 15:52:27.4545 DEBUG Connection ID "18230571309580943454" disconnecting. 
+2025-06-29 15:52:27.4670 INFO Request finished HTTP/2 GET https://localhost:44384/api/Flotte/report - 500 - application/json;+charset=utf-8 1445.1899ms 
+2025-06-29 16:07:25.9643 DEBUG Démarrage de l'application 
+2025-06-29 16:07:28.4453 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-06-29 16:07:28.6149 DEBUG Hosting starting 
+2025-06-29 16:07:28.6320 INFO User profile is available. Using 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-06-29 16:07:28.6569 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-a01ae15c-9914-4b94-80f3-f1588e7da62f.xml'. 
+2025-06-29 16:07:28.6569 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-dbd75201-92be-4afd-a4f4-1c1b16768dd5.xml'. 
+2025-06-29 16:07:28.6695 DEBUG Found key {a01ae15c-9914-4b94-80f3-f1588e7da62f}. 
+2025-06-29 16:07:28.6695 DEBUG Found key {dbd75201-92be-4afd-a4f4-1c1b16768dd5}. 
+2025-06-29 16:07:28.6947 DEBUG Considering key {a01ae15c-9914-4b94-80f3-f1588e7da62f} with expiration date 2025-09-24 13:26:51Z as default key. 
+2025-06-29 16:07:28.6947 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-29 16:07:28.6947 DEBUG Decrypting secret element using Windows DPAPI. 
+2025-06-29 16:07:28.6947 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-29 16:07:28.7116 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-06-29 16:07:28.7116 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-06-29 16:07:28.7116 DEBUG Using key {a01ae15c-9914-4b94-80f3-f1588e7da62f} as the default key. 
+2025-06-29 16:07:28.7116 DEBUG Key ring with default key {a01ae15c-9914-4b94-80f3-f1588e7da62f} was loaded during application startup. 
+2025-06-29 16:07:28.9206 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-06-29 16:07:28.9206 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-06-29 16:07:28.9206 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-06-29 16:07:28.9206 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-06-29 16:07:28.9769 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - - - 
+2025-06-29 16:07:29.2612 INFO Application started. Press Ctrl+C to shut down. 
+2025-06-29 16:07:29.2612 INFO Hosting environment: Development 
+2025-06-29 16:07:29.2612 INFO Content root path: C:\Users\elitebook\Source\Repos\AspDotNet1\ApiAspNet 
+2025-06-29 16:07:29.2612 DEBUG Hosting started 
+2025-06-29 16:07:29.3031 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-06-29 16:07:29.3031 TRACE All hosts are allowed. 
+2025-06-29 16:07:29.3576 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-06-29 16:07:29.3576 DEBUG Request did not match any endpoints 
+2025-06-29 16:07:29.4944 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2025-06-29 16:07:29.4944 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-06-29 16:07:29.5761 DEBUG Response markup was updated to include Browser Link script injection. 
+2025-06-29 16:07:29.5761 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-06-29 16:07:29.6053 DEBUG Connection ID "18302628907913838671" disconnecting. 
+2025-06-29 16:07:29.6355 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-06-29 16:07:29.6355 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-06-29 16:07:29.6355 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 - text/html;charset=utf-8 690.9535ms 
+2025-06-29 16:07:29.6541 DEBUG Connection ID "18230571309580943456" disconnecting. 
+2025-06-29 16:07:29.6662 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 9.8231ms 
+2025-06-29 16:07:29.7182 DEBUG Connection ID "18374686510541701291" disconnecting. 
+2025-06-29 16:07:29.7182 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 83.4096ms 
+2025-06-29 16:07:29.7537 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - - - 
+2025-06-29 16:07:29.7537 TRACE All hosts are allowed. 
+2025-06-29 16:07:29.7537 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-06-29 16:07:29.7537 DEBUG Request did not match any endpoints 
+2025-06-29 16:07:29.7880 DEBUG Connection ID "18230571305285976186" disconnecting. 
+2025-06-29 16:07:29.7880 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 34.4944ms 
+2025-06-29 16:07:40.8465 INFO Request starting HTTP/2 GET https://localhost:44384/api/Flotte/report - - - 
+2025-06-29 16:07:40.8465 TRACE All hosts are allowed. 
+2025-06-29 16:07:40.8588 DEBUG 2 candidate(s) found for the request path '/api/Flotte/report' 
+2025-06-29 16:07:40.8588 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' with route pattern 'api/Flotte/report' is valid for the request path '/api/Flotte/report' 
+2025-06-29 16:07:40.8659 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.GetById (ApiAspNet)' with route pattern 'api/Flotte/{id}' is valid for the request path '/api/Flotte/report' 
+2025-06-29 16:07:40.8659 DEBUG Request matched endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 16:07:40.8659 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-29 16:07:40.8659 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-29 16:07:40.9718 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-29 16:07:40.9759 INFO Executing endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 16:07:41.0228 INFO Route matched with {action = "ExportReport", controller = "Flotte"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ExportReport() on controller ApiAspNet.Controllers.FlotteController (ApiAspNet). 
+2025-06-29 16:07:41.0228 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-29 16:07:41.0228 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-29 16:07:41.0228 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-29 16:07:41.0228 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-29 16:07:41.0228 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-29 16:07:41.0228 DEBUG Executing controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 16:07:41.5450 DEBUG Executed controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 16:07:41.5450 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:07:41.5450 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:07:41.5450 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:07:41.5450 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:07:41.5634 INFO Executing action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) - Validation state: Valid 
+2025-06-29 16:07:42.2142 ERROR Erreur génération du rapport System.NotSupportedException: Data binding directly to a store query is not supported. Instead populate a DbSet with data, for example by calling 'Load' on the DbSet, and then bind to local data to avoid sending a query to the database each time the databound control iterates the data. For WPF, bind to 'DbSet.Local.ToObservableCollection'. For WinForms, bind to 'DbSet.Local.ToBindingList'. For ASP.NET WebForms, bind to 'DbSet.ToList' or use Model Binding.
+   at Microsoft.EntityFrameworkCore.DbSet`1.System.ComponentModel.IListSource.GetList()
+   at System.Windows.Forms.ListBindingHelper.GetList(Object list)
+   at System.Windows.Forms.ListBindingHelper.GetList(Object dataSource, String dataMember)
+   at System.Windows.Forms.BindingSource.ResetList()
+   at System.Windows.Forms.BindingSource.set_DataSource(Object value)
+   at FastReport.Data.BusinessObjectConverter.GetProperties(Column column)
+   at FastReport.Data.BusinessObjectConverter.CreateInitialObjects(Column column)
+   at FastReport.Data.BusinessObjectConverter.CreateInitialObjects(Column column, Int32 maxNestingLevel)
+   at FastReport.Data.Dictionary.RegisterBusinessObject(IEnumerable data, String referenceName, Int32 maxNestingLevel, Boolean enabled)
+   at FastReport.Report.RegisterData(IEnumerable data, String name)
+   at ApiAspNet.Controllers.FlotteController.ExportReport() in C:\Users\elitebook\Source\Repos\AspDotNet1\ApiAspNet\Controllers\FlotteController.cs:line 123
+2025-06-29 16:07:42.2867 INFO Executed action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 709.6958ms. 
+2025-06-29 16:07:42.2867 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:07:42.2867 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:07:42.2867 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:07:42.2867 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:07:42.2867 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:07:42.2867 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:07:42.2867 TRACE Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-29 16:07:42.2928 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-29 16:07:42.2928 DEBUG No information found on request to perform content negotiation. 
+2025-06-29 16:07:42.2928 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-06-29 16:07:42.2928 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-06-29 16:07:42.2928 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-06-29 16:07:42.2928 INFO Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-06-29 16:07:42.3142 TRACE After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-29 16:07:42.3142 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:07:42.3142 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:07:42.3142 INFO Executed action ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) in 1287.0641ms 
+2025-06-29 16:07:42.3142 INFO Executed endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 16:07:42.3358 DEBUG Connection ID "18230571309580943458" disconnecting. 
+2025-06-29 16:07:42.3358 INFO Request finished HTTP/2 GET https://localhost:44384/api/Flotte/report - 500 - application/json;+charset=utf-8 1490.3391ms 
+2025-06-29 16:09:53.8851 INFO Request starting HTTP/2 GET https://localhost:44384/api/Flotte/report - - - 
+2025-06-29 16:09:53.8851 TRACE All hosts are allowed. 
+2025-06-29 16:09:53.8851 DEBUG 2 candidate(s) found for the request path '/api/Flotte/report' 
+2025-06-29 16:09:53.8851 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' with route pattern 'api/Flotte/report' is valid for the request path '/api/Flotte/report' 
+2025-06-29 16:09:53.8851 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.GetById (ApiAspNet)' with route pattern 'api/Flotte/{id}' is valid for the request path '/api/Flotte/report' 
+2025-06-29 16:09:53.8851 DEBUG Request matched endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 16:09:53.8851 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-29 16:09:53.8851 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-29 16:09:53.8851 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-29 16:09:53.8851 INFO Executing endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 16:09:53.8851 INFO Route matched with {action = "ExportReport", controller = "Flotte"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ExportReport() on controller ApiAspNet.Controllers.FlotteController (ApiAspNet). 
+2025-06-29 16:09:53.8851 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-29 16:09:53.8851 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-29 16:09:53.8851 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-29 16:09:53.8851 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-29 16:09:53.8851 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-29 16:09:53.8851 DEBUG Executing controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 16:09:53.9085 DEBUG Executed controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 16:09:53.9085 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:09:53.9085 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:09:53.9085 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:09:53.9085 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:09:53.9085 INFO Executing action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) - Validation state: Valid 
+2025-06-29 16:09:53.9452 ERROR Erreur génération du rapport System.NotSupportedException: Data binding directly to a store query is not supported. Instead populate a DbSet with data, for example by calling 'Load' on the DbSet, and then bind to local data to avoid sending a query to the database each time the databound control iterates the data. For WPF, bind to 'DbSet.Local.ToObservableCollection'. For WinForms, bind to 'DbSet.Local.ToBindingList'. For ASP.NET WebForms, bind to 'DbSet.ToList' or use Model Binding.
+   at Microsoft.EntityFrameworkCore.DbSet`1.System.ComponentModel.IListSource.GetList()
+   at System.Windows.Forms.ListBindingHelper.GetList(Object list)
+   at System.Windows.Forms.ListBindingHelper.GetList(Object dataSource, String dataMember)
+   at System.Windows.Forms.BindingSource.ResetList()
+   at System.Windows.Forms.BindingSource.set_DataSource(Object value)
+   at FastReport.Data.BusinessObjectConverter.GetProperties(Column column)
+   at FastReport.Data.BusinessObjectConverter.CreateInitialObjects(Column column)
+   at FastReport.Data.BusinessObjectConverter.CreateInitialObjects(Column column, Int32 maxNestingLevel)
+   at FastReport.Data.Dictionary.RegisterBusinessObject(IEnumerable data, String referenceName, Int32 maxNestingLevel, Boolean enabled)
+   at FastReport.Report.RegisterData(IEnumerable data, String name)
+   at ApiAspNet.Controllers.FlotteController.ExportReport() in C:\Users\elitebook\Source\Repos\AspDotNet1\ApiAspNet\Controllers\FlotteController.cs:line 123
+2025-06-29 16:09:53.9452 INFO Executed action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 36.5954ms. 
+2025-06-29 16:09:53.9452 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:09:53.9452 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:09:53.9452 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:09:53.9452 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:09:53.9452 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:09:53.9452 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:09:53.9452 TRACE Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-29 16:09:53.9452 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-29 16:09:53.9452 DEBUG No information found on request to perform content negotiation. 
+2025-06-29 16:09:53.9452 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-06-29 16:09:53.9452 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-06-29 16:09:53.9452 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-06-29 16:09:53.9452 INFO Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-06-29 16:09:53.9452 TRACE After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-29 16:09:53.9452 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:09:53.9452 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:09:53.9452 INFO Executed action ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) in 52.0671ms 
+2025-06-29 16:09:53.9452 INFO Executed endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 16:09:53.9452 INFO Request finished HTTP/2 GET https://localhost:44384/api/Flotte/report - 500 - application/json;+charset=utf-8 62.5302ms 
+2025-06-29 16:09:53.9452 DEBUG Connection ID "18374686506246733833" disconnecting. 
+2025-06-29 16:10:07.9438 INFO Request starting HTTP/2 GET https://localhost:44384/api/Flotte/report - - - 
+2025-06-29 16:10:07.9438 TRACE All hosts are allowed. 
+2025-06-29 16:10:07.9438 DEBUG 2 candidate(s) found for the request path '/api/Flotte/report' 
+2025-06-29 16:10:07.9438 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' with route pattern 'api/Flotte/report' is valid for the request path '/api/Flotte/report' 
+2025-06-29 16:10:07.9438 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.GetById (ApiAspNet)' with route pattern 'api/Flotte/{id}' is valid for the request path '/api/Flotte/report' 
+2025-06-29 16:10:07.9438 DEBUG Request matched endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 16:10:07.9438 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-29 16:10:07.9438 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-29 16:10:07.9438 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-29 16:10:07.9438 INFO Executing endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 16:10:07.9438 INFO Route matched with {action = "ExportReport", controller = "Flotte"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ExportReport() on controller ApiAspNet.Controllers.FlotteController (ApiAspNet). 
+2025-06-29 16:10:07.9438 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-29 16:10:07.9438 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-29 16:10:07.9438 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-29 16:10:07.9438 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-29 16:10:07.9438 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-29 16:10:07.9438 DEBUG Executing controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 16:10:07.9631 DEBUG Executed controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 16:10:07.9631 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:10:07.9631 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:10:07.9631 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:10:07.9631 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:10:07.9631 INFO Executing action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) - Validation state: Valid 
+2025-06-29 16:10:08.0485 ERROR Erreur génération du rapport System.NotSupportedException: Data binding directly to a store query is not supported. Instead populate a DbSet with data, for example by calling 'Load' on the DbSet, and then bind to local data to avoid sending a query to the database each time the databound control iterates the data. For WPF, bind to 'DbSet.Local.ToObservableCollection'. For WinForms, bind to 'DbSet.Local.ToBindingList'. For ASP.NET WebForms, bind to 'DbSet.ToList' or use Model Binding.
+   at Microsoft.EntityFrameworkCore.DbSet`1.System.ComponentModel.IListSource.GetList()
+   at System.Windows.Forms.ListBindingHelper.GetList(Object list)
+   at System.Windows.Forms.ListBindingHelper.GetList(Object dataSource, String dataMember)
+   at System.Windows.Forms.BindingSource.ResetList()
+   at System.Windows.Forms.BindingSource.set_DataSource(Object value)
+   at FastReport.Data.BusinessObjectConverter.GetProperties(Column column)
+   at FastReport.Data.BusinessObjectConverter.CreateInitialObjects(Column column)
+   at FastReport.Data.BusinessObjectConverter.CreateInitialObjects(Column column, Int32 maxNestingLevel)
+   at FastReport.Data.Dictionary.RegisterBusinessObject(IEnumerable data, String referenceName, Int32 maxNestingLevel, Boolean enabled)
+   at FastReport.Report.RegisterData(IEnumerable data, String name)
+   at ApiAspNet.Controllers.FlotteController.ExportReport() in C:\Users\elitebook\Source\Repos\AspDotNet1\ApiAspNet\Controllers\FlotteController.cs:line 123
+2025-06-29 16:10:08.0485 INFO Executed action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 85.6035ms. 
+2025-06-29 16:10:08.0485 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:10:08.0485 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:10:08.0485 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:10:08.0485 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:10:08.0485 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:10:08.0485 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:10:08.0485 TRACE Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-29 16:10:08.0485 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-29 16:10:08.0485 DEBUG No information found on request to perform content negotiation. 
+2025-06-29 16:10:08.0485 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-06-29 16:10:08.0485 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-06-29 16:10:08.0485 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-06-29 16:10:08.0485 INFO Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-06-29 16:10:08.0485 TRACE After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-29 16:10:08.0485 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:10:08.0485 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:10:08.0485 INFO Executed action ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) in 94.0862ms 
+2025-06-29 16:10:08.0485 INFO Executed endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 16:10:08.0485 INFO Request finished HTTP/2 GET https://localhost:44384/api/Flotte/report - 500 - application/json;+charset=utf-8 108.5722ms 
+2025-06-29 16:10:26.3198 DEBUG Démarrage de l'application 
+2025-06-29 16:10:29.0727 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-06-29 16:10:29.2677 DEBUG Hosting starting 
+2025-06-29 16:10:29.2856 INFO User profile is available. Using 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-06-29 16:10:29.3195 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-a01ae15c-9914-4b94-80f3-f1588e7da62f.xml'. 
+2025-06-29 16:10:29.3195 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-dbd75201-92be-4afd-a4f4-1c1b16768dd5.xml'. 
+2025-06-29 16:10:29.3360 DEBUG Found key {a01ae15c-9914-4b94-80f3-f1588e7da62f}. 
+2025-06-29 16:10:29.3360 DEBUG Found key {dbd75201-92be-4afd-a4f4-1c1b16768dd5}. 
+2025-06-29 16:10:29.3717 DEBUG Considering key {a01ae15c-9914-4b94-80f3-f1588e7da62f} with expiration date 2025-09-24 13:26:51Z as default key. 
+2025-06-29 16:10:29.3822 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-29 16:10:29.3822 DEBUG Decrypting secret element using Windows DPAPI. 
+2025-06-29 16:10:29.3822 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-29 16:10:29.3822 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-06-29 16:10:29.4000 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-06-29 16:10:29.4000 DEBUG Using key {a01ae15c-9914-4b94-80f3-f1588e7da62f} as the default key. 
+2025-06-29 16:10:29.4000 DEBUG Key ring with default key {a01ae15c-9914-4b94-80f3-f1588e7da62f} was loaded during application startup. 
+2025-06-29 16:10:29.6342 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-06-29 16:10:29.6342 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-06-29 16:10:29.6342 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-06-29 16:10:29.6342 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-06-29 16:10:29.6761 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - - - 
+2025-06-29 16:10:29.9616 INFO Application started. Press Ctrl+C to shut down. 
+2025-06-29 16:10:29.9616 INFO Hosting environment: Development 
+2025-06-29 16:10:29.9616 INFO Content root path: C:\Users\elitebook\Source\Repos\AspDotNet1\ApiAspNet 
+2025-06-29 16:10:29.9616 DEBUG Hosting started 
+2025-06-29 16:10:30.0141 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-06-29 16:10:30.0141 TRACE All hosts are allowed. 
+2025-06-29 16:10:30.0767 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-06-29 16:10:30.0767 DEBUG Request did not match any endpoints 
+2025-06-29 16:10:30.2324 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2025-06-29 16:10:30.2324 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-06-29 16:10:30.3262 DEBUG Response markup was updated to include Browser Link script injection. 
+2025-06-29 16:10:30.3262 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-06-29 16:10:30.3462 DEBUG Connection ID "18374686510541701293" disconnecting. 
+2025-06-29 16:10:30.3563 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 - text/html;charset=utf-8 696.4118ms 
+2025-06-29 16:10:30.3939 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-06-29 16:10:30.4022 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-06-29 16:10:30.4022 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 11.0049ms 
+2025-06-29 16:10:30.5265 DEBUG Connection ID "18374686501951766655" disconnecting. 
+2025-06-29 16:10:30.5265 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 125.6564ms 
+2025-06-29 16:10:30.7571 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - - - 
+2025-06-29 16:10:30.7571 TRACE All hosts are allowed. 
+2025-06-29 16:10:30.7571 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-06-29 16:10:30.7571 DEBUG Request did not match any endpoints 
+2025-06-29 16:10:30.8150 DEBUG Connection ID "18230571300991008794" disconnecting. 
+2025-06-29 16:10:30.8150 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 58.0753ms 
+2025-06-29 16:10:43.8899 INFO Request starting HTTP/2 GET https://localhost:44384/api/Flotte/report - - - 
+2025-06-29 16:10:43.8899 TRACE All hosts are allowed. 
+2025-06-29 16:10:43.9084 DEBUG 2 candidate(s) found for the request path '/api/Flotte/report' 
+2025-06-29 16:10:43.9325 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' with route pattern 'api/Flotte/report' is valid for the request path '/api/Flotte/report' 
+2025-06-29 16:10:43.9325 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.GetById (ApiAspNet)' with route pattern 'api/Flotte/{id}' is valid for the request path '/api/Flotte/report' 
+2025-06-29 16:10:43.9325 DEBUG Request matched endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 16:10:43.9325 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-29 16:10:43.9325 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-29 16:10:44.0431 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-29 16:10:44.0431 INFO Executing endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 16:10:44.0914 INFO Route matched with {action = "ExportReport", controller = "Flotte"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ExportReport() on controller ApiAspNet.Controllers.FlotteController (ApiAspNet). 
+2025-06-29 16:10:44.0914 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-29 16:10:44.0914 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-29 16:10:44.0914 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-29 16:10:44.0914 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-29 16:10:44.0914 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-29 16:10:44.0914 DEBUG Executing controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 16:10:44.6019 DEBUG Executed controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 16:10:44.6019 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:10:44.6019 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:10:44.6019 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:10:44.6019 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:10:44.6019 INFO Executing action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) - Validation state: Valid 
+2025-06-29 16:10:44.6480 INFO Génération du rapport de flottes... 
+2025-06-29 16:10:52.5874 ERROR Erreur lors de la génération du rapport. FastReport.Utils.CompilerException: (Function): Error CS0103: The name 'Flottes' does not exist in the current context
+(Function): Error CS0103: The name 'Flottes' does not exist in the current context
+
+   at FastReport.Code.Ms.MsAssemblyDescriptor.InternalCompile()
+   at FastReport.Code.Ms.MsAssemblyDescriptor.Compile()
+   at FastReport.Code.CodeProvider.Compile()
+   at FastReport.Report.Compile()
+   at FastReport.Report.Prepare(Boolean append, Boolean resetDataState)
+   at FastReport.Report.Prepare(Boolean append)
+   at FastReport.Report.Prepare()
+   at ApiAspNet.Controllers.FlotteController.ExportReport() in C:\Users\elitebook\Source\Repos\AspDotNet1\ApiAspNet\Controllers\FlotteController.cs:line 126
+2025-06-29 16:10:52.6245 INFO Executed action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7992.677ms. 
+2025-06-29 16:10:52.6245 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:10:52.6245 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:10:52.6245 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:10:52.6245 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:10:52.6245 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:10:52.6245 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:10:52.6245 TRACE Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-29 16:10:52.6327 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-29 16:10:52.6327 DEBUG No information found on request to perform content negotiation. 
+2025-06-29 16:10:52.6327 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-06-29 16:10:52.6327 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-06-29 16:10:52.6327 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-06-29 16:10:52.6327 INFO Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-06-29 16:10:52.6575 TRACE After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-29 16:10:52.6575 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:10:52.6575 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:10:52.6671 INFO Executed action ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) in 8563.2294ms 
+2025-06-29 16:10:52.6671 INFO Executed endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 16:10:52.6671 DEBUG Connection ID "18230571318170878107" disconnecting. 
+2025-06-29 16:10:52.6979 INFO Request finished HTTP/2 GET https://localhost:44384/api/Flotte/report - 500 - application/json;+charset=utf-8 8808.0073ms 
+2025-06-29 16:29:32.5958 DEBUG Démarrage de l'application 
+2025-06-29 16:29:33.6824 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-06-29 16:29:33.7447 DEBUG Hosting starting 
+2025-06-29 16:29:33.7447 INFO User profile is available. Using 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-06-29 16:29:33.7668 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-a01ae15c-9914-4b94-80f3-f1588e7da62f.xml'. 
+2025-06-29 16:29:33.7668 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-dbd75201-92be-4afd-a4f4-1c1b16768dd5.xml'. 
+2025-06-29 16:29:33.7668 DEBUG Found key {a01ae15c-9914-4b94-80f3-f1588e7da62f}. 
+2025-06-29 16:29:33.7668 DEBUG Found key {dbd75201-92be-4afd-a4f4-1c1b16768dd5}. 
+2025-06-29 16:29:33.7800 DEBUG Considering key {a01ae15c-9914-4b94-80f3-f1588e7da62f} with expiration date 2025-09-24 13:26:51Z as default key. 
+2025-06-29 16:29:33.7800 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-29 16:29:33.7800 DEBUG Decrypting secret element using Windows DPAPI. 
+2025-06-29 16:29:33.7800 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-29 16:29:33.7800 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-06-29 16:29:33.7800 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-06-29 16:29:33.7800 DEBUG Using key {a01ae15c-9914-4b94-80f3-f1588e7da62f} as the default key. 
+2025-06-29 16:29:33.7800 DEBUG Key ring with default key {a01ae15c-9914-4b94-80f3-f1588e7da62f} was loaded during application startup. 
+2025-06-29 16:29:33.8865 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-06-29 16:29:33.8865 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-06-29 16:29:33.8865 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-06-29 16:29:33.8865 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-06-29 16:29:33.9095 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - - - 
+2025-06-29 16:29:34.0081 INFO Application started. Press Ctrl+C to shut down. 
+2025-06-29 16:29:34.0081 INFO Hosting environment: Development 
+2025-06-29 16:29:34.0081 INFO Content root path: C:\Users\elitebook\Source\Repos\AspDotNet1\ApiAspNet 
+2025-06-29 16:29:34.0081 DEBUG Hosting started 
+2025-06-29 16:29:34.0326 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-06-29 16:29:34.0326 TRACE All hosts are allowed. 
+2025-06-29 16:29:34.0509 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-06-29 16:29:34.0509 DEBUG Request did not match any endpoints 
+2025-06-29 16:29:34.0955 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2025-06-29 16:29:34.0955 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-06-29 16:29:34.1244 DEBUG Response markup was updated to include Browser Link script injection. 
+2025-06-29 16:29:34.1244 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-06-29 16:29:34.1244 DEBUG Connection ID "18374686497656799522" disconnecting. 
+2025-06-29 16:29:34.1244 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 - text/html;charset=utf-8 228.5134ms 
+2025-06-29 16:29:34.1244 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-06-29 16:29:34.1418 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-06-29 16:29:34.1418 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 9.6757ms 
+2025-06-29 16:29:34.2094 DEBUG Connection ID "18374686501951766659" disconnecting. 
+2025-06-29 16:29:34.2094 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 68.0947ms 
+2025-06-29 16:29:34.2433 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - - - 
+2025-06-29 16:29:34.2433 TRACE All hosts are allowed. 
+2025-06-29 16:29:34.2433 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-06-29 16:29:34.2433 DEBUG Request did not match any endpoints 
+2025-06-29 16:29:34.2624 DEBUG Connection ID "18230571300991008798" disconnecting. 
+2025-06-29 16:29:34.2624 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 19.2302ms 
+2025-06-29 16:29:48.7899 INFO Request starting HTTP/2 GET https://localhost:44384/api/Flotte/report - - - 
+2025-06-29 16:29:48.7899 TRACE All hosts are allowed. 
+2025-06-29 16:29:48.7899 DEBUG 2 candidate(s) found for the request path '/api/Flotte/report' 
+2025-06-29 16:29:48.7899 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' with route pattern 'api/Flotte/report' is valid for the request path '/api/Flotte/report' 
+2025-06-29 16:29:48.7899 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.GetById (ApiAspNet)' with route pattern 'api/Flotte/{id}' is valid for the request path '/api/Flotte/report' 
+2025-06-29 16:29:48.7899 DEBUG Request matched endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 16:29:48.7899 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-29 16:29:48.7899 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-29 16:29:48.8619 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-29 16:29:48.8619 INFO Executing endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 16:29:48.8813 INFO Route matched with {action = "ExportReport", controller = "Flotte"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ExportReport() on controller ApiAspNet.Controllers.FlotteController (ApiAspNet). 
+2025-06-29 16:29:48.8813 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-29 16:29:48.8813 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-29 16:29:48.8813 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-29 16:29:48.8813 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-29 16:29:48.8813 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-29 16:29:48.8813 DEBUG Executing controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 16:29:49.0825 DEBUG Executed controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 16:29:49.0825 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:29:49.0825 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:29:49.0825 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:29:49.0825 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:29:49.0895 INFO Executing action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) - Validation state: Valid 
+2025-06-29 16:29:50.5822 ERROR Erreur lors de la génération du rapport. System.ArgumentException: The input string 'buss' was not in a correct format.Couldn't store <buss> in Id Column.  Expected type is Int32.
+ ---> System.FormatException: The input string 'buss' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at ApiAspNet.Controllers.FlotteController.ExportReport() in C:\Users\elitebook\Source\Repos\AspDotNet1\ApiAspNet\Controllers\FlotteController.cs:line 137
+2025-06-29 16:29:50.6157 INFO Executed action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1520.9899ms. 
+2025-06-29 16:29:50.6157 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:29:50.6157 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:29:50.6157 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:29:50.6157 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:29:50.6157 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:29:50.6157 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:29:50.6171 TRACE Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-29 16:29:50.6171 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-06-29 16:29:50.6171 DEBUG No information found on request to perform content negotiation. 
+2025-06-29 16:29:50.6171 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-06-29 16:29:50.6171 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-06-29 16:29:50.6171 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-06-29 16:29:50.6171 INFO Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-06-29 16:29:50.6312 TRACE After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2025-06-29 16:29:50.6312 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:29:50.6312 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:29:50.6312 INFO Executed action ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) in 1749.5643ms 
+2025-06-29 16:29:50.6312 INFO Executed endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 16:29:50.6312 DEBUG Connection ID "18158513698363146278" disconnecting. 
+2025-06-29 16:29:50.6518 INFO Request finished HTTP/2 GET https://localhost:44384/api/Flotte/report - 500 - application/json;+charset=utf-8 1861.9479ms 
+2025-06-29 16:34:06.0699 DEBUG Démarrage de l'application 
+2025-06-29 16:34:07.1263 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-06-29 16:34:07.2021 DEBUG Hosting starting 
+2025-06-29 16:34:07.2105 INFO User profile is available. Using 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-06-29 16:34:07.2105 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-a01ae15c-9914-4b94-80f3-f1588e7da62f.xml'. 
+2025-06-29 16:34:07.2105 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-dbd75201-92be-4afd-a4f4-1c1b16768dd5.xml'. 
+2025-06-29 16:34:07.2313 DEBUG Found key {a01ae15c-9914-4b94-80f3-f1588e7da62f}. 
+2025-06-29 16:34:07.2313 DEBUG Found key {dbd75201-92be-4afd-a4f4-1c1b16768dd5}. 
+2025-06-29 16:34:07.2431 DEBUG Considering key {a01ae15c-9914-4b94-80f3-f1588e7da62f} with expiration date 2025-09-24 13:26:51Z as default key. 
+2025-06-29 16:34:07.2431 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-29 16:34:07.2431 DEBUG Decrypting secret element using Windows DPAPI. 
+2025-06-29 16:34:07.2431 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-06-29 16:34:07.2431 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-06-29 16:34:07.2431 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-06-29 16:34:07.2431 DEBUG Using key {a01ae15c-9914-4b94-80f3-f1588e7da62f} as the default key. 
+2025-06-29 16:34:07.2556 DEBUG Key ring with default key {a01ae15c-9914-4b94-80f3-f1588e7da62f} was loaded during application startup. 
+2025-06-29 16:34:07.3634 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-06-29 16:34:07.3634 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-06-29 16:34:07.3634 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-06-29 16:34:07.3634 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-06-29 16:34:07.3854 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - - - 
+2025-06-29 16:34:07.5029 INFO Application started. Press Ctrl+C to shut down. 
+2025-06-29 16:34:07.5029 INFO Hosting environment: Development 
+2025-06-29 16:34:07.5029 INFO Content root path: C:\Users\elitebook\Source\Repos\AspDotNet1\ApiAspNet 
+2025-06-29 16:34:07.5029 DEBUG Hosting started 
+2025-06-29 16:34:07.5293 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-06-29 16:34:07.5293 TRACE All hosts are allowed. 
+2025-06-29 16:34:07.5293 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-06-29 16:34:07.5506 DEBUG Request did not match any endpoints 
+2025-06-29 16:34:07.6073 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2025-06-29 16:34:07.6073 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-06-29 16:34:07.6485 DEBUG Response markup was updated to include Browser Link script injection. 
+2025-06-29 16:34:07.6485 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-06-29 16:34:07.6567 DEBUG Connection ID "18158513711248048134" disconnecting. 
+2025-06-29 16:34:07.6567 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-06-29 16:34:07.6567 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 - text/html;charset=utf-8 285.7002ms 
+2025-06-29 16:34:07.6667 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 5.5069ms 
+2025-06-29 16:34:07.6849 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-06-29 16:34:07.7620 DEBUG Connection ID "18158513724132950108" disconnecting. 
+2025-06-29 16:34:07.7620 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 84.5613ms 
+2025-06-29 16:34:07.8319 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - - - 
+2025-06-29 16:34:07.8319 TRACE All hosts are allowed. 
+2025-06-29 16:34:07.8339 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-06-29 16:34:07.8339 DEBUG Request did not match any endpoints 
+2025-06-29 16:34:07.8788 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 46.8493ms 
+2025-06-29 16:34:16.5150 INFO Request starting HTTP/2 GET https://localhost:44384/api/Flotte/report - - - 
+2025-06-29 16:34:16.5150 TRACE All hosts are allowed. 
+2025-06-29 16:34:16.5242 DEBUG 2 candidate(s) found for the request path '/api/Flotte/report' 
+2025-06-29 16:34:16.5242 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' with route pattern 'api/Flotte/report' is valid for the request path '/api/Flotte/report' 
+2025-06-29 16:34:16.5242 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.GetById (ApiAspNet)' with route pattern 'api/Flotte/{id}' is valid for the request path '/api/Flotte/report' 
+2025-06-29 16:34:16.5242 DEBUG Request matched endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 16:34:16.5242 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-06-29 16:34:16.5242 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-06-29 16:34:16.5838 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-06-29 16:34:16.5838 INFO Executing endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 16:34:16.6023 INFO Route matched with {action = "ExportReport", controller = "Flotte"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ExportReport() on controller ApiAspNet.Controllers.FlotteController (ApiAspNet). 
+2025-06-29 16:34:16.6023 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-06-29 16:34:16.6023 DEBUG Execution plan of resource filters (in the following order): None 
+2025-06-29 16:34:16.6023 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-06-29 16:34:16.6023 DEBUG Execution plan of exception filters (in the following order): None 
+2025-06-29 16:34:16.6023 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-06-29 16:34:16.6023 DEBUG Executing controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 16:34:16.7830 DEBUG Executed controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-06-29 16:34:16.7830 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:34:16.7830 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:34:16.7830 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:34:16.7830 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:34:16.7894 INFO Executing action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) - Validation state: Valid 
+2025-06-29 16:34:18.8948 INFO Executed action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.FileContentResult in 2096.7774ms. 
+2025-06-29 16:34:18.8948 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:34:18.8948 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-06-29 16:34:18.8948 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:34:18.8948 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-06-29 16:34:18.8948 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:34:18.8948 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:34:18.8948 TRACE Before executing action result Microsoft.AspNetCore.Mvc.FileContentResult. 
+2025-06-29 16:34:18.8948 INFO Executing FileContentResult, sending file with download name 'rapport.pdf' ... 
+2025-06-29 16:34:18.9039 DEBUG The file result has not been enabled for processing range requests. To enable it, set the EnableRangeProcessing property on the result to 'true'. 
+2025-06-29 16:34:18.9039 TRACE After executing action result Microsoft.AspNetCore.Mvc.FileContentResult. 
+2025-06-29 16:34:18.9039 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:34:18.9039 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-06-29 16:34:18.9039 INFO Executed action ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) in 2305.251ms 
+2025-06-29 16:34:18.9039 INFO Executed endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-06-29 16:34:18.9039 DEBUG Connection ID "18230571292401074225" disconnecting. 
+2025-06-29 16:34:18.9264 INFO Request finished HTTP/2 GET https://localhost:44384/api/Flotte/report - 200 178877 application/pdf 2411.4463ms 

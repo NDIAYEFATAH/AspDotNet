@@ -1,7 +1,16 @@
 ﻿using ApiAspNet.Models.Flottes;
 using ApiAspNet.Services;
 using AutoMapper;
+using FastReport;
+using FastReport.Export.PdfSimple;
 using Microsoft.AspNetCore.Mvc;
+using FastReport;
+using FastReport.Data; // ✅ NÉCESSAIRE pour RegisterBusinessObject
+using FastReport.Export.PdfSimple;
+
+using System.IO;
+using System.Data;
+
 
 namespace ApiAspNet.Controllers
 {
@@ -15,7 +24,8 @@ namespace ApiAspNet.Controllers
 
         public FlotteController(
             IFlotteService flotteService,
-            IMapper mapper, ILogger<FlotteController> logger)
+            IMapper mapper,
+            ILogger<FlotteController> logger)
         {
             _FlotteService = flotteService;
             _mapper = mapper;
@@ -27,14 +37,13 @@ namespace ApiAspNet.Controllers
         {
             try
             {
-                _logger.LogInformation(" Récupération de toutes les flottes en cours...");
                 var flottes = _FlotteService.GetAll();
                 return Ok(flottes);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, " Une erreur s'est produite lors de la récupération des flottes.");
-                return StatusCode(500, new { message = "An error occurred while processing your request." });
+                _logger.LogError(ex, "Erreur récupération flottes");
+                return StatusCode(500, new { message = ex.Message });
             }
         }
 
@@ -45,17 +54,14 @@ namespace ApiAspNet.Controllers
             {
                 var flotte = _FlotteService.GetById(id);
                 if (flotte == null)
-                {
-                    _logger.LogWarning(" Flotte avec l'identifiant {Id} non trouvée.", id);
                     return NotFound(new { message = "Flotte not found." });
-                }
 
                 return Ok(flotte);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, " Une erreur s'est produite lors de la récupération de la flotte avec l'identifiant {Id}.", id);
-                return StatusCode(500, new { message = "An error occurred while processing your request." });
+                _logger.LogError(ex, "Erreur récupération flotte ID {id}", id);
+                return StatusCode(500, new { message = ex.Message });
             }
         }
 
@@ -65,13 +71,12 @@ namespace ApiAspNet.Controllers
             try
             {
                 _FlotteService.Create(model);
-                _logger.LogInformation(" Nouvelle flotte créée avec succès.");
                 return Ok(new { message = "Flotte created" });
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, " Une erreur s'est produite lors de la création d'une flotte.");
-                return StatusCode(500, new { message = "An error occurred while creating the flotte." });
+                _logger.LogError(ex, "Erreur création flotte");
+                return StatusCode(500, new { message = ex.Message });
             }
         }
 
@@ -81,13 +86,12 @@ namespace ApiAspNet.Controllers
             try
             {
                 _FlotteService.Update(id, model);
-                _logger.LogInformation(" Flotte avec l'identifiant {Id} mise à jour avec succès.", id);
                 return Ok(new { message = "Flotte updated" });
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, " Une erreur s'est produite lors de la mise à jour de la flotte avec l'identifiant {Id}.", id);
-                return StatusCode(500, new { message = "An error occurred while updating the flotte." });
+                _logger.LogError(ex, "Erreur mise à jour flotte");
+                return StatusCode(500, new { message = ex.Message });
             }
         }
 
@@ -97,14 +101,66 @@ namespace ApiAspNet.Controllers
             try
             {
                 _FlotteService.Delete(id);
-                _logger.LogInformation(" Flotte avec l'identifiant {Id} supprimée avec succès.", id);
                 return Ok(new { message = "Flotte deleted" });
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, " Une erreur s'est produite lors de la suppression de la flotte avec l'identifiant {Id}.", id);
-                return StatusCode(500, new { message = "An error occurred while deleting the flotte." });
+                _logger.LogError(ex, "Erreur suppression flotte");
+                return StatusCode(500, new { message = ex.Message });
             }
         }
+
+        // ✅ Rapport PDF
+        [HttpGet("report")]
+        public IActionResult ExportReport()
+        {
+            try
+            {
+                var flottes = _FlotteService.GetAll().ToList();
+
+                using var report = new Report();
+                var reportPath = Path.Combine(Directory.GetCurrentDirectory(), "Reports", "rapport.frx");
+
+                if (!System.IO.File.Exists(reportPath))
+                    return NotFound(new { message = "Fichier rapport.frx introuvable." });
+
+                report.Load(reportPath);
+
+                // Convertir la liste en DataTable
+                var dt = new DataTable("Flottes");
+                dt.Columns.Add("IdFlotte", typeof(string));          
+                dt.Columns.Add("TypeFlotte", typeof(string));
+                dt.Columns.Add("MatriculeFlotte", typeof(string));
+                // Ajoutez toutes les colonnes nécessaires selon votre modèle Flotte
+
+                foreach (var flotte in flottes)
+                {
+                    dt.Rows.Add(flotte.IdFlotte.ToString(), flotte.TypeFlotte, flotte.MatriculeFlotte);
+                }
+
+                // Enregistrer la DataTable comme source de données
+                report.RegisterData(dt, "Flottes");
+                report.GetDataSource("Flottes").Enabled = true;
+
+                report.Prepare();
+
+                using var stream = new MemoryStream();
+                var pdfExport = new PDFSimpleExport();
+                report.Export(pdfExport, stream);
+                stream.Position = 0;
+
+                return File(stream.ToArray(), "application/pdf", "rapport.pdf");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erreur lors de la génération du rapport.");
+                return StatusCode(500, new { message = ex.Message });
+            }
+        }
+
+
+
+
+
     }
 }

@@ -27,7 +27,9 @@ namespace ApiAspNet.Services
         public IEnumerable<Agence> GetAll()
         {
             return _context.Agences.ToList();
+
         }
+
 
         public Agence GetById(int id)
         {
@@ -36,10 +38,24 @@ namespace ApiAspNet.Services
 
         public void Create(CreateAgenceRequest model)
         {
-            var agence = _mapper.Map<Agence>(model);
-            _context.Agences.Add(agence);
-            _context.SaveChanges();
+            try
+            {
+                var json = System.Text.Json.JsonSerializer.Serialize(model);
+                Console.WriteLine("CreateAgenceRequest reçu: " + json);
+
+                var agence = _mapper.Map<Agence>(model);
+                _context.Agences.Add(agence);
+                _context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                var inner = ex.InnerException != null ? ex.InnerException.Message : "";
+                throw new Exception("Erreur lors de la création de l'agence : " + ex.Message + " Détails : " + inner, ex);
+            }
         }
+
+
+
 
         public void Update(int id, UpdateAgenceRequest model)
         {

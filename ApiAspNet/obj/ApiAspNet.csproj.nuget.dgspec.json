@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LBC\\AspDotNet\\ApiAspNet\\ApiAspNet.csproj": {}
+    "C:\\Users\\elitebook\\Source\\Repos\\AspDotNet1\\ApiAspNet\\ApiAspNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LBC\\AspDotNet\\ApiAspNet\\ApiAspNet.csproj": {
+    "C:\\Users\\elitebook\\Source\\Repos\\AspDotNet1\\ApiAspNet\\ApiAspNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LBC\\AspDotNet\\ApiAspNet\\ApiAspNet.csproj",
+        "projectUniqueName": "C:\\Users\\elitebook\\Source\\Repos\\AspDotNet1\\ApiAspNet\\ApiAspNet.csproj",
         "projectName": "ApiAspNet",
-        "projectPath": "C:\\Users\\LBC\\AspDotNet\\ApiAspNet\\ApiAspNet.csproj",
-        "packagesPath": "C:\\Users\\LBC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LBC\\AspDotNet\\ApiAspNet\\obj\\",
+        "projectPath": "C:\\Users\\elitebook\\Source\\Repos\\AspDotNet1\\ApiAspNet\\ApiAspNet.csproj",
+        "packagesPath": "C:\\Users\\elitebook\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elitebook\\Source\\Repos\\AspDotNet1\\ApiAspNet\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LBC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elitebook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -47,6 +58,18 @@
             "BCrypt.Net-Core": {
               "target": "Package",
               "version": "[1.6.0, )"
+            },
+            "FastReport.OpenSource": {
+              "target": "Package",
+              "version": "[2025.2.0, )"
+            },
+            "FastReport.OpenSource.Export.PdfSimple": {
+              "target": "Package",
+              "version": "[2025.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.17, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
@@ -69,6 +92,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.12.1, )"
             }
           },
           "imports": [
@@ -90,7 +117,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
