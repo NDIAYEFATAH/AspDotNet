@@ -1,11 +1,12 @@
 ﻿using ApiAspNet.Models.Users;
 using ApiAspNet.Services;
 using AutoMapper;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiAspNet.Controllers
 {
+    [Authorize] // ⬅️ Ajouté ici : toutes les routes de ce contrôleur sont protégées
     [Route("api/[controller]")]
     [ApiController]
     public class UsersController : ControllerBase
@@ -35,6 +36,7 @@ namespace ApiAspNet.Controllers
             return Ok(user);
         }
 
+        [AllowAnonymous] // ⬅️ Création ouverte à tous (optionnel)
         [HttpPost]
         public IActionResult Create(CreateRequests model)
         {

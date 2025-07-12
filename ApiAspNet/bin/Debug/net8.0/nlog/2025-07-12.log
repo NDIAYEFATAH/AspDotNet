@@ -1,0 +1,680 @@
+2025-07-12 00:07:32.6931 DEBUG Démarrage de l'application 
+2025-07-12 00:07:33.8880 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-07-12 00:07:33.9636 DEBUG Hosting starting 
+2025-07-12 00:07:33.9636 INFO User profile is available. Using 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-07-12 00:07:33.9906 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-a01ae15c-9914-4b94-80f3-f1588e7da62f.xml'. 
+2025-07-12 00:07:33.9906 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-dbd75201-92be-4afd-a4f4-1c1b16768dd5.xml'. 
+2025-07-12 00:07:33.9973 DEBUG Found key {a01ae15c-9914-4b94-80f3-f1588e7da62f}. 
+2025-07-12 00:07:33.9973 DEBUG Found key {dbd75201-92be-4afd-a4f4-1c1b16768dd5}. 
+2025-07-12 00:07:33.9973 DEBUG Considering key {a01ae15c-9914-4b94-80f3-f1588e7da62f} with expiration date 2025-09-24 13:26:51Z as default key. 
+2025-07-12 00:07:34.0111 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-07-12 00:07:34.0111 DEBUG Decrypting secret element using Windows DPAPI. 
+2025-07-12 00:07:34.0111 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-07-12 00:07:34.0111 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-07-12 00:07:34.0111 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-07-12 00:07:34.0111 DEBUG Using key {a01ae15c-9914-4b94-80f3-f1588e7da62f} as the default key. 
+2025-07-12 00:07:34.0111 DEBUG Key ring with default key {a01ae15c-9914-4b94-80f3-f1588e7da62f} was loaded during application startup. 
+2025-07-12 00:07:34.1270 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-07-12 00:07:34.1270 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-07-12 00:07:34.1270 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-07-12 00:07:34.1270 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-07-12 00:07:34.1519 INFO Request starting HTTP/2 GET https://localhost:44384/swagger - - - 
+2025-07-12 00:07:34.2766 INFO Application started. Press Ctrl+C to shut down. 
+2025-07-12 00:07:34.2766 INFO Hosting environment: Development 
+2025-07-12 00:07:34.2766 INFO Content root path: C:\Users\elitebook\Source\Repos\AspDotNet12\ApiAspNet 
+2025-07-12 00:07:34.2766 DEBUG Hosting started 
+2025-07-12 00:07:34.8549 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-07-12 00:07:34.8549 TRACE All hosts are allowed. 
+2025-07-12 00:07:34.8770 DEBUG No candidates found for the request path '/swagger' 
+2025-07-12 00:07:34.8770 DEBUG Request did not match any endpoints 
+2025-07-12 00:07:34.8910 DEBUG Connection ID "18374686484771897346" disconnecting. 
+2025-07-12 00:07:34.8910 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - - - 
+2025-07-12 00:07:34.9028 TRACE All hosts are allowed. 
+2025-07-12 00:07:34.9028 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-07-12 00:07:34.9028 DEBUG Request did not match any endpoints 
+2025-07-12 00:07:34.9028 INFO Request finished HTTP/2 GET https://localhost:44384/swagger - 301 - - 770.0527ms 
+2025-07-12 00:07:34.9440 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2025-07-12 00:07:34.9457 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-07-12 00:07:34.9627 DEBUG Response markup was updated to include Browser Link script injection. 
+2025-07-12 00:07:34.9627 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-07-12 00:07:34.9627 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 - text/html;charset=utf-8 65.3350ms 
+2025-07-12 00:07:34.9627 DEBUG Connection ID "18302628916503773187" disconnecting. 
+2025-07-12 00:07:34.9627 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/swagger-ui-standalone-preset.js - - - 
+2025-07-12 00:07:34.9780 TRACE All hosts are allowed. 
+2025-07-12 00:07:34.9780 DEBUG No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js' 
+2025-07-12 00:07:34.9780 DEBUG Request did not match any endpoints 
+2025-07-12 00:07:35.0107 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/swagger-ui-bundle.js - - - 
+2025-07-12 00:07:35.0107 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/swagger-ui.css - - - 
+2025-07-12 00:07:35.0107 TRACE All hosts are allowed. 
+2025-07-12 00:07:35.0107 TRACE All hosts are allowed. 
+2025-07-12 00:07:35.0107 DEBUG No candidates found for the request path '/swagger/swagger-ui-bundle.js' 
+2025-07-12 00:07:35.0107 DEBUG No candidates found for the request path '/swagger/swagger-ui.css' 
+2025-07-12 00:07:35.0107 DEBUG Request did not match any endpoints 
+2025-07-12 00:07:35.0107 DEBUG Request did not match any endpoints 
+2025-07-12 00:07:35.0107 TRACE Range header's value is empty. 
+2025-07-12 00:07:35.0107 TRACE Range header's value is empty. 
+2025-07-12 00:07:35.0107 TRACE Range header's value is empty. 
+2025-07-12 00:07:35.0107 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-07-12 00:07:35.0295 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-07-12 00:07:35.0295 DEBUG Connection ID "18374686484771897348" disconnecting. 
+2025-07-12 00:07:35.0295 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 60.8692ms 
+2025-07-12 00:07:35.0437 DEBUG Connection ID "18302628916503773189" disconnecting. 
+2025-07-12 00:07:35.0437 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-07-12 00:07:35.0437 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/swagger-ui.css - 200 143943 text/css 33.4079ms 
+2025-07-12 00:07:35.0437 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-07-12 00:07:35.0437 DEBUG Connection ID "18302628916503773191" disconnecting. 
+2025-07-12 00:07:35.0437 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 7.7672ms 
+2025-07-12 00:07:35.0651 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-07-12 00:07:35.0823 DEBUG Connection ID "18374686497656799237" disconnecting. 
+2025-07-12 00:07:35.0823 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 72.0838ms 
+2025-07-12 00:07:36.1365 DEBUG Connection ID "18230571318170877953" disconnecting. 
+2025-07-12 00:07:36.1365 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1071.7771ms 
+2025-07-12 00:07:36.2104 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - - - 
+2025-07-12 00:07:36.2104 TRACE All hosts are allowed. 
+2025-07-12 00:07:36.2104 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-07-12 00:07:36.2104 DEBUG Request did not match any endpoints 
+2025-07-12 00:07:36.2409 DEBUG Connection ID "18302628890733969410" disconnecting. 
+2025-07-12 00:07:36.2409 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 30.4726ms 
+2025-07-12 00:07:36.3962 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/favicon-32x32.png - - - 
+2025-07-12 00:07:36.3962 TRACE All hosts are allowed. 
+2025-07-12 00:07:36.3962 DEBUG No candidates found for the request path '/swagger/favicon-32x32.png' 
+2025-07-12 00:07:36.3962 DEBUG Request did not match any endpoints 
+2025-07-12 00:07:36.3962 TRACE Range header's value is empty. 
+2025-07-12 00:07:36.3962 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-07-12 00:07:36.3962 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/favicon-32x32.png - 200 628 image/png 1.5534ms 
+2025-07-12 00:34:02.1096 DEBUG Démarrage de l'application 
+2025-07-12 00:34:04.9071 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-07-12 00:34:05.0713 DEBUG Hosting starting 
+2025-07-12 00:34:05.0987 INFO User profile is available. Using 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-07-12 00:34:05.1402 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-a01ae15c-9914-4b94-80f3-f1588e7da62f.xml'. 
+2025-07-12 00:34:05.1402 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-dbd75201-92be-4afd-a4f4-1c1b16768dd5.xml'. 
+2025-07-12 00:34:05.1600 DEBUG Found key {a01ae15c-9914-4b94-80f3-f1588e7da62f}. 
+2025-07-12 00:34:05.1600 DEBUG Found key {dbd75201-92be-4afd-a4f4-1c1b16768dd5}. 
+2025-07-12 00:34:05.1907 DEBUG Considering key {a01ae15c-9914-4b94-80f3-f1588e7da62f} with expiration date 2025-09-24 13:26:51Z as default key. 
+2025-07-12 00:34:05.2009 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-07-12 00:34:05.2009 DEBUG Decrypting secret element using Windows DPAPI. 
+2025-07-12 00:34:05.2134 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-07-12 00:34:05.2269 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-07-12 00:34:05.2269 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-07-12 00:34:05.2269 DEBUG Using key {a01ae15c-9914-4b94-80f3-f1588e7da62f} as the default key. 
+2025-07-12 00:34:05.2269 DEBUG Key ring with default key {a01ae15c-9914-4b94-80f3-f1588e7da62f} was loaded during application startup. 
+2025-07-12 00:34:05.4765 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-07-12 00:34:05.4814 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-07-12 00:34:05.4814 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-07-12 00:34:05.4814 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-07-12 00:34:05.5106 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - - - 
+2025-07-12 00:34:05.6587 INFO Application started. Press Ctrl+C to shut down. 
+2025-07-12 00:34:05.6587 INFO Hosting environment: Development 
+2025-07-12 00:34:05.6587 INFO Content root path: C:\Users\elitebook\Source\Repos\AspDotNet12\ApiAspNet 
+2025-07-12 00:34:05.6587 DEBUG Hosting started 
+2025-07-12 00:34:06.3601 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-07-12 00:34:06.3601 TRACE All hosts are allowed. 
+2025-07-12 00:34:06.4104 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-07-12 00:34:06.4104 DEBUG Request did not match any endpoints 
+2025-07-12 00:34:06.5056 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2025-07-12 00:34:06.5090 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-07-12 00:34:06.5585 DEBUG Response markup was updated to include Browser Link script injection. 
+2025-07-12 00:34:06.5585 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-07-12 00:34:06.5585 DEBUG Connection ID "18158513706953080836" disconnecting. 
+2025-07-12 00:34:06.5585 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 - text/html;charset=utf-8 1070.0802ms 
+2025-07-12 00:34:06.5844 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-07-12 00:34:06.5891 DEBUG Connection ID "18302628912208805890" disconnecting. 
+2025-07-12 00:34:06.5891 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 4.5737ms 
+2025-07-12 00:34:06.6050 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-07-12 00:34:06.7630 DEBUG Connection ID "18374686497656799243" disconnecting. 
+2025-07-12 00:34:06.7630 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 166.0818ms 
+2025-07-12 00:34:07.2518 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - - - 
+2025-07-12 00:34:07.2518 TRACE All hosts are allowed. 
+2025-07-12 00:34:07.2518 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-07-12 00:34:07.2518 DEBUG Request did not match any endpoints 
+2025-07-12 00:34:07.3956 DEBUG Connection ID "18302628912208805892" disconnecting. 
+2025-07-12 00:34:07.3956 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 144.3254ms 
+2025-07-12 02:27:10.7979 DEBUG Démarrage de l'application 
+2025-07-12 02:27:11.7889 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-07-12 02:27:11.9012 DEBUG Hosting starting 
+2025-07-12 02:27:11.9310 INFO User profile is available. Using 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-07-12 02:27:11.9524 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-a01ae15c-9914-4b94-80f3-f1588e7da62f.xml'. 
+2025-07-12 02:27:11.9524 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-dbd75201-92be-4afd-a4f4-1c1b16768dd5.xml'. 
+2025-07-12 02:27:11.9865 DEBUG Found key {a01ae15c-9914-4b94-80f3-f1588e7da62f}. 
+2025-07-12 02:27:11.9951 DEBUG Found key {dbd75201-92be-4afd-a4f4-1c1b16768dd5}. 
+2025-07-12 02:27:12.0277 DEBUG Considering key {a01ae15c-9914-4b94-80f3-f1588e7da62f} with expiration date 2025-09-24 13:26:51Z as default key. 
+2025-07-12 02:27:12.0277 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-07-12 02:27:12.0404 DEBUG Decrypting secret element using Windows DPAPI. 
+2025-07-12 02:27:12.0404 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-07-12 02:27:12.0404 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-07-12 02:27:12.0404 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-07-12 02:27:12.0404 DEBUG Using key {a01ae15c-9914-4b94-80f3-f1588e7da62f} as the default key. 
+2025-07-12 02:27:12.0552 DEBUG Key ring with default key {a01ae15c-9914-4b94-80f3-f1588e7da62f} was loaded during application startup. 
+2025-07-12 02:27:12.7670 INFO Now listening on: https://localhost:7024 
+2025-07-12 02:27:12.7670 INFO Now listening on: http://localhost:5093 
+2025-07-12 02:27:12.7670 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-07-12 02:27:12.7670 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-07-12 02:27:12.7670 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-07-12 02:27:12.7670 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-07-12 02:27:13.0150 INFO Application started. Press Ctrl+C to shut down. 
+2025-07-12 02:27:13.0150 INFO Hosting environment: Development 
+2025-07-12 02:27:13.0150 INFO Content root path: C:\Users\elitebook\Source\Repos\AspDotNet12\ApiAspNet 
+2025-07-12 02:27:13.0150 DEBUG Hosting started 
+2025-07-12 02:27:13.1084 DEBUG Connection id "0HNE0TEE74IIN" accepted. 
+2025-07-12 02:27:13.1084 DEBUG Connection id "0HNE0TEE74IIO" accepted. 
+2025-07-12 02:27:13.1084 DEBUG Connection id "0HNE0TEE74IIO" started. 
+2025-07-12 02:27:13.1084 DEBUG Connection id "0HNE0TEE74IIN" started. 
+2025-07-12 02:27:13.1188 DEBUG Connection id "0HNE0TEE74IIO" received FIN. 
+2025-07-12 02:27:13.1188 DEBUG Connection id "0HNE0TEE74IIN" received FIN. 
+2025-07-12 02:27:13.1584 DEBUG Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-07-12 02:27:13.1584 DEBUG Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-07-12 02:27:13.2286 DEBUG Connection id "0HNE0TEE74IIN" stopped. 
+2025-07-12 02:27:13.2286 DEBUG Connection id "0HNE0TEE74IIO" stopped. 
+2025-07-12 02:27:13.2286 DEBUG Connection id "0HNE0TEE74IIO" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-07-12 02:27:13.2286 DEBUG Connection id "0HNE0TEE74IIN" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-07-12 02:27:20.6228 DEBUG Démarrage de l'application 
+2025-07-12 02:27:24.1069 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-07-12 02:27:24.3018 DEBUG Hosting starting 
+2025-07-12 02:27:24.3483 INFO User profile is available. Using 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-07-12 02:27:24.3746 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-a01ae15c-9914-4b94-80f3-f1588e7da62f.xml'. 
+2025-07-12 02:27:24.3746 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-dbd75201-92be-4afd-a4f4-1c1b16768dd5.xml'. 
+2025-07-12 02:27:24.4016 DEBUG Found key {a01ae15c-9914-4b94-80f3-f1588e7da62f}. 
+2025-07-12 02:27:24.4016 DEBUG Found key {dbd75201-92be-4afd-a4f4-1c1b16768dd5}. 
+2025-07-12 02:27:24.4503 DEBUG Considering key {a01ae15c-9914-4b94-80f3-f1588e7da62f} with expiration date 2025-09-24 13:26:51Z as default key. 
+2025-07-12 02:27:24.4630 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-07-12 02:27:24.4630 DEBUG Decrypting secret element using Windows DPAPI. 
+2025-07-12 02:27:24.4630 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-07-12 02:27:24.4816 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-07-12 02:27:24.4816 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-07-12 02:27:24.4816 DEBUG Using key {a01ae15c-9914-4b94-80f3-f1588e7da62f} as the default key. 
+2025-07-12 02:27:24.4816 DEBUG Key ring with default key {a01ae15c-9914-4b94-80f3-f1588e7da62f} was loaded during application startup. 
+2025-07-12 02:27:25.3813 INFO Now listening on: https://localhost:7024 
+2025-07-12 02:27:25.3813 INFO Now listening on: http://localhost:5093 
+2025-07-12 02:27:25.3813 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-07-12 02:27:25.3813 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-07-12 02:27:25.3813 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-07-12 02:27:25.3813 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-07-12 02:27:25.4218 DEBUG Connection id "0HNE0TEHSIOFF" accepted. 
+2025-07-12 02:27:25.4218 DEBUG Connection id "0HNE0TEHSIOFF" started. 
+2025-07-12 02:27:25.4319 DEBUG Connection id "0HNE0TEHSIOFF" received FIN. 
+2025-07-12 02:27:25.4907 DEBUG Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-07-12 02:27:25.5670 DEBUG Connection id "0HNE0TEHSIOFF" stopped. 
+2025-07-12 02:27:25.5743 DEBUG Connection id "0HNE0TEHSIOFF" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-07-12 02:27:25.7377 INFO Application started. Press Ctrl+C to shut down. 
+2025-07-12 02:27:25.7377 INFO Hosting environment: Development 
+2025-07-12 02:27:25.7377 INFO Content root path: C:\Users\elitebook\Source\Repos\AspDotNet12\ApiAspNet 
+2025-07-12 02:27:25.7377 DEBUG Hosting started 
+2025-07-12 02:27:26.6075 DEBUG Connection id "0HNE0TEHSIOFG" accepted. 
+2025-07-12 02:27:26.6075 DEBUG Connection id "0HNE0TEHSIOFG" started. 
+2025-07-12 02:27:26.6428 DEBUG Connection id "0HNE0TEHSIOFH" accepted. 
+2025-07-12 02:27:26.6428 DEBUG Connection id "0HNE0TEHSIOFH" started. 
+2025-07-12 02:27:26.7842 DEBUG Connection id "0HNE0TEHSIOFG" received FIN. 
+2025-07-12 02:27:26.8502 DEBUG Connection 0HNE0TEHSIOFH established using the following protocol: Tls13 
+2025-07-12 02:27:26.8502 DEBUG Connection 0HNE0TEHSIOFG established using the following protocol: Tls13 
+2025-07-12 02:27:26.9483 DEBUG Connection id "0HNE0TEHSIOFG" is closed. The last processed stream ID was 0. 
+2025-07-12 02:27:26.9483 DEBUG Connection id "0HNE0TEHSIOFG" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-07-12 02:27:26.9483 TRACE Connection id "0HNE0TEHSIOFH" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-07-12 02:27:26.9673 TRACE Connection id "0HNE0TEHSIOFH" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-07-12 02:27:26.9673 DEBUG The connection queue processing loop for 0HNE0TEHSIOFG completed. 
+2025-07-12 02:27:26.9673 TRACE Connection id "0HNE0TEHSIOFH" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-07-12 02:27:26.9673 TRACE Connection id "0HNE0TEHSIOFH" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-07-12 02:27:26.9673 TRACE Connection id "0HNE0TEHSIOFH" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-07-12 02:27:26.9673 TRACE Connection id "0HNE0TEHSIOFH" received HEADERS frame for stream ID 1 with length 543 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-07-12 02:27:26.9835 DEBUG Connection id "0HNE0TEHSIOFG" stopped. 
+2025-07-12 02:27:27.0433 TRACE Connection id "0HNE0TEHSIOFH" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-07-12 02:27:27.0768 INFO Request starting HTTP/2 GET https://localhost:7024/swagger - - - 
+2025-07-12 02:27:27.4847 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-07-12 02:27:27.4847 TRACE All hosts are allowed. 
+2025-07-12 02:27:27.5622 DEBUG No candidates found for the request path '/swagger' 
+2025-07-12 02:27:27.5622 DEBUG Request did not match any endpoints 
+2025-07-12 02:27:27.5898 TRACE Connection id "0HNE0TEHSIOFH" sending HEADERS frame for stream ID 1 with length 69 and flags END_STREAM, END_HEADERS. 
+2025-07-12 02:27:27.5898 INFO Request finished HTTP/2 GET https://localhost:7024/swagger - 301 0 - 537.1558ms 
+2025-07-12 02:27:27.6032 TRACE Connection id "0HNE0TEHSIOFH" received HEADERS frame for stream ID 3 with length 39 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-07-12 02:27:27.6032 INFO Request starting HTTP/2 GET https://localhost:7024/swagger/index.html - - - 
+2025-07-12 02:27:27.6250 TRACE All hosts are allowed. 
+2025-07-12 02:27:27.6250 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-07-12 02:27:27.6250 DEBUG Request did not match any endpoints 
+2025-07-12 02:27:27.7754 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2025-07-12 02:27:27.7754 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-07-12 02:27:27.7754 TRACE Connection id "0HNE0TEHSIOFH" sending HEADERS frame for stream ID 3 with length 28 and flags END_HEADERS. 
+2025-07-12 02:27:27.8074 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 3 with length 4096 and flags NONE. 
+2025-07-12 02:27:27.8253 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 3 with length 989 and flags NONE. 
+2025-07-12 02:27:27.8253 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 3 with length 81 and flags NONE. 
+2025-07-12 02:27:27.8436 DEBUG Response markup was updated to include Browser Link script injection. 
+2025-07-12 02:27:27.8436 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-07-12 02:27:27.8436 INFO Request finished HTTP/2 GET https://localhost:7024/swagger/index.html - 200 - text/html;charset=utf-8 234.9057ms 
+2025-07-12 02:27:27.8436 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2025-07-12 02:27:27.8521 TRACE Connection id "0HNE0TEHSIOFH" received HEADERS frame for stream ID 5 with length 115 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-07-12 02:27:27.8521 TRACE Connection id "0HNE0TEHSIOFH" received HEADERS frame for stream ID 7 with length 60 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-07-12 02:27:27.8521 INFO Request starting HTTP/2 GET https://localhost:7024/swagger/swagger-ui.css - - - 
+2025-07-12 02:27:27.8521 TRACE Connection id "0HNE0TEHSIOFH" received HEADERS frame for stream ID 9 with length 53 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-07-12 02:27:27.8521 TRACE All hosts are allowed. 
+2025-07-12 02:27:27.8521 DEBUG No candidates found for the request path '/swagger/swagger-ui.css' 
+2025-07-12 02:27:27.8521 INFO Request starting HTTP/2 GET https://localhost:7024/swagger/swagger-ui-bundle.js - - - 
+2025-07-12 02:27:27.8521 DEBUG Request did not match any endpoints 
+2025-07-12 02:27:27.8521 TRACE All hosts are allowed. 
+2025-07-12 02:27:27.8521 INFO Request starting HTTP/2 GET https://localhost:7024/swagger/swagger-ui-standalone-preset.js - - - 
+2025-07-12 02:27:27.8521 DEBUG No candidates found for the request path '/swagger/swagger-ui-bundle.js' 
+2025-07-12 02:27:27.8521 TRACE All hosts are allowed. 
+2025-07-12 02:27:27.8521 DEBUG Request did not match any endpoints 
+2025-07-12 02:27:27.8521 DEBUG No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js' 
+2025-07-12 02:27:27.8521 DEBUG Request did not match any endpoints 
+2025-07-12 02:27:27.8521 TRACE Connection id "0HNE0TEHSIOFH" received HEADERS frame for stream ID 11 with length 54 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-07-12 02:27:27.8694 INFO Request starting HTTP/2 GET https://localhost:7024/_framework/aspnetcore-browser-refresh.js - - - 
+2025-07-12 02:27:27.8694 TRACE Range header's value is empty. 
+2025-07-12 02:27:27.8694 TRACE Range header's value is empty. 
+2025-07-12 02:27:27.8694 TRACE Range header's value is empty. 
+2025-07-12 02:27:27.8851 TRACE Connection id "0HNE0TEHSIOFH" sending HEADERS frame for stream ID 11 with length 60 and flags END_HEADERS. 
+2025-07-12 02:27:27.8851 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 11 with length 13770 and flags NONE. 
+2025-07-12 02:27:27.9224 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM. 
+2025-07-12 02:27:27.9224 INFO Request finished HTTP/2 GET https://localhost:7024/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 53.0183ms 
+2025-07-12 02:27:27.9224 TRACE Connection id "0HNE0TEHSIOFH" sending HEADERS frame for stream ID 9 with length 116 and flags END_HEADERS. 
+2025-07-12 02:27:27.9224 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9224 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9224 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9224 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9313 TRACE Connection id "0HNE0TEHSIOFH" sending HEADERS frame for stream ID 7 with length 35 and flags END_HEADERS. 
+2025-07-12 02:27:27.9313 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9313 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9313 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9313 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9551 TRACE Connection id "0HNE0TEHSIOFH" sending HEADERS frame for stream ID 5 with length 43 and flags END_HEADERS. 
+2025-07-12 02:27:27.9551 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9551 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9551 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9551 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9551 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9551 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9551 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9551 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9551 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9551 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9551 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9551 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 5 with length 12871 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9610 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9806 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9806 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9806 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9806 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9929 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9929 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9929 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9929 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:27.9929 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-07-12 02:27:27.9929 INFO Request finished HTTP/2 GET https://localhost:7024/swagger/swagger-ui.css - 200 143943 text/css 148.0385ms 
+2025-07-12 02:27:28.0133 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 11806 and flags NONE. 
+2025-07-12 02:27:28.0133 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2025-07-12 02:27:28.0133 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-07-12 02:27:28.0133 INFO Request finished HTTP/2 GET https://localhost:7024/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 162.1598ms 
+2025-07-12 02:27:28.0133 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0133 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0133 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0133 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0347 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2025-07-12 02:27:28.0347 TRACE Connection id "0HNE0TEHSIOFH" received HEADERS frame for stream ID 13 with length 35 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-07-12 02:27:28.0347 INFO Request starting HTTP/2 GET https://localhost:7024/_vs/browserLink - - - 
+2025-07-12 02:27:28.0347 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0394 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0394 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0394 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0394 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0394 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0394 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0394 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0556 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0556 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0556 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0556 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0556 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0556 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0556 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0556 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0556 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0556 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0556 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0556 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0824 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0824 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0824 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0824 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0852 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0852 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0852 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0852 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0852 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0852 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0852 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0852 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0852 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0852 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0852 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0852 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0852 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0852 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0852 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.0852 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.1018 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.1018 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2025-07-12 02:27:28.1018 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 14801 and flags NONE. 
+2025-07-12 02:27:28.1018 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-07-12 02:27:28.1018 INFO Request finished HTTP/2 GET https://localhost:7024/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 250.1302ms 
+2025-07-12 02:27:28.1018 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2025-07-12 02:27:28.1753 TRACE Connection id "0HNE0TEHSIOFH" sending HEADERS frame for stream ID 13 with length 119 and flags END_HEADERS. 
+2025-07-12 02:27:28.1753 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 13 with length 9986 and flags NONE. 
+2025-07-12 02:27:28.1841 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-07-12 02:27:28.1841 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-07-12 02:27:28.1841 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-07-12 02:27:28.1841 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-07-12 02:27:28.1841 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-07-12 02:27:28.1841 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-07-12 02:27:28.1951 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-07-12 02:27:28.1951 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-07-12 02:27:28.1951 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-07-12 02:27:28.1951 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-07-12 02:27:28.1951 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-07-12 02:27:28.1951 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-07-12 02:27:28.1951 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-07-12 02:27:28.1951 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 13 with length 10240 and flags NONE. 
+2025-07-12 02:27:28.1951 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 13 with length 1806 and flags NONE. 
+2025-07-12 02:27:28.2141 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 13 with length 0 and flags END_STREAM. 
+2025-07-12 02:27:28.2141 INFO Request finished HTTP/2 GET https://localhost:7024/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 175.3283ms 
+2025-07-12 02:27:29.4874 TRACE Connection id "0HNE0TEHSIOFH" received HEADERS frame for stream ID 15 with length 76 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-07-12 02:27:29.4998 INFO Request starting HTTP/2 GET https://localhost:7024/swagger/v1/swagger.json - - - 
+2025-07-12 02:27:29.4998 TRACE All hosts are allowed. 
+2025-07-12 02:27:29.4998 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-07-12 02:27:29.4998 DEBUG Request did not match any endpoints 
+2025-07-12 02:27:29.6212 TRACE Connection id "0HNE0TEHSIOFH" sending HEADERS frame for stream ID 15 with length 65 and flags END_HEADERS. 
+2025-07-12 02:27:29.6212 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 15 with length 16384 and flags NONE. 
+2025-07-12 02:27:29.6212 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 15 with length 16384 and flags NONE. 
+2025-07-12 02:27:29.6212 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 15 with length 9776 and flags NONE. 
+2025-07-12 02:27:29.6346 TRACE Connection id "0HNE0TEHSIOFH" received HEADERS frame for stream ID 17 with length 99 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-07-12 02:27:29.6346 INFO Request starting HTTP/2 GET https://localhost:7024/swagger/favicon-32x32.png - - - 
+2025-07-12 02:27:29.6346 TRACE All hosts are allowed. 
+2025-07-12 02:27:29.6346 DEBUG No candidates found for the request path '/swagger/favicon-32x32.png' 
+2025-07-12 02:27:29.6346 DEBUG Request did not match any endpoints 
+2025-07-12 02:27:29.6346 TRACE Range header's value is empty. 
+2025-07-12 02:27:29.6346 INFO Request finished HTTP/2 GET https://localhost:7024/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 142.7963ms 
+2025-07-12 02:27:29.6346 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-07-12 02:27:29.6346 INFO Request finished HTTP/2 GET https://localhost:7024/swagger/favicon-32x32.png - 200 628 image/png 7.2555ms 
+2025-07-12 02:27:29.6346 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 15 with length 0 and flags END_STREAM. 
+2025-07-12 02:27:29.6346 TRACE Connection id "0HNE0TEHSIOFH" sending HEADERS frame for stream ID 17 with length 41 and flags END_HEADERS. 
+2025-07-12 02:27:29.6346 TRACE Connection id "0HNE0TEHSIOFH" sending DATA frame for stream ID 17 with length 628 and flags END_STREAM. 
+2025-07-12 02:28:57.9913 DEBUG Démarrage de l'application 
+2025-07-12 02:29:01.9165 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-07-12 02:29:02.2975 DEBUG Hosting starting 
+2025-07-12 02:29:02.3748 INFO User profile is available. Using 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-07-12 02:29:02.4013 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-a01ae15c-9914-4b94-80f3-f1588e7da62f.xml'. 
+2025-07-12 02:29:02.4013 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-dbd75201-92be-4afd-a4f4-1c1b16768dd5.xml'. 
+2025-07-12 02:29:02.4266 DEBUG Found key {a01ae15c-9914-4b94-80f3-f1588e7da62f}. 
+2025-07-12 02:29:02.4322 DEBUG Found key {dbd75201-92be-4afd-a4f4-1c1b16768dd5}. 
+2025-07-12 02:29:02.4602 DEBUG Considering key {a01ae15c-9914-4b94-80f3-f1588e7da62f} with expiration date 2025-09-24 13:26:51Z as default key. 
+2025-07-12 02:29:02.4760 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-07-12 02:29:02.4875 DEBUG Decrypting secret element using Windows DPAPI. 
+2025-07-12 02:29:02.4949 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-07-12 02:29:02.5116 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-07-12 02:29:02.5116 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-07-12 02:29:02.5116 DEBUG Using key {a01ae15c-9914-4b94-80f3-f1588e7da62f} as the default key. 
+2025-07-12 02:29:02.5116 DEBUG Key ring with default key {a01ae15c-9914-4b94-80f3-f1588e7da62f} was loaded during application startup. 
+2025-07-12 02:29:02.9683 INFO Now listening on: http://localhost:5093 
+2025-07-12 02:29:02.9683 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-07-12 02:29:02.9683 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-07-12 02:29:02.9683 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-07-12 02:29:02.9683 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-07-12 02:29:03.1600 DEBUG Connection id "0HNE0TFF0M0CA" accepted. 
+2025-07-12 02:29:03.1600 DEBUG Connection id "0HNE0TFF0M0CA" started. 
+2025-07-12 02:29:03.1687 DEBUG Connection id "0HNE0TFF0M0CA" received FIN. 
+2025-07-12 02:29:03.1798 DEBUG Connection id "0HNE0TFF0M0CA" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-07-12 02:29:03.1798 DEBUG Connection id "0HNE0TFF0M0CA" disconnecting. 
+2025-07-12 02:29:03.1980 DEBUG Connection id "0HNE0TFF0M0CA" stopped. 
+2025-07-12 02:29:03.2157 INFO Application started. Press Ctrl+C to shut down. 
+2025-07-12 02:29:03.2157 INFO Hosting environment: Development 
+2025-07-12 02:29:03.2157 INFO Content root path: C:\Users\elitebook\Source\Repos\AspDotNet12\ApiAspNet 
+2025-07-12 02:29:03.2157 DEBUG Hosting started 
+2025-07-12 02:29:04.2381 DEBUG Connection id "0HNE0TFF0M0CB" accepted. 
+2025-07-12 02:29:04.2513 DEBUG Connection id "0HNE0TFF0M0CC" accepted. 
+2025-07-12 02:29:04.2513 DEBUG Connection id "0HNE0TFF0M0CC" started. 
+2025-07-12 02:29:04.2642 DEBUG Connection id "0HNE0TFF0M0CB" started. 
+2025-07-12 02:29:04.4063 INFO Request starting HTTP/1.1 GET http://localhost:5093/swagger - - - 
+2025-07-12 02:29:04.8277 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-07-12 02:29:04.8277 TRACE All hosts are allowed. 
+2025-07-12 02:29:04.8772 DEBUG No candidates found for the request path '/swagger' 
+2025-07-12 02:29:04.8772 DEBUG Request did not match any endpoints 
+2025-07-12 02:29:04.8942 DEBUG Connection id "0HNE0TFF0M0CB" completed keep alive response. 
+2025-07-12 02:29:04.9026 INFO Request finished HTTP/1.1 GET http://localhost:5093/swagger - 301 0 - 531.2599ms 
+2025-07-12 02:29:04.9026 INFO Request starting HTTP/1.1 GET http://localhost:5093/swagger/index.html - - - 
+2025-07-12 02:29:04.9167 TRACE All hosts are allowed. 
+2025-07-12 02:29:04.9167 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-07-12 02:29:04.9167 DEBUG Request did not match any endpoints 
+2025-07-12 02:29:05.0208 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2025-07-12 02:29:05.0208 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-07-12 02:29:05.0511 DEBUG Response markup was updated to include Browser Link script injection. 
+2025-07-12 02:29:05.0511 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-07-12 02:29:05.0511 DEBUG Connection id "0HNE0TFF0M0CB" completed keep alive response. 
+2025-07-12 02:29:05.0511 INFO Request finished HTTP/1.1 GET http://localhost:5093/swagger/index.html - 200 - text/html;charset=utf-8 148.1995ms 
+2025-07-12 02:29:05.0688 INFO Request starting HTTP/1.1 GET http://localhost:5093/swagger/swagger-ui.css - - - 
+2025-07-12 02:29:05.0688 TRACE All hosts are allowed. 
+2025-07-12 02:29:05.0688 DEBUG No candidates found for the request path '/swagger/swagger-ui.css' 
+2025-07-12 02:29:05.0688 DEBUG Request did not match any endpoints 
+2025-07-12 02:29:05.0703 INFO Request starting HTTP/1.1 GET http://localhost:5093/swagger/swagger-ui-bundle.js - - - 
+2025-07-12 02:29:05.0703 TRACE All hosts are allowed. 
+2025-07-12 02:29:05.0703 DEBUG No candidates found for the request path '/swagger/swagger-ui-bundle.js' 
+2025-07-12 02:29:05.0703 DEBUG Request did not match any endpoints 
+2025-07-12 02:29:05.0703 DEBUG Connection id "0HNE0TFF0M0CD" accepted. 
+2025-07-12 02:29:05.0703 DEBUG Connection id "0HNE0TFF0M0CD" started. 
+2025-07-12 02:29:05.0703 DEBUG Connection id "0HNE0TFF0M0CE" accepted. 
+2025-07-12 02:29:05.0703 DEBUG Connection id "0HNE0TFF0M0CE" started. 
+2025-07-12 02:29:05.0703 INFO Request starting HTTP/1.1 GET http://localhost:5093/swagger/swagger-ui-standalone-preset.js - - - 
+2025-07-12 02:29:05.0703 INFO Request starting HTTP/1.1 GET http://localhost:5093/_framework/aspnetcore-browser-refresh.js - - - 
+2025-07-12 02:29:05.0703 TRACE All hosts are allowed. 
+2025-07-12 02:29:05.0703 DEBUG No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js' 
+2025-07-12 02:29:05.0703 DEBUG Request did not match any endpoints 
+2025-07-12 02:29:05.0934 DEBUG Connection id "0HNE0TFF0M0CF" accepted. 
+2025-07-12 02:29:05.0934 DEBUG Connection id "0HNE0TFF0M0CF" started. 
+2025-07-12 02:29:05.0934 INFO Request starting HTTP/1.1 GET http://localhost:5093/_vs/browserLink - - - 
+2025-07-12 02:29:05.1204 DEBUG Connection id "0HNE0TFF0M0CE" completed keep alive response. 
+2025-07-12 02:29:05.1204 INFO Request finished HTTP/1.1 GET http://localhost:5093/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 42.3675ms 
+2025-07-12 02:29:05.1204 TRACE Range header's value is empty. 
+2025-07-12 02:29:05.1204 TRACE Range header's value is empty. 
+2025-07-12 02:29:05.1204 TRACE Range header's value is empty. 
+2025-07-12 02:29:05.2455 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-07-12 02:29:05.2599 DEBUG Connection id "0HNE0TFF0M0CB" completed keep alive response. 
+2025-07-12 02:29:05.2599 INFO Request finished HTTP/1.1 GET http://localhost:5093/swagger/swagger-ui.css - 200 143943 text/css 192.1624ms 
+2025-07-12 02:29:05.2599 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-07-12 02:29:05.2599 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-07-12 02:29:05.2599 DEBUG Connection id "0HNE0TFF0M0CD" completed keep alive response. 
+2025-07-12 02:29:05.2599 DEBUG Connection id "0HNE0TFF0M0CC" completed keep alive response. 
+2025-07-12 02:29:05.2599 INFO Request finished HTTP/1.1 GET http://localhost:5093/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 186.3252ms 
+2025-07-12 02:29:05.2599 INFO Request finished HTTP/1.1 GET http://localhost:5093/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 192.3100ms 
+2025-07-12 02:29:05.3271 DEBUG Connection id "0HNE0TFF0M0CF" completed keep alive response. 
+2025-07-12 02:29:05.3271 INFO Request finished HTTP/1.1 GET http://localhost:5093/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 231.7176ms 
+2025-07-12 02:29:06.3712 INFO Request starting HTTP/1.1 GET http://localhost:5093/swagger/v1/swagger.json - - - 
+2025-07-12 02:29:06.3712 TRACE All hosts are allowed. 
+2025-07-12 02:29:06.3712 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-07-12 02:29:06.3712 DEBUG Request did not match any endpoints 
+2025-07-12 02:29:06.4258 DEBUG Connection id "0HNE0TFF0M0CF" completed keep alive response. 
+2025-07-12 02:29:06.4258 INFO Request finished HTTP/1.1 GET http://localhost:5093/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 55.0309ms 
+2025-07-12 02:29:06.4567 INFO Request starting HTTP/1.1 GET http://localhost:5093/swagger/favicon-32x32.png - - - 
+2025-07-12 02:29:06.4567 TRACE All hosts are allowed. 
+2025-07-12 02:29:06.4567 DEBUG No candidates found for the request path '/swagger/favicon-32x32.png' 
+2025-07-12 02:29:06.4567 DEBUG Request did not match any endpoints 
+2025-07-12 02:29:06.4567 TRACE Range header's value is empty. 
+2025-07-12 02:29:06.4567 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-07-12 02:29:06.4567 DEBUG Connection id "0HNE0TFF0M0CF" completed keep alive response. 
+2025-07-12 02:29:06.4567 INFO Request finished HTTP/1.1 GET http://localhost:5093/swagger/favicon-32x32.png - 200 628 image/png 3.3602ms 
+2025-07-12 04:05:58.4618 DEBUG Démarrage de l'application 
+2025-07-12 04:06:00.4296 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-07-12 04:06:00.5120 DEBUG Hosting starting 
+2025-07-12 04:06:00.5215 INFO User profile is available. Using 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-07-12 04:06:02.7145 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-a01ae15c-9914-4b94-80f3-f1588e7da62f.xml'. 
+2025-07-12 04:06:02.7145 DEBUG Reading data from file 'C:\Users\elitebook\AppData\Local\ASP.NET\DataProtection-Keys\key-dbd75201-92be-4afd-a4f4-1c1b16768dd5.xml'. 
+2025-07-12 04:06:02.7145 DEBUG Found key {a01ae15c-9914-4b94-80f3-f1588e7da62f}. 
+2025-07-12 04:06:02.7372 DEBUG Found key {dbd75201-92be-4afd-a4f4-1c1b16768dd5}. 
+2025-07-12 04:06:02.7372 DEBUG Considering key {a01ae15c-9914-4b94-80f3-f1588e7da62f} with expiration date 2025-09-24 13:26:51Z as default key. 
+2025-07-12 04:06:02.7372 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-07-12 04:06:02.7372 DEBUG Decrypting secret element using Windows DPAPI. 
+2025-07-12 04:06:02.7499 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-07-12 04:06:02.7499 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-07-12 04:06:02.7499 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-07-12 04:06:02.7499 DEBUG Using key {a01ae15c-9914-4b94-80f3-f1588e7da62f} as the default key. 
+2025-07-12 04:06:02.7499 DEBUG Key ring with default key {a01ae15c-9914-4b94-80f3-f1588e7da62f} was loaded during application startup. 
+2025-07-12 04:06:02.9085 DEBUG Loaded hosting startup assembly ApiAspNet 
+2025-07-12 04:06:02.9085 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-07-12 04:06:02.9085 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-07-12 04:06:02.9085 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-07-12 04:06:02.9298 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - - - 
+2025-07-12 04:06:03.0204 INFO Application started. Press Ctrl+C to shut down. 
+2025-07-12 04:06:05.0224 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2025-07-12 04:06:05.0230 TRACE All hosts are allowed. 
+2025-07-12 04:06:05.0406 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-07-12 04:06:05.0406 DEBUG Request did not match any endpoints 
+2025-07-12 04:06:05.0778 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2025-07-12 04:06:05.0794 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-07-12 04:06:05.1170 DEBUG Response markup was updated to include Browser Link script injection. 
+2025-07-12 04:06:05.1170 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-07-12 04:06:05.1388 DEBUG Connection ID "18302628907913838600" disconnecting. 
+2025-07-12 04:06:05.1388 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-07-12 04:06:05.1388 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-07-12 04:06:05.1388 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 - text/html;charset=utf-8 2217.1579ms 
+2025-07-12 04:06:06.9701 INFO Hosting environment: Development 
+2025-07-12 04:06:10.9986 INFO Content root path: C:\Users\elitebook\Source\Repos\AspDotNet12\ApiAspNet 
+2025-07-12 04:06:13.0682 DEBUG Connection ID "18374686497656799248" disconnecting. 
+2025-07-12 04:06:13.0682 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 7926.1683ms 
+2025-07-12 04:06:15.0308 DEBUG Hosting started 
+2025-07-12 04:06:19.0712 DEBUG Connection ID "18302628907913838602" disconnecting. 
+2025-07-12 04:06:19.0712 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 13932.2851ms 
+2025-07-12 04:06:19.1556 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - - - 
+2025-07-12 04:06:23.1029 TRACE All hosts are allowed. 
+2025-07-12 04:06:23.1029 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-07-12 04:06:23.1029 DEBUG Request did not match any endpoints 
+2025-07-12 04:06:23.1216 DEBUG Connection ID "18374686493361831942" disconnecting. 
+2025-07-12 04:06:23.1216 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 3966.0528ms 
+2025-07-12 04:08:31.2450 INFO Request starting HTTP/2 GET https://localhost:44384/api/Agence - - - 
+2025-07-12 04:08:33.2695 TRACE All hosts are allowed. 
+2025-07-12 04:08:33.2695 DEBUG 1 candidate(s) found for the request path '/api/Agence' 
+2025-07-12 04:08:33.2767 DEBUG Endpoint 'ApiAspNet.Controllers.AgenceController.GetAll (ApiAspNet)' with route pattern 'api/Agence' is valid for the request path '/api/Agence' 
+2025-07-12 04:08:33.2767 DEBUG Request matched endpoint 'ApiAspNet.Controllers.AgenceController.GetAll (ApiAspNet)' 
+2025-07-12 04:08:33.2767 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-07-12 04:08:33.2767 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-07-12 04:08:33.3484 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-07-12 04:08:33.3536 INFO Executing endpoint 'ApiAspNet.Controllers.AgenceController.GetAll (ApiAspNet)' 
+2025-07-12 04:08:35.4061 INFO Route matched with {action = "GetAll", controller = "Agence"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller ApiAspNet.Controllers.AgenceController (ApiAspNet). 
+2025-07-12 04:08:37.4205 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-07-12 04:08:37.4205 DEBUG Execution plan of resource filters (in the following order): None 
+2025-07-12 04:08:37.4205 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-07-12 04:08:37.4205 DEBUG Execution plan of exception filters (in the following order): None 
+2025-07-12 04:08:37.4205 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-07-12 04:08:37.4205 DEBUG Executing controller factory for controller ApiAspNet.Controllers.AgenceController (ApiAspNet) 
+2025-07-12 04:08:37.6912 DEBUG Executed controller factory for controller ApiAspNet.Controllers.AgenceController (ApiAspNet) 
+2025-07-12 04:08:37.6912 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-07-12 04:08:37.6912 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-07-12 04:08:37.6912 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-07-12 04:08:37.6912 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-07-12 04:08:37.6912 INFO Executing action method ApiAspNet.Controllers.AgenceController.GetAll (ApiAspNet) - Validation state: Valid 
+2025-07-12 04:08:42.1539 INFO Executed action method ApiAspNet.Controllers.AgenceController.GetAll (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2450.3785ms. 
+2025-07-12 04:08:44.1629 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-07-12 04:08:44.1629 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-07-12 04:08:44.1629 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-07-12 04:08:44.1629 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-07-12 04:08:44.1629 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-07-12 04:08:44.1629 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-07-12 04:08:44.1649 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-07-12 04:08:44.1649 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-07-12 04:08:44.1649 DEBUG No information found on request to perform content negotiation. 
+2025-07-12 04:08:44.1649 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-07-12 04:08:44.1649 DEBUG Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-07-12 04:08:44.1649 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-07-12 04:08:44.1649 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiAspNet.Entities.Agence, ApiAspNet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-07-12 04:08:46.2082 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-07-12 04:08:46.2082 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-07-12 04:08:46.2082 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-07-12 04:08:46.2082 INFO Executed action ApiAspNet.Controllers.AgenceController.GetAll (ApiAspNet) in 8787.2747ms 
+2025-07-12 04:08:48.2203 INFO Executed endpoint 'ApiAspNet.Controllers.AgenceController.GetAll (ApiAspNet)' 
+2025-07-12 04:08:50.1359 INFO Request starting HTTP/2 GET https://localhost:44384/api/Flotte/report - - - 
+2025-07-12 04:08:50.2355 DEBUG Connection ID "18014398518877224961" disconnecting. 
+2025-07-12 04:08:50.2444 INFO Request finished HTTP/2 GET https://localhost:44384/api/Agence - 200 - application/json;+charset=utf-8 18999.5246ms 
+2025-07-12 04:08:52.2357 TRACE All hosts are allowed. 
+2025-07-12 04:08:52.2357 DEBUG 2 candidate(s) found for the request path '/api/Flotte/report' 
+2025-07-12 04:08:52.2357 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' with route pattern 'api/Flotte/report' is valid for the request path '/api/Flotte/report' 
+2025-07-12 04:08:52.2357 DEBUG Endpoint 'ApiAspNet.Controllers.FlotteController.GetById (ApiAspNet)' with route pattern 'api/Flotte/{id}' is valid for the request path '/api/Flotte/report' 
+2025-07-12 04:08:52.2357 DEBUG Request matched endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-07-12 04:08:52.2357 TRACE The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-07-12 04:08:52.2357 DEBUG Static files was skipped as the request already matched an endpoint. 
+2025-07-12 04:08:52.2357 DEBUG AuthenticationScheme: Bearer was not authenticated. 
+2025-07-12 04:08:52.2357 INFO Executing endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-07-12 04:08:56.2563 INFO Route matched with {action = "ExportReport", controller = "Flotte"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ExportReport() on controller ApiAspNet.Controllers.FlotteController (ApiAspNet). 
+2025-07-12 04:08:58.2774 DEBUG Execution plan of authorization filters (in the following order): None 
+2025-07-12 04:08:58.2774 DEBUG Execution plan of resource filters (in the following order): None 
+2025-07-12 04:08:58.2774 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-07-12 04:08:58.2774 DEBUG Execution plan of exception filters (in the following order): None 
+2025-07-12 04:08:58.2774 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-07-12 04:08:58.2774 DEBUG Executing controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-07-12 04:08:58.2774 DEBUG Executed controller factory for controller ApiAspNet.Controllers.FlotteController (ApiAspNet) 
+2025-07-12 04:08:58.2774 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-07-12 04:08:58.2774 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-07-12 04:08:58.2774 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-07-12 04:08:58.2774 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-07-12 04:08:58.2774 INFO Executing action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) - Validation state: Valid 
+2025-07-12 04:09:01.0624 INFO Executed action method ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet), returned result Microsoft.AspNetCore.Mvc.FileContentResult in 762.698ms. 
+2025-07-12 04:09:03.0741 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-07-12 04:09:03.0741 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-07-12 04:09:03.0741 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-07-12 04:09:03.0741 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-07-12 04:09:03.0741 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-07-12 04:09:03.0741 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-07-12 04:09:03.0741 TRACE Before executing action result Microsoft.AspNetCore.Mvc.FileContentResult. 
+2025-07-12 04:09:03.0741 INFO Executing FileContentResult, sending file with download name 'rapport.pdf' ... 
+2025-07-12 04:09:05.1000 DEBUG The file result has not been enabled for processing range requests. To enable it, set the EnableRangeProcessing property on the result to 'true'. 
+2025-07-12 04:09:05.1073 TRACE After executing action result Microsoft.AspNetCore.Mvc.FileContentResult. 
+2025-07-12 04:09:05.1073 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-07-12 04:09:05.1073 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-07-12 04:09:05.1073 INFO Executed action ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet) in 6829.4749ms 
+2025-07-12 04:09:07.1175 INFO Executed endpoint 'ApiAspNet.Controllers.FlotteController.ExportReport (ApiAspNet)' 
+2025-07-12 04:09:09.1358 DEBUG Connection ID "18302628907913838604" disconnecting. 
+2025-07-12 04:09:09.1358 INFO Request finished HTTP/2 GET https://localhost:44384/api/Flotte/report - 200 210291 application/pdf 19004.7593ms 
+2025-07-12 04:09:58.7472 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/index.html - - - 
+2025-07-12 04:10:00.7735 TRACE All hosts are allowed. 
+2025-07-12 04:10:00.7735 DEBUG No candidates found for the request path '/swagger/index.html' 
+2025-07-12 04:10:00.7735 DEBUG Request did not match any endpoints 
+2025-07-12 04:10:00.7735 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2025-07-12 04:10:00.7735 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2025-07-12 04:10:00.7735 DEBUG Response markup was updated to include Browser Link script injection. 
+2025-07-12 04:10:00.7735 DEBUG Response markup was updated to include browser refresh script injection. 
+2025-07-12 04:10:00.7735 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/index.html - 200 - text/html;charset=utf-8 2027.5493ms 
+2025-07-12 04:10:00.7735 DEBUG Connection ID "18302628886439002121" disconnecting. 
+2025-07-12 04:10:00.7908 INFO Request starting HTTP/2 GET https://localhost:44384/_vs/browserLink - - - 
+2025-07-12 04:10:00.7908 INFO Request starting HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - - - 
+2025-07-12 04:10:04.7887 INFO Request finished HTTP/2 GET https://localhost:44384/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 3997.3998ms 
+2025-07-12 04:10:04.7887 DEBUG Connection ID "18158513728427917313" disconnecting. 
+2025-07-12 04:10:06.8214 DEBUG Connection ID "18302628899323904007" disconnecting. 
+2025-07-12 04:10:06.8214 INFO Request finished HTTP/2 GET https://localhost:44384/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 6030.7964ms 
+2025-07-12 04:10:06.8529 INFO Request starting HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - - - 
+2025-07-12 04:10:12.8358 TRACE All hosts are allowed. 
+2025-07-12 04:10:12.8358 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-07-12 04:10:12.8358 DEBUG Request did not match any endpoints 
+2025-07-12 04:10:12.8566 INFO Request finished HTTP/2 GET https://localhost:44384/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 6003.6747ms 
+2025-07-12 04:10:12.8566 DEBUG Connection ID "18302628907913838606" disconnecting. 

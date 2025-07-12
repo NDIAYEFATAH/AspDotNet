@@ -1,8 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 
 namespace ApiAspNet.Controllers
 {
@@ -10,50 +8,23 @@ namespace ApiAspNet.Controllers
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
-        private readonly IConfiguration _configuration;
-
-        public AuthController(IConfiguration configuration)
+        // Cette route est protégée : l'utilisateur doit avoir un token JWT valide
+        [Authorize]
+        [HttpGet("profile")]
+        public IActionResult GetProfile()
         {
-            _configuration = configuration;
-        }
+            var claims = User.Claims.Select(c => new { c.Type, c.Value }).ToList();
 
-        [HttpPost("login")]
-        public IActionResult Login([FromBody] LoginModel model)
-        {
-            // 🔐 Auth simplifiée (à remplacer par une vraie vérification depuis ta base)
-            if (model.Username == "admin" && model.Password == "password")
+            // Par exemple récupérer le username (claim 'preferred_username' dans Keycloak)
+            var username = User.Claims.FirstOrDefault(c => c.Type == "preferred_username")?.Value;
+            var email = User.Claims.FirstOrDefault(c => c.Type == "email")?.Value;
+
+            return Ok(new
             {
-                var token = GenerateJwtToken(model.Username);
-                return Ok(new { token });
-            }
-
-            return Unauthorized();
+                Username = username,
+                Email = email,
+                Claims = claims
+            });
         }
-
-        private string GenerateJwtToken(string username)
-        {
-            var key = _configuration["Jwt:Key"];
-            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key));
-            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
-
-            var claims = new[]
-            {
-                new Claim(ClaimTypes.Name, username)
-            };
-
-            var token = new JwtSecurityToken(
-                expires: DateTime.Now.AddHours(2),
-                claims: claims,
-                signingCredentials: credentials);
-
-            return new JwtSecurityTokenHandler().WriteToken(token);
-        }
-    }
-
-    // Modèle pour les identifiants
-    public class LoginModel
-    {
-        public string Username { get; set; }
-        public string Password { get; set; }
     }
 }
