@@ -36,6 +36,7 @@ builder.Services.AddDbContext<DataContext>();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseNpgsql(configuration.GetConnectionString("WebApiDB")));
     builder.Services.AddScoped<IClientService, ClientService>();
+    builder.Services.AddSingleton<IKafkaProducerService, KafkaProducerService>();
 
     // For Identity 
     builder.Services.AddIdentity<ApplicationUser, IdentityRole>()

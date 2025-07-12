@@ -1,6 +1,30 @@
 version: '3.8'
 
 services:
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.2.1
+    container_name: zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+    networks:
+      - elknet
+
+  kafka:
+    image: confluentinc/cp-kafka:7.2.1
+    container_name: kafka
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+    depends_on:
+      - zookeeper
+    networks:
+      - elknet
+
   webapi:
     build:
       context: ./ApiAspNet
@@ -10,8 +34,10 @@ services:
       - "5000:80"
     depends_on:
       - elasticsearch
+      - kafka
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
+      - Kafka__BootstrapServers=kafka:9092
     networks:
       - elknet
 
@@ -32,6 +58,21 @@ services:
       - "9200:9200"
     networks:
       - elknet
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: WebApiDB
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: passer
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - /db/init/backup.sql:/docker-entrypoint-initdb.d/backup.sql
+    networks:
+      - elknet 
 
   kibana:
     image: docker.elastic.co/kibana/kibana:7.17.20
@@ -47,6 +88,7 @@ services:
 
 volumes:
   esdata:
+  postgres_data:
 
 networks:
   elknet:

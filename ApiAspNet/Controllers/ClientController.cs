@@ -13,11 +13,13 @@ namespace ApiAspNet.Controllers
     {
         private readonly IClientService _clientService;
         private readonly IMapper _mapper;
+        private readonly IKafkaProducerService _kafkaProducer;
 
-        public ClientController(IClientService clientService, IMapper mapper)
+        public ClientController(IClientService clientService, IMapper mapper, IKafkaProducerService kafkaProducer)
         {
             _clientService = clientService;
             _mapper = mapper;
+            _kafkaProducer = kafkaProducer;
         }
 
         [HttpGet]
@@ -30,30 +32,54 @@ namespace ApiAspNet.Controllers
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        public async Task<IActionResult>  GetById(int id)
         {
             var client = _clientService.GetById(id);
+            await _kafkaProducer.PublishAsync("clients", new
+        {
+            EventType = "Lecture d'un Client",
+            ClientId = id,
+            Timestamp = DateTime.UtcNow
+        });
             return Ok(client);
         }
 
         [HttpPost]
-        public IActionResult Create(CreateClientRequest model)
+        public async Task<IActionResult> Create(CreateClientRequest model)
         {
             _clientService.Create(model);
+            await _kafkaProducer.PublishAsync("clients", new
+            {
+                EventType = "Client créé",
+                Data = model,
+                Timestamp = DateTime.UtcNow
+            });
             return Ok(new { message = "Client créé" });
         }
 
         [HttpPut("{id}")]
-        public IActionResult Update(int id, UpdateClientRequest model)
+        public async Task<IActionResult> Update(int id, UpdateClientRequest model)
         {
             _clientService.Update(id, model);
+            await _kafkaProducer.PublishAsync("clients", new
+            {
+                EventType = "Client mis à jour",
+                ClientId = id,
+                Timestamp = DateTime.UtcNow
+            });
             return Ok(new { message = "Client mis à jour" });
         }
 
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
             _clientService.Delete(id);
+            await _kafkaProducer.PublishAsync("clients", new
+            {
+                EventType = "Client supprimé",
+                ClientId = id,
+                Timestamp = DateTime.UtcNow
+            });
             return Ok(new { message = "Client supprimé" });
         }
     }

@@ -12,14 +12,17 @@ namespace ApiAspNet.Controllers
         private readonly IFlotteService _FlotteService;
         private readonly IMapper _mapper;
         private readonly ILogger<FlotteController> _logger;
+        private readonly IKafkaProducerService _kafkaProducer;
 
         public FlotteController(
             IFlotteService flotteService,
-            IMapper mapper, ILogger<FlotteController> logger)
+            IMapper mapper, ILogger<FlotteController> logger, IKafkaProducerService kafkaProducer)
         {
             _FlotteService = flotteService;
             _mapper = mapper;
             _logger = logger;
+            _kafkaProducer = kafkaProducer;
+
         }
 
         [HttpGet]
@@ -39,17 +42,29 @@ namespace ApiAspNet.Controllers
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        public async Task<IActionResult> GetById(int id)
         {
             try
             {
                 var flotte = _FlotteService.GetById(id);
                 if (flotte == null)
                 {
-                    _logger.LogWarning(" Flotte avec l'identifiant {Id} non trouvée.", id);
+                    //_logger.LogWarning(" Flotte avec l'identifiant {Id} non trouvée.", id);
+                    await _kafkaProducer.PublishAsync("clients", new
+                    {
+                        EventType = " Flotte avec l'identifiant {Id} non trouvée.",id,
+                        FlotteId = id,
+                        Timestamp = DateTime.UtcNow
+                    });
                     return NotFound(new { message = "Flotte not found." });
                 }
-
+                await _kafkaProducer.PublishAsync("clients", new
+                {
+                    EventType = " Flotte recuperée.",
+                    id,
+                    FlotteId = id,
+                    Timestamp = DateTime.UtcNow
+                });
                 return Ok(flotte);
             }
             catch (Exception ex)
